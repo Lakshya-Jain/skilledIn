@@ -7,9 +7,21 @@ const escape = (value) => String(value).replace(/[&<>"']/g, (c) => ({
 }[c]));
 const kebab = (key) => key.replace(/[A-Z]/g, (c) => '-' + c.toLowerCase());
 const svgAttrs = /^(stroke|fill|clip|stop|font|text|color|dominant|vector|paint|shape)[A-Z]/;
+const unitless = new Set(['flex', 'flexGrow', 'flexShrink', 'fontWeight', 'lineHeight', 'opacity', 'order', 'zIndex']);
 const figjam = 'https://www.figma.com/board/l9FijkVeXlcHDfCglRDwLZ/brainstorming?node-id=0-1';
+const repository = 'https://github.com/DietrichGebert/ponytail';
+const install = 'https://ponytail.dev/#install';
+const scottLogic = 'https://blog.scottlogic.com/2026/06/16/ponytail-yagni-and-the-problem-with-prompt-benchmarks.html';
+const pillitteri = 'https://pasqualepillitteri.it/en/news/5720/ponytail-ai-skill-less-code';
+const profileTabs = [
+  { key: 'details', file: 'index.html', label: 'Skill Details' },
+  { key: 'featured', file: 'featured.html', label: 'Featured' },
+  { key: 'example', file: 'example.html', label: 'Example' },
+];
 const links = {
   'CQA-0': './thought-process.html',
+  'CVJ-0': './index.html',
+  'CET-0': './index.html',
   'DV9-0': './index.html',
   'DMX-0': './index.html',
   'DV4-0': './index.html',
@@ -22,23 +34,29 @@ const links = {
   'DRF-0': figjam,
   'DSE-0': figjam,
   'DV2-0': figjam,
-  'DUF-0': 'https://app.paper.design/file/01M6NECD67XY5KD41MFZ8RQR5J/p-5-0',
-  'DUK-0': 'https://app.paper.design/file/01M6NECD67XY5KD41MFZ8RQR5J/p-1-0',
-  'DUP-0': 'https://github.com/Lakshya-Jain/skilledIn',
-  'DUU-0': './index.html',
-  'A9M-0': 'https://ponytail.dev/#install',
-  'CBC-0': 'https://ponytail.dev/#install',
-  'A9R-0': 'https://github.com/dietrichgebert/ponytail/blob/main/skills/ponytail/SKILL.md',
-  'CB6-0': 'https://github.com/dietrichgebert/ponytail/blob/main/skills/ponytail/SKILL.md',
+  'A9M-0': install,
+  'install-info': install,
+  'CBC-0': install,
+  'A9R-0': repository + '/blob/main/skills/ponytail/SKILL.md',
+  'CB6-0': repository + '/blob/main/skills/ponytail/SKILL.md',
+  'NT4-0': 'https://ponytail.dev/docs#install',
+  'NT8-0': './index.html#access',
+  'ANU-0': './featured.html#recommendations',
+  'P5H-0': scottLogic,
+  'P2B-0': scottLogic,
+  'P5O-0': pillitteri,
+  'P2H-0': pillitteri,
+  'PSJ-0': install,
+  'PSN-0': install,
+  'PTE-0': install,
   'ANK-0': 'https://hub.openclaw.ai/dietrichgebert/skills/ponytail/security-audit',
-  'ANU-0': '#recommendations',
-  'AO9-0': 'https://github.com/dietrichgebert/ponytail/blob/main/LICENSE',
+  'AO9-0': repository + '/blob/main/LICENSE',
 };
 const buttonVariants = {
   'A9M-0': 'blue', 'CBC-0': 'blue', 'A9R-0': 'outline', 'CB6-0': 'outline',
   'DMX-0': 'dark', 'DV4-0': 'dark', 'DV2-0': 'outline',
 };
-const anchors = {'AG8-0': 'work-sample', 'AIO-0': 'recommendations'};
+const anchors = {'OQD-0': 'access', 'AIO-0': 'recommendations'};
 let scrollHeader;
 class Markup {
   constructor(html) { this.html = html; }
@@ -54,7 +72,11 @@ function element(tag, props, ...children) {
   if (anchors[layer]) attrs.id = anchors[layer];
   if (attrs.style) {
     attrs.style = Object.entries(attrs.style)
-      .map(([name, value]) => kebab(name) + ':' + String(value).replaceAll('calc(infinity * 1px)', '9999px'))
+      .map(([name, value]) => {
+        const cssName = kebab(name);
+        const length = typeof value === 'number' && value !== 0 && !unitless.has(name);
+        return cssName + ':' + (length ? value + 'px' : String(value).replaceAll('calc(infinity * 1px)', '9999px'));
+      })
       .join(';');
   }
   const attributes = Object.entries(attrs).filter(([, value]) => value != null)
@@ -75,22 +97,40 @@ function element(tag, props, ...children) {
   return new Markup('<' + tag + attributes + '>' + content + '</' + tag + '>');
 }
 
-async function render(path) {
+async function loadRenderer(path) {
   const { code } = await transform(await readFile(path, 'utf8'), {
     loader: 'jsx', format: 'cjs', jsxFactory: 'element',
   });
   const module = { exports: {} };
   runInNewContext(code, { module, element }, { timeout: 5000 });
-  return module.exports.default();
+  return module.exports.default;
 }
 
-scrollHeader = await render('src/scroll-header.jsx');
-const profile = await render('src/profile.jsx');
-const thoughtProcess = await render('src/thought-process.jsx');
+function renderTabs(activeTab) {
+  return element('nav', { className: 'profile-tabs', 'aria-label': 'Ponytail profile sections' },
+    profileTabs.map(({ key, file, label }) => element('a', {
+      href: './' + file,
+      'data-profile-tab': key,
+      'aria-current': key === activeTab ? 'page' : null,
+    }, label))
+  );
+}
+
+const [renderScrollHeader, renderProfile, renderThoughtProcess] = await Promise.all([
+  loadRenderer('src/scroll-header.jsx'),
+  loadRenderer('src/profile.jsx'),
+  loadRenderer('src/thought-process.jsx'),
+]);
+scrollHeader = renderScrollHeader();
+const profilePanels = await Promise.all(profileTabs.map(async ({ key }) => {
+  const renderContent = await loadRenderer('src/profile-' + key + '.jsx');
+  return { key, content: renderContent() };
+}));
 await cp('public', 'dist', { recursive: true });
 
 function page(title, content, { profile = false } = {}) {
-  const script = profile ? '<script src="scroll-profile.js" defer></script>' : '';
+  const script = profile ? '<script src="scroll-profile.js" defer></script>' +
+    '<script src="profile-tabs.js" defer></script>' : '';
   return '<!doctype html><html lang="en"><head><meta charset="utf-8">' +
     '<meta name="viewport" content="width=device-width,initial-scale=1"><title>' +
     title + '</title><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="site.css">' +
@@ -98,6 +138,14 @@ function page(title, content, { profile = false } = {}) {
 }
 
 await Promise.all([
-  writeFile('dist/index.html', page('Ponytail · SkilledIn', profile, { profile: true })),
-  writeFile('dist/thought-process.html', page('Thought process · SkilledIn', thoughtProcess)),
+  ...profileTabs.map(async ({ key, file, label }) => {
+    const content = profilePanels.map(panel => element('div', {
+      className: 'profile-tab-panel',
+      'data-profile-panel': panel.key,
+      hidden: panel.key === key ? null : '',
+    }, panel.content));
+    const profile = renderProfile({ content, tabs: renderTabs(key) });
+    await writeFile('dist/' + file, page('Ponytail · ' + label + ' · SkilledIn', profile, { profile: true }));
+  }),
+  writeFile('dist/thought-process.html', page('Thought process · SkilledIn', renderThoughtProcess())),
 ]);
