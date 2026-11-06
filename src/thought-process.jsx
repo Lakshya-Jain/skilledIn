@@ -47,64 +47,118 @@ export default function render() { return (
           </div>
         </div>
       </div>
-      <div data-layer="DN7-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', paddingBottom: '48px', width: '1120px' }}>
-        <div data-layer="DN8-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', fontWeight: 500, letterSpacing: '0.5px', lineHeight: '16px', textTransform: 'uppercase' }}>
-          The short version
+      <div data-layer="EIU-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflowWrap: 'anywhere', WebkitFontSmoothing: 'antialiased', width: '1120px' }}>
+        <div data-layer="EIV-0" style={{ alignItems: 'baseline', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
+          <div data-layer="EIW-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', fontWeight: 500, letterSpacing: '0.5px', lineHeight: '16px', textTransform: 'uppercase' }}>
+            Approach
+          </div>
         </div>
-        <div data-layer="DN9-0" style={{ borderTopColor: 'var(--color-ink)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex' }}>
-          <div data-layer="DNA-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px', paddingRight: '16px', paddingTop: '16px' }}>
-            <div data-layer="DNB-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-              01
+        <div data-layer="EIY-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '16px', position: 'relative' }}>
+          <div data-layer="EIZ-0" style={{ backgroundColor: 'var(--color-faint)', boxSizing: 'border-box', height: '1px', left: 12, position: 'absolute', right: 103, top: 12 }} />
+          <div data-layer="EJ0-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', position: 'relative' }}>
+            <div data-layer="EJ1-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-ink)', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '24px', justifyContent: 'center', width: '24px' }}>
+              <div data-layer="EJ2-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                1
+              </div>
             </div>
-            <div data-layer="DNC-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+            <div data-layer="EJ3-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
               Unpack the brief
             </div>
-            <div data-layer="DND-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-              A skill is a playbook for an agent. A profile is proof.
+            <div data-layer="EJ4-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px', textDecoration: 'underline 12px #FAEC50BF', textDecorationSkipInk: 'none', textUnderlineOffset: '-8px' }}>
+              A skill is a playbook. A profile is proof.
+            </div>
+            <div data-layer="EJ5-0" style={{ alignSelf: 'start', backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '6px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '2px', paddingInline: '8px' }}>
+              <div data-layer="EJ6-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                → About
+              </div>
             </div>
           </div>
-          <div data-layer="DNE-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px', paddingRight: '16px', paddingTop: '16px' }}>
-            <div data-layer="DNF-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-              02
+          <div data-layer="EJ7-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', position: 'relative' }}>
+            <div data-layer="EJ8-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-ink)', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '24px', justifyContent: 'center', width: '24px' }}>
+              <div data-layer="EJ9-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                2
+              </div>
             </div>
-            <div data-layer="DNG-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+            <div data-layer="EJA-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
               Design for one job
             </div>
-            <div data-layer="DNH-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-              Recruiter checks a candidate. Developer checks a skill.
+            <div data-layer="EJB-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px', textDecoration: 'underline 12px #FAEC50BF', textDecorationSkipInk: 'none', textUnderlineOffset: '-8px' }}>
+              Can I trust this with my agent?
+            </div>
+            <div data-layer="EJC-0" style={{ alignSelf: 'start', backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '6px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '2px', paddingInline: '8px' }}>
+              <div data-layer="EJD-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                → Trust row
+              </div>
             </div>
           </div>
-          <div data-layer="DNI-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px', paddingRight: '16px', paddingTop: '16px' }}>
-            <div data-layer="DNJ-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-              03
+          <div data-layer="EJE-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', position: 'relative' }}>
+            <div data-layer="EJF-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-ink)', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '24px', justifyContent: 'center', width: '24px' }}>
+              <div data-layer="EJG-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                3
+              </div>
             </div>
-            <div data-layer="DNK-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+            <div data-layer="EJH-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
               See what exists
             </div>
-            <div data-layer="DNL-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-              Every page says what a skill is. Few say if it works.
+            <div data-layer="EJI-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px', textDecoration: 'underline 12px #FAEC50BF', textDecorationSkipInk: 'none', textUnderlineOffset: '-8px' }}>
+              Pages say what. Few say if it works.
+            </div>
+            <div data-layer="EJJ-0" style={{ alignSelf: 'start', backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '6px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '2px', paddingInline: '8px' }}>
+              <div data-layer="EJK-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                → Example runs
+              </div>
             </div>
           </div>
-          <div data-layer="DNM-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px', paddingRight: '16px', paddingTop: '16px' }}>
-            <div data-layer="DNN-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-              04
+          <div data-layer="EJL-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', position: 'relative' }}>
+            <div data-layer="EJM-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-ink)', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '24px', justifyContent: 'center', width: '24px' }}>
+              <div data-layer="EJN-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                4
+              </div>
             </div>
-            <div data-layer="DNO-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+            <div data-layer="EJO-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
               Five questions
             </div>
-            <div data-layer="DNP-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-              Fit, proof, access, publisher, upkeep. In that order.
+            <div data-layer="EJP-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px', textDecoration: 'underline 12px #FAEC50BF', textDecorationSkipInk: 'none', textUnderlineOffset: '-8px' }}>
+              Fit, proof, access, publisher, upkeep.
+            </div>
+            <div data-layer="EJQ-0" style={{ alignSelf: 'start', backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '6px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '2px', paddingInline: '8px' }}>
+              <div data-layer="EJR-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                → What it can touch
+              </div>
             </div>
           </div>
-          <div data-layer="DNQ-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px', paddingTop: '16px' }}>
-            <div data-layer="DNR-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-              05
+          <div data-layer="EJS-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', position: 'relative' }}>
+            <div data-layer="EJT-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-ink)', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '24px', justifyContent: 'center', width: '24px' }}>
+              <div data-layer="EJU-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                5
+              </div>
             </div>
-            <div data-layer="DNS-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+            <div data-layer="EJV-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
               Map to LinkedIn
             </div>
-            <div data-layer="DNT-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-              Copy what fits, keep the look where it doesn't.
+            <div data-layer="EJW-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px', textDecoration: 'underline 12px #FAEC50BF', textDecorationSkipInk: 'none', textUnderlineOffset: '-8px' }}>
+              Copy what fits. Keep only the look elsewhere.
+            </div>
+            <div data-layer="EJX-0" style={{ alignSelf: 'start', backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '6px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '2px', paddingInline: '8px' }}>
+              <div data-layer="EJY-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                → Page structure
+              </div>
+            </div>
+          </div>
+          <div data-layer="EJZ-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', position: 'relative', width: '120px' }}>
+            <div data-layer="EK0-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-primary)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '24px', justifyContent: 'center', width: '24px' }}>
+              <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" data-layer="EK1-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                <path d="M2.5 6.2L5 8.5L9.5 3.5" fill="none" stroke="#FFFFFF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div data-layer="EK3-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+              The profile
+            </div>
+            <div data-layer="EK4-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+              Ponytail, live
+            </div>
+            <div data-layer="EK5-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '18px' }}>
+              Open ↗
             </div>
           </div>
         </div>

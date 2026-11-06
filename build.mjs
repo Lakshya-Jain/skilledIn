@@ -17,6 +17,7 @@ const links = {
   'DO6-0': 'https://app.paper.design/file/01M6NECD67XY5KD41MFZ8RQR5J/p-1-0',
   'DOK-0': 'https://github.com/Lakshya-Jain/skilledIn',
   'DOQ-0': './index.html',
+  'EK5-0': './index.html',
   'DPK-0': figjam,
   'DRF-0': figjam,
   'DSE-0': figjam,
