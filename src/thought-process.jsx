@@ -1,5 +1,5 @@
 export default function render() { return (
-    <div data-layer="DMM-0" style={{ alignItems: 'center', backgroundColor: '#EFEFED', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'visible', overflowWrap: 'anywhere', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
+    <div data-layer="DMM-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-social-bg)', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'visible', overflowWrap: 'anywhere', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
       <div data-layer="DMN-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderBottomColor: 'var(--color-hairline)', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'center', width: '100%', zIndex: '10' }}>
         <div data-layer="DMO-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '64px', justifyContent: 'space-between', width: '1120px' }}>
           <div data-layer="DMP-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
@@ -14,9 +14,6 @@ export default function render() { return (
             </div>
           </div>
           <div data-layer="DMV-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
-            <div data-layer="DMW-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
-              My Portfolio
-            </div>
             <div data-layer="DMX-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-primary)', borderRadius: '6px', boxSizing: 'border-box', display: 'flex', height: '32px', paddingInline: '12px' }}>
               <div data-layer="DMY-0" style={{ boxSizing: 'border-box', color: 'var(--color-on-primary)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '18px' }}>
                 View the live profile ↗
@@ -48,7 +45,7 @@ export default function render() { return (
             </div>
           </div>
         </div>
-        <div data-layer="EIU-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '24px', width: '1120px' }}>
+        <div data-layer="EIU-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', padding: '32px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '24px', width: '1120px' }}>
           <div data-layer="EIV-0" style={{ alignItems: 'baseline', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
             <h2 data-layer="EIW-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', fontWeight: 500, letterSpacing: '0.5px', lineHeight: '16px', textTransform: 'uppercase' }}>
               Approach
@@ -160,77 +157,6 @@ export default function render() { return (
               </div>
               <div data-layer="EK5-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '18px' }}>
                 Open ↗
-              </div>
-            </div>
-          </div>
-        </div>
-        <div data-layer="DNU-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '24px', paddingBottom: '48px', width: '1120px' }}>
-          <h2 data-layer="DNV-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', fontWeight: 500, letterSpacing: '0.5px', lineHeight: '16px', textTransform: 'uppercase' }}>
-            Tools I used
-          </h2>
-          <div data-layer="DNW-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', minHeight: '0px', overflow: 'clip' }}>
-            <div data-layer="DNX-0" style={{ borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', padding: '24px' }}>
-              <div data-layer="DNY-0" style={{ backgroundImage: 'url(assets/01M6RP0Z3NBSY7M758CGE9YF52.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '123.077%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
-              <div data-layer="DNZ-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
-                FigJam
-              </div>
-              <div data-layer="DO0-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                Brainstorming and Context board
-              </div>
-              <div data-layer="DO1-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '18px' }}>
-                Open board ↗
-              </div>
-            </div>
-            <div data-layer="DO2-0" style={{ borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', padding: '24px' }}>
-              <div data-layer="DO3-0" style={{ backgroundImage: 'url(assets/01M6RP3NXN99EHXVPQ38KXZHZB.png)', backgroundPosition: '48.78%', backgroundRepeat: 'no-repeat', backgroundSize: '119.07%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
-              <div data-layer="DO4-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
-                Paper
-              </div>
-              <div data-layer="DO5-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                Ideation and iterations
-              </div>
-              <div data-layer="DO6-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '18px' }}>
-                Open file ↗
-              </div>
-            </div>
-            <div data-layer="DO7-0" style={{ borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', padding: '24px' }}>
-              <div data-layer="K1B-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: 12, width: 'fit-content' }}>
-                <div data-layer="DO8-0" style={{ backgroundImage: 'url(assets/0WMP1EQW6SWSQV9ZETREM12FH7.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
-                <div data-layer="K1A-0" style={{ backgroundImage: 'url(assets/1XSVFJGP9T5EJ1AHMQ018H5GYW.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
-              </div>
-              <div data-layer="DO9-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
-                Claude, Codex
-              </div>
-              <div data-layer="DOA-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                Design agent, research partner, frames to code
-              </div>
-            </div>
-            <div data-layer="DOF-0" style={{ alignItems: 'start', borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', justifyContent: 'space-between', padding: '24px' }}>
-              <div data-layer="DOG-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: 12 }}>
-                <div data-layer="DOH-0" style={{ backgroundImage: 'url(assets/35XJVNX4D8JFN6TD1ZMRCQ0PRJ.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
-                <div data-layer="DOI-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
-                  GitHub
-                </div>
-                <div data-layer="DOJ-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Hosts the code
-                </div>
-              </div>
-              <div data-layer="DOK-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-link)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '18px' }}>
-                View repo ↗
-              </div>
-            </div>
-            <div data-layer="DOL-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', justifyContent: 'space-between', padding: '24px' }}>
-              <div data-layer="DOM-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: 12 }}>
-                <div data-layer="DON-0" style={{ backgroundImage: 'url(assets/11ZKFQN5902C71KN0Q296HHAV6.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
-                <div data-layer="DOO-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
-                  Vercel
-                </div>
-                <div data-layer="DOP-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Puts it online
-                </div>
-              </div>
-              <div data-layer="DOQ-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-link)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '18px' }}>
-                Visit site ↗
               </div>
             </div>
           </div>
@@ -698,45 +624,55 @@ export default function render() { return (
           <h2 data-layer="DTX-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '32px', fontWeight: 600, letterSpacing: '-1.28px', lineHeight: '40px', width: '720px' }}>
             From the board to a live page
           </h2>
-          <div data-layer="DTY-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', minHeight: '0px', overflow: 'clip' }}>
-            <div data-layer="DTZ-0" style={{ borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px', padding: '20px' }}>
-              <div data-layer="DU0-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                01 · FIGJAM
+          <div data-layer="DTY-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, minHeight: '186px', overflow: 'clip' }}>
+            <div data-layer="DTZ-0" style={{ alignItems: 'start', borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px', justifyContent: 'space-between', padding: '20px' }}>
+              <div data-layer="PUB-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: 8 }}>
+                <div data-layer="DU0-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  01 · FIGJAM
+                </div>
+                <div data-layer="DU1-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                  Research board became the agent's source of truth holding all the context
+                </div>
               </div>
-              <div data-layer="DU1-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                Research board became the agent's source of truth holding all the context
+              <div data-layer="PU3-0" style={{ backgroundImage: 'url(assets/01M6RP0Z3NBSY7M758CGE9YF52.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '123.077%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
+            </div>
+            <div data-layer="DU2-0" style={{ alignItems: 'start', borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px', justifyContent: 'space-between', padding: '20px' }}>
+              <div data-layer="PUC-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: 8 }}>
+                <div data-layer="DU3-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  02 · PAPER SETUP
+                </div>
+                <div data-layer="DU4-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                  Design system file, icon library, LinkedIn and Pinterest references, turned into tokens
+                </div>
+              </div>
+              <div data-layer="PU4-0" style={{ backgroundImage: 'url(assets/01M6RP3NXN99EHXVPQ38KXZHZB.png)', backgroundPosition: '48.78%', backgroundRepeat: 'no-repeat', backgroundSize: '119.07%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
+            </div>
+            <div data-layer="DU5-0" style={{ alignItems: 'start', borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px', justifyContent: 'space-between', padding: '20px' }}>
+              <div data-layer="PUD-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: 8 }}>
+                <div data-layer="DU6-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  03 · ITERATE
+                </div>
+                <div data-layer="DU7-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                  Claude Code and Codex, one component at a time, Design agent, research partner, frames to code
+                </div>
+              </div>
+              <div data-layer="PU5-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: 12 }}>
+                <div data-layer="PU6-0" style={{ backgroundImage: 'url(assets/0WMP1EQW6SWSQV9ZETREM12FH7.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
+                <div data-layer="PU7-0" style={{ backgroundImage: 'url(assets/1XSVFJGP9T5EJ1AHMQ018H5GYW.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
               </div>
             </div>
-            <div data-layer="DU2-0" style={{ borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px', padding: '20px' }}>
-              <div data-layer="DU3-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                02 · PAPER SETUP
+            <div data-layer="DU8-0" style={{ alignItems: 'start', borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px', justifyContent: 'space-between', padding: '20px' }}>
+              <div data-layer="PUE-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: 8 }}>
+                <div data-layer="DU9-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  04 · GITHUB
+                </div>
+                <div data-layer="DUA-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                  Codex turned the frames into code and pushed it online.
+                </div>
               </div>
-              <div data-layer="DU4-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                Design system file, icon library, LinkedIn and Pinterest refs, turned into tokens
-              </div>
-            </div>
-            <div data-layer="DU5-0" style={{ borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px', padding: '20px' }}>
-              <div data-layer="DU6-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                03 · ITERATE
-              </div>
-              <div data-layer="DU7-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                Claude Code and Codex, one component at a time, on Ponytail, Graphify and Anthropic's frontend-design
-              </div>
-            </div>
-            <div data-layer="DU8-0" style={{ borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px', padding: '20px' }}>
-              <div data-layer="DU9-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                04 · GITHUB
-              </div>
-              <div data-layer="DUA-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                Codex turned the frames into code and pushed it
-              </div>
-            </div>
-            <div data-layer="DUB-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px', padding: '20px' }}>
-              <div data-layer="DUC-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                05 · VERCEL
-              </div>
-              <div data-layer="DUD-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                Repo connected, page live
+              <div data-layer="PUA-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: 8 }}>
+                <div data-layer="PU8-0" style={{ backgroundImage: 'url(assets/35XJVNX4D8JFN6TD1ZMRCQ0PRJ.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
+                <div data-layer="PU9-0" style={{ backgroundImage: 'url(assets/11ZKFQN5902C71KN0Q296HHAV6.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
               </div>
             </div>
           </div>
