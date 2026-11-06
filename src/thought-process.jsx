@@ -115,7 +115,7 @@ export default function render() { return (
         </div>
         <div data-layer="DNW-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', minHeight: '0px', overflow: 'clip' }}>
           <div data-layer="DNX-0" style={{ borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', padding: '24px' }}>
-            <div data-layer="DNY-0" style={{ backgroundImage: 'url(assets/01M6RP0Z3NBSY7M758CGE9YF52.jpg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '123.077%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
+            <div data-layer="DNY-0" style={{ backgroundImage: 'url(assets/01M6RP0Z3NBSY7M758CGE9YF52.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '123.077%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
             <div data-layer="DNZ-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
               FigJam
             </div>
@@ -127,7 +127,7 @@ export default function render() { return (
             </div>
           </div>
           <div data-layer="DO2-0" style={{ borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', padding: '24px' }}>
-            <div data-layer="DO3-0" style={{ backgroundImage: 'url(assets/01M6RP3NXN99EHXVPQ38KXZHZB.jpg)', backgroundPosition: '48.78%', backgroundRepeat: 'no-repeat', backgroundSize: '119.07%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
+            <div data-layer="DO3-0" style={{ backgroundImage: 'url(assets/01M6RP3NXN99EHXVPQ38KXZHZB.png)', backgroundPosition: '48.78%', backgroundRepeat: 'no-repeat', backgroundSize: '119.07%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
             <div data-layer="DO4-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
               Paper
             </div>
@@ -139,7 +139,7 @@ export default function render() { return (
             </div>
           </div>
           <div data-layer="DO7-0" style={{ borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', padding: '24px' }}>
-            <div data-layer="DO8-0" style={{ backgroundImage: 'url(assets/0WMP1EQW6SWSQV9ZETREM12FH7.jpg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
+            <div data-layer="DO8-0" style={{ backgroundImage: 'url(assets/0WMP1EQW6SWSQV9ZETREM12FH7.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
             <div data-layer="DO9-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
               Claude
             </div>
@@ -148,7 +148,7 @@ export default function render() { return (
             </div>
           </div>
           <div data-layer="DOB-0" style={{ borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', padding: '24px' }}>
-            <div data-layer="DOC-0" style={{ backgroundImage: 'url(assets/1XSVFJGP9T5EJ1AHMQ018H5GYW.jpg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
+            <div data-layer="DOC-0" style={{ backgroundImage: 'url(assets/1XSVFJGP9T5EJ1AHMQ018H5GYW.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
             <div data-layer="DOD-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
               Codex
             </div>
@@ -157,8 +157,8 @@ export default function render() { return (
             </div>
           </div>
           <div data-layer="DOF-0" style={{ alignItems: 'start', borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', justifyContent: 'space-between', padding: '24px' }}>
-            <div data-layer="DOG-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: 12 }}>
-              <div data-layer="DOH-0" style={{ backgroundImage: 'url(assets/35XJVNX4D8JFN6TD1ZMRCQ0PRJ.jpg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
+            <div data-layer="DOG-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <div data-layer="DOH-0" style={{ backgroundImage: 'url(assets/35XJVNX4D8JFN6TD1ZMRCQ0PRJ.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
               <div data-layer="DOI-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
                 GitHub
               </div>
@@ -171,8 +171,8 @@ export default function render() { return (
             </div>
           </div>
           <div data-layer="DOL-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', justifyContent: 'space-between', padding: '24px' }}>
-            <div data-layer="DOM-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: 12 }}>
-              <div data-layer="DON-0" style={{ backgroundImage: 'url(assets/11ZKFQN5902C71KN0Q296HHAV6.jpg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
+            <div data-layer="DOM-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <div data-layer="DON-0" style={{ backgroundImage: 'url(assets/11ZKFQN5902C71KN0Q296HHAV6.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: 0, height: '28px', width: '28px' }} />
               <div data-layer="DOO-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
                 Vercel
               </div>
