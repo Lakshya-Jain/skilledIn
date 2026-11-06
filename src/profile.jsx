@@ -84,7 +84,7 @@ export default function render() { return (
             <div data-layer="A82-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', paddingBottom: '28px', paddingInline: '32px', zIndex: '2' }}>
               <div data-layer="A83-0" style={{ alignItems: 'end', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', marginTop: '-76px' }}>
                 <div data-layer="A84-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-ink)', backgroundImage: 'url(assets/01M6PYP0YD0YJVCX33B7QMAMBE.jpg)', backgroundOrigin: 'border-box', backgroundPosition: '50%', backgroundSize: 'cover', borderColor: '#FFFFFF', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '152px', justifyContent: 'center', width: '152px' }} />
-                <div data-layer="A85-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBottom: '8px' }}>
+                <div data-layer="A85-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBottom: 'var(--spacing-2xl)' }}>
                   <div data-layer="A86-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
                     <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A87-0" style={{ display: 'inline-block', flexShrink: 0 }}>
                       <path d="M8 1.8l1.9 3.9 4.3.6-3.1 3 .7 4.3L8 11.6l-3.8 2 .7-4.3-3.1-3 4.3-.6L8 1.8z" fill="none" stroke="#4D4D4D" strokeWidth="1.2" strokeLinejoin="round" />
@@ -462,8 +462,16 @@ export default function render() { return (
                 About
               </div>
             </div>
-            <div data-layer="ACX-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', whiteSpace: 'pre-wrap' }}>
-              Before writing code, Ponytail reads the code the change touches, then climbs a ladder and stops at the first rung that holds. Lazy about the solution, never about the reading.<br /><br />It never cuts validation at trust boundaries, data-loss handling, security or accessibility. It always leaves one small test for logic with a branch, loop, parser, money or security, plus a line on what it skipped.<br /><br />Not for anything that isn't code. It changes what gets built, not how the agent talks.
+            <div data-layer="CBG-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: 'var(--spacing-sm)', width: 'fit-content' }}>
+              <div data-layer="ACX-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+                Before writing code, Ponytail reads the code the change touches, then climbs a ladder and stops at the first rung that holds. Lazy about the solution, never about the reading.
+              </div>
+              <div data-layer="CBE-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+                It never cuts validation at trust boundaries, data-loss handling, security or accessibility. It always leaves one small test for logic with a branch, loop, parser, money or security, plus a line on what it skipped.
+              </div>
+              <div data-layer="CBF-0" style={{ alignSelf: 'stretch', boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+                Not for anything that isn't code. It changes what gets built, not how the agent talks.
+              </div>
             </div>
             <div data-layer="ACY-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', paddingTop: '24px' }}>
               <div data-layer="ACZ-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
