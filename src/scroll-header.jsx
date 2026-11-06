@@ -36,13 +36,6 @@ export default function render() { return (
                 </div>
               </div>
             </div>
-            <div data-layer="CB8-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', minHeight: '48px', minWidth: '24px' }}>
-              <div data-layer="CB9-0" style={{ alignItems: 'center', borderRadius: '24px', boxShadow: '#0A66C2 0px 0px 0px 1px inset', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexGrow: '1', gap: '4px', justifyContent: 'center', minHeight: '32px', paddingBlock: '4px', paddingInline: '12px' }}>
-                <div data-layer="CBA-0" style={{ boxSizing: 'border-box', color: '#0A66C2', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '125%', overflowWrap: 'anywhere' }}>
-                  Try on a sample
-                </div>
-              </div>
-            </div>
             <div data-layer="CBB-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', minHeight: '48px', minWidth: '24px', textAlign: 'center' }}>
               <div data-layer="CBC-0" style={{ alignItems: 'center', backgroundColor: '#0A66C2', borderRadius: '24px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexGrow: '1', gap: '4px', justifyContent: 'center', minHeight: '32px', paddingBlock: '4px', paddingInline: '12px' }}>
                 <div data-layer="CBD-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '125%', overflowWrap: 'anywhere', textAlign: 'center' }}>

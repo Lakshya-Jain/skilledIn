@@ -137,3 +137,26 @@ a:focus-visible { outline: 2px solid var(--color-social-blue); outline-offset: 3
   [data-layer="DTY-0"] > *, [data-layer="DUE-0"] > * { width: auto !important; }
   [data-layer="DN9-0"] > * { border-bottom: 1px solid var(--color-hairline); }
 }
+
+/* Keep the base button styles from Paper and add interaction states in CSS. */
+.action-link {
+  transition: background-color 150ms ease, transform 150ms ease;
+}
+.action-link--blue { --action-hover: #07539d; --action-pressed: #064681; }
+.action-link--dark { --action-hover: #333; --action-pressed: #404040; }
+.action-link--outline { --action-hover: #edf4fb; --action-pressed: #dfebf8; }
+
+@media (hover: hover) {
+  .action-link:hover {
+    background-color: var(--action-hover) !important;
+    text-decoration: none;
+  }
+}
+.action-link:active {
+  background-color: var(--action-pressed) !important;
+  transform: scale(.98);
+}
+@media (prefers-reduced-motion: reduce) {
+  .action-link { transition: none; }
+  .action-link:active { transform: none; }
+}

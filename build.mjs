@@ -13,6 +13,10 @@ const links = {
   'DV9-0': './index.html',
   'DMX-0': './index.html',
   'DV4-0': './index.html',
+  'DO1-0': figjam,
+  'DO6-0': 'https://app.paper.design/file/01M6NECD67XY5KD41MFZ8RQR5J/p-1-0',
+  'DOK-0': 'https://github.com/Lakshya-Jain/skilledIn',
+  'DOQ-0': './index.html',
   'DPK-0': figjam,
   'DRF-0': figjam,
   'DSE-0': figjam,
@@ -21,7 +25,6 @@ const links = {
   'DUK-0': 'https://app.paper.design/file/01M6NECD67XY5KD41MFZ8RQR5J/p-1-0',
   'DUP-0': 'https://github.com/Lakshya-Jain/skilledIn',
   'DUU-0': './index.html',
-  'CB9-0': '#work-sample',
   'A9M-0': 'https://ponytail.dev/#install',
   'CBC-0': 'https://ponytail.dev/#install',
   'A9R-0': 'https://github.com/dietrichgebert/ponytail/blob/main/skills/ponytail/SKILL.md',
@@ -29,6 +32,10 @@ const links = {
   'ANK-0': 'https://hub.openclaw.ai/dietrichgebert/skills/ponytail/security-audit',
   'ANU-0': '#recommendations',
   'AO9-0': 'https://github.com/dietrichgebert/ponytail/blob/main/LICENSE',
+};
+const buttonVariants = {
+  'A9M-0': 'blue', 'CBC-0': 'blue', 'A9R-0': 'outline', 'CB6-0': 'outline',
+  'DMX-0': 'dark', 'DV4-0': 'dark', 'DV2-0': 'outline',
 };
 const anchors = {'AG8-0': 'work-sample', 'AIO-0': 'recommendations'};
 let scrollHeader;
@@ -41,6 +48,7 @@ function element(tag, props, ...children) {
   if (links[layer]) {
     tag = 'a';
     attrs.href = links[layer];
+    if (buttonVariants[layer]) attrs.className = 'action-link action-link--' + buttonVariants[layer];
   }
   if (anchors[layer]) attrs.id = anchors[layer];
   if (attrs.style) {

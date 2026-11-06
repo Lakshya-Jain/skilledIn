@@ -4,7 +4,7 @@ export default function render() { return (
         <div data-layer="DMO-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '64px', justifyContent: 'space-between', width: '1120px' }}>
           <div data-layer="DMP-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
             <div data-layer="DV9-0" style={{ boxSizing: 'border-box', color: 'var(--color-social-blue)', flexShrink: 0, fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '21px', width: 'max-content' }}>
-              SkiledIn
+              SkilledIn
             </div>
             <div data-layer="DMT-0" style={{ boxSizing: 'border-box', color: 'var(--color-faint)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
               /

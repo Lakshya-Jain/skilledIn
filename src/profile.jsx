@@ -21,7 +21,7 @@ export default function render() { return (
       <div data-layer="A6T-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-canvas-elevated)', borderBottomColor: 'var(--color-hairline)', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '56px', justifyContent: 'space-between', paddingInline: '120px', width: '1440px' }}>
         <div data-layer="A6U-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '16px' }}>
           <div data-layer="CVJ-0" style={{ boxSizing: 'border-box', color: 'var(--color-social-blue)', flexShrink: 0, fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '21px', width: 'max-content' }}>
-            SkiledIn
+            SkilledIn
           </div>
           <div data-layer="A6W-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-canvas-elevated)', borderRadius: '6px', boxShadow: 'var(--color-social-blue) 0px 0px 0px 2px inset', boxSizing: 'border-box', display: 'flex', flexShrink: 0, gap: '8px', height: '36px', paddingInline: '12px', width: '300px' }}>
             <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A6X-0" style={{ display: 'inline-block', flexShrink: 0 }}>
