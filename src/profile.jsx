@@ -1,1158 +1,1443 @@
-export default function profile() { return (
-    <div data-layer="44A-0" style={{ backgroundColor: 'var(--color-canvas)', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
-      <div data-layer="4NQ-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-canvas-elevated)', borderBottomColor: 'var(--color-hairline)', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '56px', justifyContent: 'space-between', paddingInline: '120px' }}>
-        <div data-layer="4OM-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '16px' }}>
-          <div data-layer="4OS-0" style={{ boxSizing: 'border-box', color: 'var(--color-social-blue)', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '21px' }}>
+export default function render() { return (
+    <div data-layer="A6S-0" style={{ backgroundColor: 'var(--color-canvas)', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
+      <div data-layer="A6T-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-canvas-elevated)', borderBottomColor: 'var(--color-hairline)', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '56px', justifyContent: 'space-between', paddingInline: '120px', width: '1440px' }}>
+        <div data-layer="A6U-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '16px' }}>
+          <div data-layer="A6V-0" style={{ boxSizing: 'border-box', color: 'var(--color-social-blue)', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '21px', width: 'max-content' }}>
             SkilledIn
           </div>
-          <div data-layer="4ON-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, gap: '8px', height: '36px', paddingInline: '12px', width: '300px' }}>
-            <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4OP-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+          <div data-layer="A6W-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-canvas-elevated)', borderRadius: '6px', boxShadow: 'var(--color-social-blue) 0px 0px 0px 2px inset', boxSizing: 'border-box', display: 'flex', flexShrink: 0, gap: '8px', height: '36px', paddingInline: '12px', width: '300px' }}>
+            <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A6X-0" style={{ display: 'inline-block', flexShrink: 0 }}>
               <circle cx="7" cy="7" r="5.25" fill="none" stroke="var(--color-mute)" strokeWidth="1.5" />
               <path d="M11 11L14.5 14.5" fill="none" stroke="var(--color-mute)" strokeWidth="1.5" strokeLinecap="round" />
             </svg>
-            <div data-layer="4OO-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-              Search skills, publishers or tasks
+            <div data-layer="A70-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px', width: 'fit-content' }}>
+              ponytail
             </div>
           </div>
         </div>
-        <div data-layer="4NR-0" style={{ alignItems: 'end', boxSizing: 'border-box', display: 'flex', gap: '4px' }}>
-          <div data-layer="4OI-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', paddingTop: '6px', width: '80px' }}>
-            <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4OK-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-              <path d="M2 7L8 2.5L14 7V13.5C14 13.78 13.78 14 13.5 14H10V10H6V14H2.5C2.22 14 2 13.78 2 13.5V7Z" fill="none" stroke="var(--color-body)" strokeWidth="1.2" strokeLinejoin="round" />
+        <div data-layer="A71-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: 0, gap: '4px', width: '420px' }}>
+          <div data-layer="A72-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '4px', height: '44px', justifyContent: 'center', width: '80px' }}>
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A73-0" style={{ display: 'inline-block', flexShrink: '0', width: '20px', height: '20px' }}>
+              <path d="M14 9H11C10.735 9 10.481 9.106 10.293 9.293C10.106 9.481 10 9.735 10 10V11H7.207L5 8.793V6H6C6.265 6 6.519 5.894 6.707 5.707C6.894 5.519 7 5.265 7 5V2C7 1.735 6.894 1.481 6.707 1.293C6.519 1.106 6.265 1 6 1H3C2.735 1 2.481 1.106 2.293 1.293C2.106 1.481 2 1.735 2 2V5C2 5.265 2.106 5.519 2.293 5.707C2.481 5.894 2.735 6 3 6H4V8.793L1.647 11.146C1.6 11.193 1.563 11.248 1.538 11.309C1.513 11.369 1.5 11.434 1.5 11.5C1.5 11.566 1.513 11.631 1.538 11.691C1.563 11.752 1.6 11.807 1.647 11.854L4.147 14.354C4.193 14.4 4.248 14.437 4.309 14.462C4.369 14.487 4.434 14.5 4.5 14.5C4.566 14.5 4.631 14.487 4.691 14.462C4.752 14.437 4.807 14.4 4.854 14.354L7.207 12H10V13C10 13.265 10.106 13.519 10.293 13.707C10.481 13.894 10.735 14 11 14H14C14.265 14 14.519 13.894 14.707 13.707C14.894 13.519 15 13.265 15 13V10C15 9.735 14.894 9.481 14.707 9.293C14.519 9.106 14.265 9 14 9ZM3 2H6V5H3V2ZM4.5 13.293L2.707 11.5L4.5 9.707L6.293 11.5L4.5 13.293ZM11 13V10H14V13H11Z" fill="var(--color-ink)" />
             </svg>
-            <div data-layer="4OJ-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-              Discover
+            <div data-layer="A75-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              Workflow
             </div>
           </div>
-          <div data-layer="4OB-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', paddingTop: '6px', width: '80px' }}>
-            <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4OD-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-              <rect x="2.5" y="4" width="11" height="9" rx="2" fill="none" stroke="var(--color-body)" strokeWidth="1.2" />
-              <circle cx="6" cy="8.5" r="1" fill="var(--color-body)" />
-              <circle cx="10" cy="8.5" r="1" fill="var(--color-body)" />
-              <path d="M8 4V2" fill="none" stroke="var(--color-body)" strokeWidth="1.2" strokeLinecap="round" />
+          <div data-layer="A76-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '4px', height: '44px', justifyContent: 'center', width: '80px' }}>
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A77-0" style={{ display: 'inline-block', flexShrink: '0', width: '20px', height: '20px' }}>
+              <path d="M15 10C15.001 9.499 14.877 9.006 14.638 8.566C14.4 8.126 14.055 7.752 13.636 7.479C13.216 7.206 12.735 7.042 12.236 7.003C11.736 6.964 11.235 7.05 10.778 7.254C10.321 7.458 9.922 7.773 9.618 8.171C9.313 8.568 9.113 9.036 9.036 9.53C8.959 10.025 9.006 10.531 9.175 11.003C9.343 11.474 9.627 11.896 10 12.23V16L12 15.053L14 16V12.23C14.314 11.95 14.566 11.606 14.738 11.222C14.911 10.838 15 10.421 15 10ZM13 14.42L12 13.947L11 14.42V12.825C11.646 13.058 12.354 13.058 13 12.825V14.42ZM12 12C11.604 12 11.218 11.883 10.889 11.663C10.56 11.443 10.304 11.131 10.152 10.765C10.001 10.4 9.961 9.998 10.038 9.61C10.116 9.222 10.306 8.865 10.586 8.586C10.866 8.306 11.222 8.116 11.61 8.038C11.998 7.961 12.4 8.001 12.765 8.152C13.131 8.304 13.443 8.56 13.663 8.889C13.883 9.218 14 9.604 14 10C13.999 10.53 13.789 11.039 13.414 11.414C13.039 11.789 12.53 11.999 12 12Z" fill="var(--color-ink)" />
+              <path d="M12.5 2.5H11V2C10.999 1.735 10.894 1.481 10.706 1.294C10.519 1.106 10.265 1.001 10 1H6C5.735 1.001 5.481 1.106 5.294 1.294C5.106 1.481 5.001 1.735 5 2V2.5H3.5C3.235 2.501 2.981 2.606 2.794 2.794C2.606 2.981 2.501 3.235 2.5 3.5V14C2.501 14.265 2.606 14.519 2.794 14.706C2.981 14.894 3.235 14.999 3.5 15H8V14H3.5V3.5H5V5H11V3.5H12.5V6H13.5V3.5C13.499 3.235 13.394 2.981 13.206 2.794C13.019 2.606 12.765 2.501 12.5 2.5ZM10 4H6V2H10V4Z" fill="var(--color-ink)" />
             </svg>
-            <div data-layer="4OC-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-              My Skills
+            <div data-layer="A7A-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              My process
             </div>
           </div>
-          <div data-layer="4O4-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', paddingTop: '6px', width: '80px' }}>
-            <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4O6-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-              <circle cx="6" cy="5.5" r="2.25" fill="none" stroke="var(--color-body)" strokeWidth="1.2" />
-              <path d="M1.75 13C2.2 10.8 3.9 9.5 6 9.5C8.1 9.5 9.8 10.8 10.25 13" fill="none" stroke="var(--color-body)" strokeWidth="1.2" strokeLinecap="round" />
-              <circle cx="11.25" cy="6" r="1.75" fill="none" stroke="var(--color-body)" strokeWidth="1.2" />
-              <path d="M12 9.6C13.3 9.9 14.1 10.9 14.25 12.5" fill="none" stroke="var(--color-body)" strokeWidth="1.2" strokeLinecap="round" />
+          <div data-layer="A7B-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '4px', height: '44px', justifyContent: 'center', width: '80px' }}>
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A7C-0" style={{ display: 'inline-block', flexShrink: '0', width: '20px', height: '20px' }}>
+              <path d="M12.85 4.65L9.35 1.15C9.25 1.05 9.15 1 9 1H4C3.45 1 3 1.45 3 2V14C3 14.55 3.45 15 4 15H12C12.55 15 13 14.55 13 14V5C13 4.85 12.95 4.75 12.85 4.65ZM9 2.2L11.8 5H9V2.2ZM12 14H4V2H8V5C8 5.55 8.45 6 9 6H12V14Z" fill="var(--color-ink)" />
+              <path d="M11 11H5V12H11V11Z" fill="var(--color-ink)" />
+              <path d="M11 8H5V9H11V8Z" fill="var(--color-ink)" />
             </svg>
-            <div data-layer="4O5-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-              Teams
+            <div data-layer="A7G-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              Context
             </div>
           </div>
-          <div data-layer="4NW-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', paddingTop: '6px', width: '80px' }}>
-            <div data-layer="4NY-0" style={{ boxSizing: 'border-box', display: 'flex', position: 'relative' }}>
-              <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4O1-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                <path d="M4 6.5C4 4.3 5.8 2.5 8 2.5C10.2 2.5 12 4.3 12 6.5V9.5L13.25 11.5H2.75L4 9.5V6.5Z" fill="none" stroke="var(--color-body)" strokeWidth="1.2" strokeLinejoin="round" />
-                <path d="M6.5 13.5C6.8 14.1 7.35 14.5 8 14.5C8.65 14.5 9.2 14.1 9.5 13.5" fill="none" stroke="var(--color-body)" strokeWidth="1.2" strokeLinecap="round" />
-              </svg>
-              <div data-layer="4NZ-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-error)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', display: 'flex', height: '16px', justifyContent: 'center', left: '12px', position: 'absolute', top: '-4px', width: '16px' }}>
-                <div data-layer="4O0-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '10px', fontWeight: 600, lineHeight: '12px' }}>
-                  2
+          <div data-layer="A7H-0" style={{ alignItems: 'center', borderLeftColor: 'var(--color-hairline)', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '4px', height: '44px', justifyContent: 'center', width: '80px' }}>
+            <div data-layer="A7I-0" style={{ boxSizing: 'border-box', height: '40px' }}>
+              <div data-layer="A7J-0" style={{ boxSizing: 'border-box', display: 'flex', height: '100%', minWidth: '48px', width: 'fit-content' }}>
+                <div data-layer="A7K-0" style={{ boxSizing: 'border-box', display: 'grid', flexBasis: '0%', flexGrow: '1', minWidth: '48px' }}>
+                  <div data-layer="A7L-0" style={{ alignItems: 'center', alignSelf: 'center', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', gridColumnStart: '-1', gridRowStart: '1', isolation: 'isolate', justifyContent: 'center', justifySelf: 'center', minWidth: '0px' }}>
+                    <div data-layer="A7M-0" style={{ borderRadius: '999px', boxSizing: 'border-box', flexShrink: '0', height: '20px', minHeight: '0px', overflow: 'clip', width: '20px' }}>
+                      <div data-layer="A7N-0" style={{ backgroundImage: 'url(assets/4P66ACFTJNQ1XYXJAC7W1EVM5K.jpg)', backgroundPosition: '50%', backgroundSize: 'cover', boxSizing: 'border-box', height: '20px', maxWidth: '100%', overflow: 'clip', width: '20px' }} />
+                    </div>
+                    <div data-layer="A7O-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', justifyContent: 'center' }}>
+                      <div data-layer="A7P-0" style={{ boxSizing: 'border-box', color: '#00000099', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', overflowWrap: 'anywhere' }}>
+                        Me
+                      </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" id="_A7Q-0__unotij0" aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fontSize="14px" data-layer="A7Q-0" style={{ height: '16px', width: '16px', minHeight: '16px', minWidth: '16px', overflow: 'clip', flexShrink: 0 }}>
+                        <path d="M8 11 3.5 6.5h9z" fontSize="14px" fill="rgb(0 0 0 / 75%)" style={{ boxSizing: 'border-box', transformOrigin: '0px 0px' }} />
+                      </svg>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div data-layer="4NX-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-              Notifications
-            </div>
           </div>
-          <div data-layer="4NS-0" style={{ alignItems: 'center', borderLeftColor: 'var(--color-hairline)', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', paddingTop: '6px', width: '80px' }}>
-            <div data-layer="4NU-0" style={{ alignItems: 'center', backgroundImage: 'url(assets/01M6PZVHECWCGCR9X18S4MBY48.jpg)', backgroundPosition: '50%', backgroundSize: 'cover', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '20px', justifyContent: 'center', width: '20px' }} />
-            <div data-layer="4NT-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-              Me
+          <div data-layer="A7S-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', height: '44px', justifyContent: 'center', width: '84px' }}>
+            <div data-layer="A7T-0" style={{ backgroundImage: 'url(assets/3P176BFPKDT3XSWC8MBZH3BY23.jpg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', borderRadius: '5px', boxSizing: 'border-box', flexShrink: 0, height: '20px', width: '20px' }} />
+            <div data-layer="A7U-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: 4, justifyContent: 'center' }}>
+              <div data-layer="A7V-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', flexShrink: 0, fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', width: 'max-content' }}>
+                Workspace
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" id="_A7W-0__unotij0" aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fontSize="14px" data-layer="A7W-0" style={{ height: '16px', width: '16px', minHeight: '16px', minWidth: '16px', overflow: 'clip', flexShrink: 0 }}>
+                <path d="M8 11 3.5 6.5h9z" fontSize="14px" fill="rgb(0 0 0 / 75%)" style={{ boxSizing: 'border-box', transformOrigin: '0px 0px' }} />
+              </svg>
             </div>
           </div>
         </div>
       </div>
-      <div data-layer="44D-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '24px', justifyContent: 'center', paddingBottom: '64px', paddingInline: '120px', paddingTop: '24px' }}>
-        <div data-layer="4CY-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '792px' }}>
-          <div data-layer="4LS-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', overflow: 'clip' }}>
-            <div data-layer="4NL-0" style={{ backgroundImage: 'url(assets/01M6PZM8YK34XASV03V1RHN8GE.jpg)', backgroundPosition: '50%', backgroundSize: 'cover', boxSizing: 'border-box', flexShrink: '0', height: '180px', overflow: 'clip', position: 'relative', width: '790px', zIndex: '0' }}>
-              <div data-layer="4NP-0" style={{ backgroundImage: 'radial-gradient(circle farthest-corner at 50% 50% in oklab, #007CF08C 0%, #00DFD800 100%)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', filter: 'blur(36px)', height: '360px', left: '-80px', opacity: 0.42, position: 'absolute', top: '-140px', width: '520px' }} />
-              <div data-layer="4NO-0" style={{ backgroundImage: 'radial-gradient(circle farthest-corner at 50% 50% in oklab, #7928CA6B 0%, #FF008000 100%)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', filter: 'blur(36px)', height: '320px', left: '280px', opacity: 0.42, position: 'absolute', top: '-120px', width: '460px' }} />
-              <div data-layer="4NN-0" style={{ backgroundImage: 'radial-gradient(circle farthest-corner at 50% 50% in oklab, #FF00804D 0%, #F9CB2800 100%)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', filter: 'blur(36px)', height: '300px', left: '520px', opacity: 0.2, position: 'absolute', top: '-60px', width: '420px' }} />
-              <div data-layer="4NM-0" style={{ backgroundImage: 'radial-gradient(circle farthest-corner at 50% 50% in oklab, #F9CB2873 0%, #FF4D4D00 100%)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', filter: 'blur(36px)', height: '260px', left: '640px', opacity: 0.42, position: 'absolute', top: '20px', width: '360px' }} />
-            </div>
-            <div data-layer="4LT-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', paddingBottom: '28px', paddingInline: '32px', zIndex: '2' }}>
-              <div data-layer="4NJ-0" style={{ alignItems: 'end', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', marginTop: '-76px' }}>
-                <div data-layer="4NK-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-ink)', backgroundImage: 'url(assets/01M6PYP0YD0YJVCX33B7QMAMBE.jpg)', backgroundOrigin: 'border-box', backgroundPosition: '50%', backgroundSize: 'cover', borderColor: '#FFFFFF', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '152px', justifyContent: 'center', width: '152px' }} />
+      <div data-layer="A7Y-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '24px', justifyContent: 'center', paddingBottom: '64px', paddingInline: '120px', paddingTop: '24px' }}>
+        <div data-layer="A7Z-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '792px' }}>
+          <div data-layer="A80-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', overflow: 'clip', width: '792px' }}>
+            <div data-layer="A81-0" style={{ backgroundImage: 'url(assets/01M6QXAEE4NBND2VZPV7CXPKBF.jpg)', backgroundPosition: '50%', backgroundSize: 'cover', boxSizing: 'border-box', flexShrink: '0', height: '180px', overflow: 'clip', width: '790px', zIndex: '0' }} />
+            <div data-layer="A82-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', paddingBottom: '28px', paddingInline: '32px', zIndex: '2' }}>
+              <div data-layer="A83-0" style={{ alignItems: 'end', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', marginTop: '-76px' }}>
+                <div data-layer="A84-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-ink)', backgroundImage: 'url(assets/01M6PYP0YD0YJVCX33B7QMAMBE.jpg)', backgroundOrigin: 'border-box', backgroundPosition: '50%', backgroundSize: 'cover', borderColor: '#FFFFFF', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '152px', justifyContent: 'center', width: '152px' }} />
+                <div data-layer="A85-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBottom: '8px' }}>
+                  <div data-layer="A86-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
+                    <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A87-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                      <path d="M8 1.8l1.9 3.9 4.3.6-3.1 3 .7 4.3L8 11.6l-3.8 2 .7-4.3-3.1-3 4.3-.6L8 1.8z" fill="none" stroke="#4D4D4D" strokeWidth="1.2" strokeLinejoin="round" />
+                    </svg>
+                    <div data-layer="A89-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                      <span style={{ color: '#171717', fontWeight: 600 }}>185k</span> stars
+                    </div>
+                  </div>
+                  <div data-layer="A8A-0" style={{ backgroundColor: 'var(--color-hairline)', boxSizing: 'border-box', flexShrink: 0, height: '16px', width: '1px' }} />
+                  <div data-layer="A8B-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
+                    <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A8C-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                      <circle cx="4.5" cy="3.5" r="1.6" fill="none" stroke="#4D4D4D" strokeWidth="1.2" />
+                      <circle cx="11.5" cy="3.5" r="1.6" fill="none" stroke="#4D4D4D" strokeWidth="1.2" />
+                      <circle cx="8" cy="12.5" r="1.6" fill="none" stroke="#4D4D4D" strokeWidth="1.2" />
+                      <path d="M4.5 5.1v1.4c0 1 .8 1.8 1.8 1.8h3.4c1 0 1.8-.8 1.8-1.8V5.1M8 8.3v2.6" fill="none" stroke="#4D4D4D" strokeWidth="1.2" />
+                    </svg>
+                    <div data-layer="A8H-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                      <span style={{ color: '#171717', fontWeight: 600 }}>10.2k</span> forks
+                    </div>
+                  </div>
+                  <div data-layer="A8I-0" style={{ backgroundColor: 'var(--color-hairline)', boxSizing: 'border-box', flexShrink: 0, height: '16px', width: '1px' }} />
+                  <div data-layer="A8J-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
+                    <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A8K-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                      <rect x="2.5" y="4.5" width="11" height="8" rx="2" fill="none" stroke="#4D4D4D" strokeWidth="1.2" />
+                      <path d="M8 4.5V2.5M6 8.2h.01M10 8.2h.01" fill="none" stroke="#4D4D4D" strokeWidth="1.4" strokeLinecap="round" />
+                    </svg>
+                    <div data-layer="A8N-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                      Works with <span style={{ color: '#171717', fontWeight: 600 }}>20+</span> agents
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div data-layer="4MU-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '32px', justifyContent: 'space-between' }}>
-                <div data-layer="4N9-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '8px', width: '480px' }}>
-                  <div data-layer="4ND-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '10px' }}>
-                    <div data-layer="4NI-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '32px', fontWeight: 600, letterSpacing: '-1.28px', lineHeight: '40px' }}>
+              <div data-layer="A8O-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '32px', justifyContent: 'space-between' }}>
+                <div data-layer="A8P-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '8px', width: '480px' }}>
+                  <div data-layer="A8Q-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '10px' }}>
+                    <div data-layer="A8R-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '32px', fontWeight: 600, letterSpacing: '-1.28px', lineHeight: '40px' }}>
                       Ponytail
                     </div>
-                    <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4NF-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                    <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A8S-0" style={{ display: 'inline-block', flexShrink: 0 }}>
                       <path d="M8 1L9.6 2.3L11.65 2.15L12.3 4.1L14.1 5.1L13.55 7.1L14.4 9L12.85 10.35L12.5 12.4L10.45 12.65L9 14.15L7.1 13.35L5.15 14L4.1 12.25L2.15 11.65L2.3 9.6L1 8L2.3 6.4L2.15 4.35L4.1 3.7L5.1 1.9L7.1 2.45L8 1Z" fill="var(--color-link)" />
                       <path d="M5.5 8.1L7.2 9.75L10.6 6.3" fill="none" stroke="#FFFFFF" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <div data-layer="4NE-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                      Style skill
-                    </div>
                   </div>
-                  <div data-layer="4NC-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+                  <div data-layer="A8V-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
                     Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
                   </div>
-                  <div data-layer="4NB-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                    Skill + plugin · MIT · Agent-picked + /commands · <span style={{ color: '#0070F3', fontWeight: 500 }}>Install info</span>
-                  </div>
-                  <div data-layer="4NA-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
-                    185k stars · 10.2k forks · works with 20+ agents
+                  <div data-layer="A8W-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                    Behavior skill · v5.3.3 · MIT · Agent-picked + /commands · <span style={{ color: '#0070F3', fontWeight: 500 }}>Install info</span>
                   </div>
                 </div>
-                <div data-layer="4MV-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '14px', paddingTop: '4px', width: '220px' }}>
-                  <div data-layer="4N3-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '10px' }}>
-                    <div data-layer="4N7-0" style={{ alignItems: 'center', backgroundImage: 'url(assets/01M6Q02BYSP836P8PHNAJXBHQ3.jpg)', backgroundPosition: '50%', backgroundSize: 'cover', borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '32px', justifyContent: 'center', width: '32px' }} />
-                    <div data-layer="4N4-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-                      <div data-layer="4N6-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                <div data-layer="A8X-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '14px', paddingTop: '4px', width: '220px' }}>
+                  <div data-layer="A8Y-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '10px' }}>
+                    <div data-layer="A8Z-0" style={{ alignItems: 'center', backgroundImage: 'url(assets/01M6Q02BYSP836P8PHNAJXBHQ3.jpg)', backgroundPosition: '50%', backgroundSize: 'cover', borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '32px', justifyContent: 'center', width: '32px' }} />
+                    <div data-layer="A90-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                      <div data-layer="A91-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
                         DietrichGebert
                       </div>
-                      <div data-layer="4N5-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                      <div data-layer="A92-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                         Publisher · maintainer
                       </div>
                     </div>
                   </div>
-                  <div data-layer="4MW-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '10px' }}>
-                    <div data-layer="4N0-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '32px', justifyContent: 'center', width: '32px' }}>
-                      <svg width="24" height="24" viewBox="-8.333 -8.333 66.667 66.667" xmlns="http://www.w3.org/2000/svg" data-layer="4N1-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                  <div data-layer="A93-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '10px' }}>
+                    <div data-layer="A94-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '32px', justifyContent: 'center', width: '32px' }}>
+                      <svg width="24" height="24" viewBox="-8.333 -8.333 66.667 66.667" xmlns="http://www.w3.org/2000/svg" data-layer="A95-0" style={{ display: 'inline-block', flexShrink: 0 }}>
                         <path fillRule="evenodd" clipRule="evenodd" d="M24.999-8.333C6.583-8.333-8.334 6.584-8.334 25-8.334 39.751 1.207 52.208 14.458 56.625 16.125 56.917 16.75 55.917 16.75 55.041 16.75 54.251 16.707 51.625 16.707 48.833 8.333 50.375 6.166 46.792 5.499 44.917 5.125 43.959 3.499 41 2.083 40.208 0.917 39.584-0.75 38.041 2.041 38 4.666 37.959 6.541 40.417 7.166 41.417 10.166 46.459 14.958 45.041 16.874 44.167 17.166 42 18.041 40.541 18.999 39.708 11.583 38.875 3.833 36 3.833 23.251 3.833 19.625 5.125 16.625 7.25 14.292 6.917 13.459 5.75 10.041 7.583 5.459 7.583 5.459 10.374 4.584 16.75 8.875 19.417 8.125 22.25 7.751 25.083 7.751 27.917 7.751 30.75 8.125 33.417 8.875 39.791 4.541 42.583 5.459 42.583 5.459 44.417 10.041 43.25 13.459 42.917 14.292 45.041 16.625 46.333 19.584 46.333 23.251 46.333 36.041 38.541 38.875 31.125 39.708 32.333 40.751 33.374 42.751 33.374 45.875 33.374 50.333 33.333 53.917 33.333 55.041 33.333 55.917 33.958 56.959 35.625 56.625 48.791 52.208 58.333 39.708 58.333 25 58.333 6.584 43.417-8.333 24.999-8.333Z" fill="#1B1F23" />
                       </svg>
                     </div>
-                    <div data-layer="4MX-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-                      <div data-layer="4MZ-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                    <div data-layer="A97-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                      <div data-layer="A98-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
                         GitHub · npm
                       </div>
-                      <div data-layer="4MY-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                      <div data-layer="A99-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                         Official sources only
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div data-layer="4MN-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '10px' }}>
-                <div data-layer="4MP-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '28px', position: 'relative', width: '76px' }}>
-                  <div data-layer="4MT-0" style={{ backgroundImage: 'url(assets/5M5PX06J513VKNRDB2DCR2J9HF.jpg)', backgroundOrigin: 'border-box', backgroundPosition: '50%', backgroundSize: 'cover', borderColor: '#FFFFFF', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '2px', boxSizing: 'border-box', height: '28px', left: '0px', objectPosition: 'center center', position: 'absolute', top: '0px', width: '28px' }} />
-                  <div data-layer="4MS-0" style={{ backgroundImage: 'url(assets/29K1XGN3AWHYFC347K492K9HSP.jpg)', backgroundOrigin: 'border-box', backgroundPosition: '50%', backgroundSize: 'cover', borderColor: '#FFFFFF', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '2px', boxSizing: 'border-box', height: '28px', left: '16px', objectPosition: 'center center', position: 'absolute', top: '0px', width: '28px' }} />
-                  <div data-layer="4MR-0" style={{ backgroundImage: 'url(assets/4J0F6EBDQ7G1CZMJYMHPZ6ZT01.jpg)', backgroundOrigin: 'border-box', backgroundPosition: '50%', backgroundSize: 'cover', borderColor: '#FFFFFF', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '2px', boxSizing: 'border-box', height: '28px', left: '32px', objectPosition: 'center center', position: 'absolute', top: '0px', width: '28px' }} />
-                  <div data-layer="4MQ-0" style={{ backgroundImage: 'url(assets/286MDCYQ7SFSSS0QE2JX262HNV.jpg)', backgroundOrigin: 'border-box', backgroundPosition: '50%', backgroundSize: 'cover', borderColor: '#FFFFFF', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '2px', boxSizing: 'border-box', height: '28px', left: '48px', objectPosition: 'center center', position: 'absolute', top: '0px', width: '28px' }} />
+              <div data-layer="A9A-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '10px' }}>
+                <div data-layer="A9B-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '28px', position: 'relative', width: '76px' }}>
+                  <div data-layer="A9C-0" style={{ backgroundImage: 'url(assets/5M5PX06J513VKNRDB2DCR2J9HF.jpg)', backgroundOrigin: 'border-box', backgroundPosition: '50%', backgroundSize: 'cover', borderColor: '#FFFFFF', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '2px', boxSizing: 'border-box', height: '28px', left: '0px', objectPosition: 'center center', position: 'absolute', top: '0px', width: '28px' }} />
+                  <div data-layer="A9D-0" style={{ backgroundImage: 'url(assets/29K1XGN3AWHYFC347K492K9HSP.jpg)', backgroundOrigin: 'border-box', backgroundPosition: '50%', backgroundSize: 'cover', borderColor: '#FFFFFF', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '2px', boxSizing: 'border-box', height: '28px', left: '16px', objectPosition: 'center center', position: 'absolute', top: '0px', width: '28px' }} />
+                  <div data-layer="A9E-0" style={{ backgroundImage: 'url(assets/4J0F6EBDQ7G1CZMJYMHPZ6ZT01.jpg)', backgroundOrigin: 'border-box', backgroundPosition: '50%', backgroundSize: 'cover', borderColor: '#FFFFFF', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '2px', boxSizing: 'border-box', height: '28px', left: '32px', objectPosition: 'center center', position: 'absolute', top: '0px', width: '28px' }} />
+                  <div data-layer="A9F-0" style={{ backgroundImage: 'url(assets/286MDCYQ7SFSSS0QE2JX262HNV.jpg)', backgroundOrigin: 'border-box', backgroundPosition: '50%', backgroundSize: 'cover', borderColor: '#FFFFFF', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '2px', boxSizing: 'border-box', height: '28px', left: '48px', objectPosition: 'center center', position: 'absolute', top: '0px', width: '28px' }} />
                 </div>
-                <div data-layer="4MO-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  <span style={{ color: '#171717', fontWeight: 500 }}>Ananya Rao, Marco Diaz</span> and 3 other connections attach this skill
+                <div data-layer="A9G-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                  <span style={{ color: '#171717', fontWeight: 500 }}>Molly Vinson, Shannon Adams</span> and 14 other connections attach this skill
                 </div>
               </div>
-              <div data-layer="4M3-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
-                <div data-layer="4MJ-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-ink)', borderRadius: '100px', boxSizing: 'border-box', display: 'flex', gap: '8px', height: '36px', paddingInline: '18px' }}>
-                  <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4ML-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+              <div data-layer="A9H-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
+                <div data-layer="A9I-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-ink)', borderRadius: '100px', boxSizing: 'border-box', display: 'flex', gap: '8px', height: '36px', paddingInline: '18px' }}>
+                  <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A9J-0" style={{ display: 'inline-block', flexShrink: 0 }}>
                     <path d="M4 2.8V13.2L13 8L4 2.8Z" fill="#FFFFFF" />
                   </svg>
-                  <div data-layer="4MK-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 500, lineHeight: '20px' }}>
+                  <div data-layer="A9L-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 500, lineHeight: '20px' }}>
                     Try on a sample
                   </div>
                 </div>
-                <div data-layer="4ME-0" style={{ alignItems: 'center', borderColor: 'var(--color-link)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '8px', height: '36px', paddingInline: '18px' }}>
-                  <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4MG-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                <div data-layer="A9M-0" style={{ alignItems: 'center', borderColor: 'var(--color-link)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '8px', height: '36px', paddingInline: '18px' }}>
+                  <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A9N-0" style={{ display: 'inline-block', flexShrink: 0 }}>
                     <path d="M8 1.5L13.5 3.5V8C13.5 11 11.2 13.4 8 14.5C4.8 13.4 2.5 11 2.5 8V3.5L8 1.5Z" fill="none" stroke="var(--color-link)" strokeWidth="1.3" strokeLinejoin="round" />
                     <path d="M5.75 8L7.4 9.6L10.4 6.5" fill="none" stroke="var(--color-link)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
-                  <div data-layer="4MF-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 500, lineHeight: '20px' }}>
+                  <div data-layer="A9Q-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 500, lineHeight: '20px' }}>
                     Attach to agent
                   </div>
                 </div>
-                <div data-layer="4M9-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '8px', height: '36px', paddingInline: '18px' }}>
-                  <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4MB-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                <div data-layer="A9R-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '8px', height: '36px', paddingInline: '18px' }}>
+                  <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A9S-0" style={{ display: 'inline-block', flexShrink: 0 }}>
                     <path d="M4 2.5H9.5L12.5 5.5V13.5H4V2.5Z" fill="none" stroke="var(--color-body)" strokeWidth="1.2" strokeLinejoin="round" />
                     <path d="M6 8.5H10.5M6 11H9" fill="none" stroke="var(--color-body)" strokeWidth="1.2" strokeLinecap="round" />
                   </svg>
-                  <div data-layer="4MA-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                  <div data-layer="A9V-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
                     SKILL.md
                   </div>
                 </div>
-                <div data-layer="4M4-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '36px', justifyContent: 'center', width: '36px' }}>
-                  <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4M5-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                <div data-layer="A9W-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '36px', justifyContent: 'center', width: '36px' }}>
+                  <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A9X-0" style={{ display: 'inline-block', flexShrink: 0 }}>
                     <circle cx="3.5" cy="8" r="1.25" fill="var(--color-body)" />
                     <circle cx="8" cy="8" r="1.25" fill="var(--color-body)" />
                     <circle cx="12.5" cy="8" r="1.25" fill="var(--color-body)" />
                   </svg>
                 </div>
               </div>
-              <div data-layer="4LU-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '12px', paddingTop: '4px' }}>
-                <div data-layer="4LZ-0" style={{ backgroundColor: '#EEF5FE', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '4px', paddingBlock: '12px', paddingInline: '16px', width: '357px' }}>
-                  <div data-layer="4M2-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+              <div data-layer="AA1-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '12px', paddingTop: '4px' }}>
+                <div data-layer="AA2-0" style={{ backgroundColor: '#EEF5FE', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '4px', paddingBlock: '12px', paddingInline: '16px', width: '357px' }}>
+                  <div data-layer="AA3-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
                     Runs fully in your setup
                   </div>
-                  <div data-layer="4M1-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                  <div data-layer="AA4-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
                     Claude Code gets the full plugin: 6 commands, lifecycle hooks and 3 intensity levels. Needs Node.js.
                   </div>
-                  <div data-layer="4M0-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
-                    Show all 20+ hosts
+                  <div data-layer="AA5-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                    All 20+ hosts
                   </div>
                 </div>
-                <div data-layer="4LV-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '4px', paddingBlock: '12px', paddingInline: '16px', width: '357px' }}>
-                  <div data-layer="4LY-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                <div data-layer="AA6-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '4px', paddingBlock: '12px', paddingInline: '16px', width: '357px' }}>
+                  <div data-layer="AA7-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
                     What it touches
                   </div>
-                  <div data-layer="4LX-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                    Mostly instructions, plus two small Node.js hooks and a few local files. No network calls declared.
+                  <div data-layer="AA8-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                    Instructions, two small Node.js hooks and a few local files. <span style={{ color: '#AB570A', fontWeight: 500 }}>Reaches every subagent.</span>
                   </div>
-                  <div data-layer="4LW-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                  <div data-layer="AA9-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
                     Full access details
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div data-layer="4HN-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', paddingBlock: '24px', paddingInline: '32px' }}>
-            <div data-layer="4IM-0" style={{ alignItems: 'end', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
-              <div data-layer="4IN-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-                <div data-layer="4IP-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
+          <div data-layer="AAA-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', paddingBlock: '24px', paddingInline: '32px', width: '792px' }}>
+            <div data-layer="AAB-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <div data-layer="AAC-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                <div data-layer="AAD-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
                   Featured
                 </div>
-                <div data-layer="4IO-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  What other people have posted and written about it
+                <div data-layer="AAE-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                  What people are posting and writing about Ponytail
                 </div>
               </div>
             </div>
-            <div data-layer="4HR-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '12px' }}>
-              <div data-layer="4IC-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, overflow: 'clip', width: '234px' }}>
-                <div data-layer="4IG-0" style={{ backgroundColor: '#FFF1EB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, height: '132px', justifyContent: 'space-between', padding: '14px' }}>
-                  <div data-layer="4II-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
-                    <div data-layer="4IK-0" style={{ alignItems: 'center', backgroundColor: '#FF4500', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '20px', justifyContent: 'center', width: '20px' }}>
-                      <div data-layer="4IL-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', fontWeight: 700, lineHeight: '14px' }}>
-                        r/
-                      </div>
-                    </div>
-                    <div data-layer="4IJ-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', fontWeight: 600, lineHeight: '16px' }}>
-                      r/ClaudeCode
-                    </div>
+            <div data-layer="AAF-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '16px' }}>
+              <div data-layer="AAG-0" style={{ alignItems: 'end', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
+                <div data-layer="AAH-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                  <div data-layer="AAI-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+                    Mentioned in posts
                   </div>
-                  <div data-layer="4IH-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 600, lineHeight: '20px' }}>
-                    "AI agents love to over-deliver."
+                  <div data-layer="AAJ-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                    Posts and comments from people who have used it
                   </div>
                 </div>
-                <div data-layer="4ID-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBlock: '12px', paddingInline: '14px' }}>
-                  <div data-layer="4IF-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                    I gave Claude Code a "lazy senior dev" mode and it writes like 6x less code
+                <div data-layer="AAK-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
+                  <div data-layer="AAL-0" style={{ alignItems: 'center', borderColor: 'var(--color-hairline)', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '32px', justifyContent: 'center', width: '32px' }}>
+                    <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="AAM-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                      <path d="M10 3L5 8l5 5" fill="none" stroke="#A1A1A1" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
                   </div>
-                  <div data-layer="4IE-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                    Launch post · ~1.9k upvotes · 183 comments
+                  <div data-layer="AAO-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '32px', justifyContent: 'center', width: '32px' }}>
+                    <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="AAP-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                      <path d="M6 3l5 5-5 5" fill="none" stroke="#171717" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
                   </div>
                 </div>
               </div>
-              <div data-layer="4I2-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, overflow: 'clip', width: '234px' }}>
-                <div data-layer="4I6-0" style={{ backgroundColor: 'var(--color-warning-soft)', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, height: '132px', justifyContent: 'space-between', padding: '14px' }}>
-                  <div data-layer="4I8-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
-                    <div data-layer="4IA-0" style={{ alignItems: 'center', backgroundColor: '#FF4500', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '20px', justifyContent: 'center', width: '20px' }}>
-                      <div data-layer="4IB-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', fontWeight: 700, lineHeight: '14px' }}>
-                        r/
+              <div data-layer="AAR-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '12px', minHeight: '0px', overflow: 'clip', width: '726px' }}>
+                <div data-layer="AAS-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', minWidth: '0px', overflow: 'clip', width: '234px' }}>
+                  <div data-layer="AAT-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingBottom: '10px', paddingInline: '14px', paddingTop: '12px' }}>
+                    <div data-layer="AAU-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
+                      <div data-layer="AAV-0" style={{ alignItems: 'center', backgroundColor: '#FF4500', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '32px', justifyContent: 'center', width: '32px' }}>
+                        <div data-layer="AAW-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', fontWeight: 700, lineHeight: '16px' }}>
+                          r/
+                        </div>
+                      </div>
+                      <div data-layer="AAX-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                        <div data-layer="AAY-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '18px' }}>
+                          r/ClaudeCode
+                        </div>
+                        <div data-layer="AAZ-0" style={{ boxSizing: 'border-box', color: '#8F8F8F', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+                          Launch post
+                        </div>
                       </div>
                     </div>
-                    <div data-layer="4I9-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', fontWeight: 600, lineHeight: '16px' }}>
-                      Top reply · SwiftEngineer
+                    <div data-layer="AB0-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '19px' }}>
+                      I gave Claude Code a "lazy senior dev" mode and it writes like 6x less code
                     </div>
                   </div>
-                  <div data-layer="4I7-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 600, lineHeight: '20px' }}>
-                    "This works great... if you're planning on sending the email."
+                  <div data-layer="AB1-0" style={{ alignItems: 'center', backgroundColor: '#FFF1EB', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '72px', paddingInline: '14px' }}>
+                    <div data-layer="AB2-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '19px' }}>
+                      "AI agents love to over-deliver."
+                    </div>
+                  </div>
+                  <div data-layer="AB3-0" style={{ boxSizing: 'border-box', display: 'flex', paddingBlock: '10px', paddingInline: '14px' }}>
+                    <div data-layer="AB4-0" style={{ boxSizing: 'border-box', color: '#8F8F8F', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                      ~1.9k upvotes · 183 comments
+                    </div>
                   </div>
                 </div>
-                <div data-layer="4I3-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBlock: '12px', paddingInline: '14px' }}>
-                  <div data-layer="4I5-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                    Less code can drop a check you actually needed
+                <div data-layer="AB5-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', minWidth: '0px', overflow: 'clip', width: '234px' }}>
+                  <div data-layer="AB6-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingBottom: '10px', paddingInline: '14px', paddingTop: '12px' }}>
+                    <div data-layer="AB7-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
+                      <div data-layer="AB8-0" style={{ backgroundImage: 'url(assets/0BXBCJH5VPMMJ06RNHG37JXZEW.jpg)', backgroundPosition: '50%', backgroundSize: 'cover', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: 0, height: '32px', width: '32px' }} />
+                      <div data-layer="AB9-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                        <div data-layer="ABA-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '18px' }}>
+                          Priya Nair <span style={{ color: '#8F8F8F', fontWeight: 400 }}>· 2nd</span>
+                        </div>
+                        <div data-layer="ABB-0" style={{ boxSizing: 'border-box', color: '#8F8F8F', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+                          Frontend lead · 3d
+                        </div>
+                      </div>
+                    </div>
+                    <div data-layer="ABC-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '19px' }}>
+                      Asked for a date picker. It used the input we already had instead of a calendar library.
+                    </div>
                   </div>
-                  <div data-layer="4I4-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                    Comment · the case against, on the same thread
+                  <div data-layer="ABD-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-canvas)', borderBottomColor: 'var(--color-hairline)', borderBottomStyle: 'solid', borderBottomWidth: '1px', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '72px', justifyContent: 'space-between', paddingInline: '16px' }}>
+                    <div data-layer="ABE-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                      <div data-layer="ABF-0" style={{ boxSizing: 'border-box', color: '#A1A1A1', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, letterSpacing: '-1px', lineHeight: '28px' }}>
+                        335
+                      </div>
+                      <div data-layer="ABG-0" style={{ boxSizing: 'border-box', color: '#8F8F8F', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '10px', lineHeight: '12px' }}>
+                        lines without
+                      </div>
+                    </div>
+                    <svg width="20" height="12" viewBox="0 0 24 12" xmlns="http://www.w3.org/2000/svg" data-layer="ABH-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                      <path d="M1 6h21m0 0l-5-5m5 5l-5 5" fill="none" stroke="#8F8F8F" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <div data-layer="ABJ-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                      <div data-layer="ABK-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, letterSpacing: '-1px', lineHeight: '28px' }}>
+                        10
+                      </div>
+                      <div data-layer="ABL-0" style={{ boxSizing: 'border-box', color: '#8F8F8F', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '10px', lineHeight: '12px' }}>
+                        with · README
+                      </div>
+                    </div>
+                  </div>
+                  <div data-layer="ABM-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBlock: '10px', paddingInline: '14px' }}>
+                    <div data-layer="ABN-0" style={{ boxSizing: 'border-box', color: '#8F8F8F', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                      👍 1,204 · 86
+                    </div>
+                  </div>
+                </div>
+                <div data-layer="ABO-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', minWidth: '0px', overflow: 'clip', width: '234px' }}>
+                  <div data-layer="ABP-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingBottom: '10px', paddingInline: '14px', paddingTop: '12px' }}>
+                    <div data-layer="ABQ-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
+                      <div data-layer="ABR-0" style={{ backgroundImage: 'url(assets/1NX39QW2FCYY92V82B6SGP8KVA.jpg)', backgroundPosition: '50%', backgroundSize: 'cover', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: 0, height: '32px', width: '32px' }} />
+                      <div data-layer="ABS-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                        <div data-layer="ABT-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '18px' }}>
+                          Tomás Herrera <span style={{ color: '#8F8F8F', fontWeight: 400 }}>· 1st</span>
+                        </div>
+                        <div data-layer="ABU-0" style={{ boxSizing: 'border-box', color: '#8F8F8F', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+                          Staff engineer · 1w
+                        </div>
+                      </div>
+                    </div>
+                    <div data-layer="ABV-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '19px' }}>
+                      Ran /ponytail-audit on a six-year-old monorepo. It ranked what to fix first.
+                    </div>
+                  </div>
+                  <div data-layer="ABW-0" style={{ backgroundColor: '#171717', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', height: '72px', justifyContent: 'center', paddingInline: '14px' }}>
+                    <div data-layer="ABX-0" style={{ boxSizing: 'border-box', color: '#8F8F8F', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '11px', lineHeight: '15px' }}>
+                      $ /ponytail-audit
+                    </div>
+                    <div data-layer="ABY-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '11px', lineHeight: '15px' }}>
+                      1. two dead feature flags
+                    </div>
+                    <div data-layer="ABZ-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '11px', lineHeight: '15px' }}>
+                      2. a hand-rolled CSV parser
+                    </div>
+                  </div>
+                  <div data-layer="AC0-0" style={{ boxSizing: 'border-box', display: 'flex', paddingBlock: '10px', paddingInline: '14px' }}>
+                    <div data-layer="AC1-0" style={{ boxSizing: 'border-box', color: '#8F8F8F', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                      👍 642 · 41 comments
+                    </div>
                   </div>
                 </div>
               </div>
-              <div data-layer="4HS-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, overflow: 'clip', width: '234px' }}>
-                <div data-layer="4HW-0" style={{ backgroundColor: '#171717', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, height: '132px', justifyContent: 'space-between', padding: '14px' }}>
-                  <div data-layer="4HY-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
-                    <div data-layer="4I0-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderRadius: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '20px', justifyContent: 'center', width: '20px' }}>
-                      <div data-layer="4I1-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '10px', fontWeight: 700, lineHeight: '12px' }}>
-                        SL
-                      </div>
-                    </div>
-                    <div data-layer="4HZ-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', fontWeight: 600, lineHeight: '16px' }}>
-                      Scott Logic blog
-                    </div>
+              <div data-layer="AC2-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
+                <div data-layer="AC3-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                  128 posts this month · 9 from your network
+                </div>
+                <div data-layer="AC4-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                  Show all posts →
+                </div>
+              </div>
+            </div>
+            <div data-layer="AC5-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingTop: '16px' }}>
+              <div data-layer="AC6-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingBottom: '8px' }}>
+                <div data-layer="AC7-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+                  Top articles
+                </div>
+                <div data-layer="AC8-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                  Write-ups from blogs and newsletters, including the skeptical ones
+                </div>
+              </div>
+              <div data-layer="AC9-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '12px' }}>
+                <div data-layer="ACA-0" style={{ backgroundColor: '#171717', borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: '68px', justifyContent: 'space-between', paddingBlock: '8px', paddingInline: '10px', width: '120px' }}>
+                  <div data-layer="ACB-0" style={{ boxSizing: 'border-box', color: '#A1A1A1', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '10px', fontWeight: 600, lineHeight: '12px' }}>
+                    SCOTT LOGIC
                   </div>
-                  <div data-layer="4HX-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 600, lineHeight: '20px' }}>
-                    What can a prompt benchmark really prove?
+                  <div data-layer="ACC-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', fontWeight: 600, lineHeight: '14px' }}>
+                    What can a prompt benchmark prove?
                   </div>
                 </div>
-                <div data-layer="4HT-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBlock: '12px', paddingInline: '14px' }}>
-                  <div data-layer="4HV-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                <div data-layer="ACD-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexGrow: '1', gap: '2px' }}>
+                  <div data-layer="ACE-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
                     Ponytail, YAGNI and the problem with prompt benchmarks
                   </div>
-                  <div data-layer="4HU-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                    Article · Jun 16, 2026
+                  <div data-layer="ACF-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                    Scott Logic blog · Jun 16, 2026
+                  </div>
+                </div>
+                <div data-layer="ACG-0" style={{ backgroundColor: 'var(--color-warning-soft)', borderRadius: '6px', boxSizing: 'border-box', display: 'inline-block', flexShrink: '0', paddingBlock: '2px', paddingInline: '8px' }}>
+                  <div data-layer="ACH-0" style={{ boxSizing: 'border-box', color: 'var(--color-warning-deep)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', fontWeight: 500, lineHeight: '14px' }}>
+                    Critical take
                   </div>
                 </div>
               </div>
-            </div>
-            <div data-layer="4HO-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingTop: '14px' }}>
-              <div data-layer="4HQ-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                Also covered by MCP.Directory, DEV Community and pasqualepillitteri.it
+              <div data-layer="ACI-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '12px' }}>
+                <div data-layer="ACJ-0" style={{ backgroundColor: 'var(--color-link-soft)', borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: '68px', justifyContent: 'space-between', paddingBlock: '8px', paddingInline: '10px', width: '120px' }}>
+                  <div data-layer="ACK-0" style={{ boxSizing: 'border-box', color: '#0761D1', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '10px', fontWeight: 600, lineHeight: '12px' }}>
+                    PASQUALE PILLITTERI
+                  </div>
+                  <div data-layer="ACL-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, letterSpacing: '-0.5px', lineHeight: '20px' }}>
+                    −54% code
+                  </div>
+                </div>
+                <div data-layer="ACM-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexGrow: '1', gap: '2px' }}>
+                  <div data-layer="ACN-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                    Ponytail: the AI Skill That Cuts 54% of the Code
+                  </div>
+                  <div data-layer="ACO-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                    pasqualepillitteri.it · English, also in German
+                  </div>
+                </div>
+                <div data-layer="ACP-0" style={{ backgroundColor: 'var(--color-hairline-soft)', borderRadius: '6px', boxSizing: 'border-box', display: 'inline-block', flexShrink: '0', paddingBlock: '2px', paddingInline: '8px' }}>
+                  <div data-layer="ACQ-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', fontWeight: 500, lineHeight: '14px' }}>
+                    Explainer
+                  </div>
+                </div>
               </div>
-              <div data-layer="4HP-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                Show all mentions →
+              <div data-layer="ACR-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingTop: '12px' }}>
+                <div data-layer="ACS-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                  Also covered by MCP.Directory and DEV Community
+                </div>
+                <div data-layer="ACT-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                  Show all articles →
+                </div>
               </div>
             </div>
           </div>
-          <div data-layer="4P7-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-social-border)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', padding: '32px', width: '792px' }}>
-            <div data-layer="4P8-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px' }}>
-              See it in action
-            </div>
-            <div data-layer="4P9-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 500, lineHeight: '21px' }}>
-              Add a date picker to a React app
-            </div>
-            <div data-layer="4PA-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '12px' }}>
-              <div data-layer="4PB-0" style={{ backgroundColor: '#F3F2EF', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '4px', padding: '16px' }}>
-                <div data-layer="4PC-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
-                  Without Ponytail
-                </div>
-                <div data-layer="4PD-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px' }}>
-                  335 lines
-                </div>
-                <div data-layer="4PE-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
-                  Built a custom calendar and picker.
-                </div>
-              </div>
-              <div data-layer="4PF-0" style={{ backgroundColor: '#EEF3F8', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '4px', padding: '16px' }}>
-                <div data-layer="4PG-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
-                  With Ponytail 5
-                </div>
-                <div data-layer="4PH-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px' }}>
-                  10 lines
-                </div>
-                <div data-layer="4PI-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
-                  Reused the existing input and native date picker.
-                </div>
+          <div data-layer="ACU-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '24px', padding: '32px', width: '792px' }}>
+            <div data-layer="ACV-0" style={{ alignItems: 'end', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', marginBottom: '-8px' }}>
+              <div data-layer="ACW-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', flex: 1, fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
+                About
               </div>
             </div>
-            <div data-layer="4PJ-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
-              Publisher example · Same agent and repository · Median of five runs. Check whether a native picker meets your own design requirements.
+            <div data-layer="ACX-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', whiteSpace: 'pre-wrap' }}>
+              Before writing code, Ponytail reads the code the change touches, then climbs a ladder and stops at the first rung that holds. Lazy about the solution, never about the reading.<br /><br />It never cuts validation at trust boundaries, data-loss handling, security or accessibility. It always leaves one small test for logic with a branch, loop, parser, money or security, plus a line on what it skipped.<br /><br />Not for anything that isn't code. It changes what gets built, not how the agent talks.
             </div>
-            <div data-layer="4PK-0" style={{ boxSizing: 'border-box', color: 'var(--color-social-blue)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '21px' }}>
-              See the before and after on ponytail.dev ↗
-            </div>
-          </div>
-          <div data-layer="4KI-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', paddingBlock: '24px', paddingInline: '32px' }}>
-            <div data-layer="4LP-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-              <div data-layer="4LR-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
-                How your agent decides to use it
-              </div>
-              <div data-layer="4LQ-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                The description is the skill's headline, and the agent reads it word for word
-              </div>
-            </div>
-            <div data-layer="4LJ-0" style={{ backgroundColor: 'var(--color-canvas)', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBlock: '14px', paddingInline: '16px' }}>
-              <div data-layer="4LN-0" style={{ boxSizing: 'border-box', display: 'inline-block', paddingBottom: '4px' }}>
-                <div data-layer="4LO-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  skills/ponytail/SKILL.md · frontmatter
+            <div data-layer="ACY-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', paddingTop: '24px' }}>
+              <div data-layer="ACZ-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                <div data-layer="AD0-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+                  When your agent uses it
+                </div>
+                <div data-layer="AD1-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                  Your agent reads the description word for word to decide
                 </div>
               </div>
-              <div data-layer="4LM-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
-                <span style={{ color: '#7928CA' }}>name:</span> ponytail
-              </div>
-              <div data-layer="4LL-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
-                <span style={{ color: '#7928CA' }}>description:</span> Forces the laziest solution that actually works, simplest, shortest, most minimal. […] Supports intensity levels: lite, full (default), ultra. <span style={{ color: '#0761D1', fontWeight: 600 }}>Use on ANY coding task</span>: writing, adding, refactoring, fixing, reviewing, or designing code, and choosing libraries or dependencies. […] <span style={{ color: '#AB570A', fontWeight: 600 }}>Do NOT use for non-coding requests</span> (general knowledge, prose, translation, summaries, recipes).
-              </div>
-              <div data-layer="4LK-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px', whiteSpace: 'pre-wrap' }}>
-                <span style={{ color: '#7928CA' }}>argument-hint:</span> [lite|full|ultra]{'   '}<span style={{ color: '#7928CA' }}>license:</span> MIT
-              </div>
-            </div>
-            <div data-layer="4KY-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
-              <div data-layer="4L8-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '10px', width: '352px' }}>
-                <div data-layer="4LI-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                  Kicks in on requests like
+              <div data-layer="AD2-0" style={{ backgroundColor: 'var(--color-canvas)', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '6px', paddingBlock: '16px', paddingInline: '20px' }}>
+                <div data-layer="AD3-0" style={{ boxSizing: 'border-box', display: 'inline-block', paddingBottom: '4px' }}>
+                  <div data-layer="AD4-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                    skills/ponytail/SKILL.md · frontmatter · ≈ 200 tokens, always loaded
+                  </div>
                 </div>
-                <div data-layer="4L9-0" style={{ boxSizing: 'border-box', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-                  <div data-layer="4LG-0" style={{ borderColor: 'var(--color-link)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '5px', paddingInline: '12px' }}>
-                    <div data-layer="4LH-0" style={{ boxSizing: 'border-box', color: 'var(--color-link-deep)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 500, lineHeight: '18px' }}>
-                      Add a date picker
+                <div data-layer="AD5-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                  <span style={{ color: '#7928CA' }}>name:</span> ponytail
+                </div>
+                <div data-layer="AD6-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                  <span style={{ color: '#7928CA' }}>description:</span> Forces the laziest solution that actually works, simplest, shortest, most minimal. […] <span style={{ color: '#0761D1', fontWeight: 600 }}>Use on ANY coding task</span>: writing, adding, refactoring, fixing, reviewing, or designing code. […] <span style={{ color: '#AB570A', fontWeight: 600 }}>Do NOT use for non-coding requests</span> (general knowledge, prose, translation, summaries, recipes).
+                </div>
+                <div data-layer="AD7-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                  <span style={{ color: '#7928CA' }}>license:</span> MIT
+                </div>
+              </div>
+              <div data-layer="AD8-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '22px' }}>
+                <div data-layer="AD9-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '12px', width: '352px' }}>
+                  <div data-layer="ADA-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                    Kicks in on
+                  </div>
+                  <div data-layer="ADB-0" style={{ boxSizing: 'border-box', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+                    <div data-layer="ADC-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-link)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '6px', paddingInline: '14px' }}>
+                      <div data-layer="ADD-0" style={{ boxSizing: 'border-box', color: 'var(--color-link-deep)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 500, lineHeight: '18px' }}>
+                        Add a date picker
+                      </div>
+                    </div>
+                    <div data-layer="ADE-0" style={{ borderColor: 'var(--color-link)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '6px', paddingInline: '14px' }}>
+                      <div data-layer="ADF-0" style={{ boxSizing: 'border-box', color: 'var(--color-link-deep)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 500, lineHeight: '18px' }}>
+                        Refactor this function
+                      </div>
+                    </div>
+                    <div data-layer="ADG-0" style={{ borderColor: 'var(--color-link)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '6px', paddingInline: '14px' }}>
+                      <div data-layer="ADH-0" style={{ boxSizing: 'border-box', color: 'var(--color-link-deep)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 500, lineHeight: '18px' }}>
+                        Which library for CSV?
+                      </div>
+                    </div>
+                    <div data-layer="ADI-0" style={{ borderColor: 'var(--color-link)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '6px', paddingInline: '14px' }}>
+                      <div data-layer="ADJ-0" style={{ boxSizing: 'border-box', color: 'var(--color-link-deep)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 500, lineHeight: '18px' }}>
+                        "be lazy"
+                      </div>
                     </div>
                   </div>
-                  <div data-layer="4LE-0" style={{ borderColor: 'var(--color-link)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '5px', paddingInline: '12px' }}>
-                    <div data-layer="4LF-0" style={{ boxSizing: 'border-box', color: 'var(--color-link-deep)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 500, lineHeight: '18px' }}>
-                      Refactor this function
-                    </div>
+                </div>
+                <div data-layer="ADK-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '12px', width: '352px' }}>
+                  <div data-layer="ADL-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                    Stays quiet on
                   </div>
-                  <div data-layer="4LC-0" style={{ borderColor: 'var(--color-link)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '5px', paddingInline: '12px' }}>
-                    <div data-layer="4LD-0" style={{ boxSizing: 'border-box', color: 'var(--color-link-deep)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 500, lineHeight: '18px' }}>
-                      Which library for CSV?
+                  <div data-layer="ADM-0" style={{ boxSizing: 'border-box', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+                    <div data-layer="ADN-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '6px', paddingInline: '14px' }}>
+                      <div data-layer="ADO-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                        Summarize this article
+                      </div>
                     </div>
-                  </div>
-                  <div data-layer="4LA-0" style={{ borderColor: 'var(--color-link)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '5px', paddingInline: '12px' }}>
-                    <div data-layer="4LB-0" style={{ boxSizing: 'border-box', color: 'var(--color-link-deep)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 500, lineHeight: '18px' }}>
-                      "be lazy"
+                    <div data-layer="ADP-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '6px', paddingInline: '14px' }}>
+                      <div data-layer="ADQ-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                        Translate to Spanish
+                      </div>
+                    </div>
+                    <div data-layer="ADR-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '6px', paddingInline: '14px' }}>
+                      <div data-layer="ADS-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                        Write a recipe
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div data-layer="4KZ-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '10px', width: '352px' }}>
-                <div data-layer="4L7-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                  Stays quiet on
-                </div>
-                <div data-layer="4L0-0" style={{ boxSizing: 'border-box', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-                  <div data-layer="4L5-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '5px', paddingInline: '12px' }}>
-                    <div data-layer="4L6-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
-                      Summarize this article
-                    </div>
-                  </div>
-                  <div data-layer="4L3-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '5px', paddingInline: '12px' }}>
-                    <div data-layer="4L4-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
-                      Translate to Spanish
-                    </div>
-                  </div>
-                  <div data-layer="4L1-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '5px', paddingInline: '12px' }}>
-                    <div data-layer="4L2-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
-                      Write a recipe
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-layer="4KP-0" style={{ alignItems: 'start', backgroundColor: '#F0F6FF', borderColor: 'var(--color-link-soft)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '14px', paddingInline: '16px' }}>
-              <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4KV-0" style={{ flexShrink: '0', display: 'inline-block' }}>
-                <circle cx="6" cy="8" r="4.5" fill="none" stroke="#0761D1" strokeWidth="1.3" />
-                <circle cx="10" cy="8" r="4.5" fill="none" stroke="#0761D1" strokeWidth="1.3" />
-              </svg>
-              <div data-layer="4KS-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '560px' }}>
-                <div data-layer="4KU-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                  No overlap with your 4 attached skills
-                </div>
-                <div data-layer="4KT-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  None of them shape how code gets written, so nothing competes for the same requests.
-                </div>
-              </div>
-              <div data-layer="4KQ-0" style={{ borderColor: 'var(--color-faint)', borderRadius: '4px', borderStyle: 'dashed', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', flexShrink: '0', paddingBlock: '1px', paddingInline: '6px' }}>
-                <div data-layer="4KR-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '10px', lineHeight: '14px' }}>
-                  ILLUSTRATIVE
-                </div>
-              </div>
-            </div>
-            <div data-layer="4KJ-0" style={{ alignItems: 'start', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '10px', paddingTop: '14px' }}>
-              <svg width="18" height="18" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4KL-0" style={{ flexShrink: '0', marginTop: '1px', display: 'inline-block' }}>
-                <circle cx="8" cy="8" r="6.5" fill="none" stroke="#AB570A" strokeWidth="1.3" />
-                <path d="M8 4.8v3.6" fill="none" stroke="#AB570A" strokeWidth="1.3" strokeLinecap="round" />
-                <circle cx="8" cy="10.9" r="0.85" fill="#AB570A" />
-              </svg>
-              <div data-layer="4KK-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                <span style={{ color: '#171717', fontWeight: 600 }}>Once on, it stays on.</span> It shapes every reply, and every subagent, until you say "stop ponytail". That makes it broad by design.
-              </div>
-            </div>
-          </div>
-          <div data-layer="4J0-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBottom: '8px', paddingInline: '32px', paddingTop: '24px' }}>
-            <div data-layer="4KC-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBottom: '8px' }}>
-              <div data-layer="4KF-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-                <div data-layer="4KH-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
-                  What it can touch
-                </div>
-                <div data-layer="4KG-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Mostly instructions. As a style skill, this sits after how it triggers
-                </div>
-              </div>
-              <div data-layer="4KD-0" style={{ backgroundColor: 'var(--color-hairline-soft)', borderRadius: '100px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '3px', paddingInline: '10px' }}>
-                <div data-layer="4KE-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', fontWeight: 500, lineHeight: '16px' }}>
-                  No network calls declared
-                </div>
-              </div>
-            </div>
-            <div data-layer="4K4-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '14px' }}>
-              <div data-layer="4K9-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4KA-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                  <path d="M2 3.5l4 4-4 4M8 12.5h6" fill="none" stroke="#171717" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+              <div data-layer="ADZ-0" style={{ alignItems: 'start', backgroundColor: 'var(--color-warning-soft)', borderColor: '#F5D9A8', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flex: 1, gap: '12px', paddingBlock: '14px', paddingInline: '16px', width: '726px' }}>
+                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="AE0-0" style={{ flexShrink: '0', marginTop: '2px', display: 'inline-block' }}>
+                  <circle cx="8" cy="8" r="6.5" fill="none" stroke="#AB570A" strokeWidth="1.3" />
+                  <path d="M8 4.8v3.6" fill="none" stroke="#AB570A" strokeWidth="1.3" strokeLinecap="round" />
+                  <circle cx="8" cy="10.9" r="0.85" fill="#AB570A" />
                 </svg>
-              </div>
-              <div data-layer="4K5-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '662px' }}>
-                <div data-layer="4K8-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  Runs two small hooks
-                </div>
-                <div data-layer="4K7-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Node.js lifecycle hooks in Claude Code, Codex and Cursor
-                </div>
-                <div data-layer="4K6-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  They set the mode and inject the rules each session. Without Node on your PATH, the skill still works.
+                <div data-layer="AE4-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                  <span style={{ color: '#171717', fontWeight: 600 }}>Once on, it stays on</span> until you say "stop ponytail"
                 </div>
               </div>
             </div>
-            <div data-layer="4JV-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '14px' }}>
-              <div data-layer="4K0-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4K1-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                  <path d="M4 1.5h5.5L13 5v9.5H4z" fill="none" stroke="#171717" strokeWidth="1.3" strokeLinejoin="round" />
-                  <path d="M6.5 8.5h4M6.5 11h4" fill="none" stroke="#171717" strokeWidth="1.3" strokeLinecap="round" />
-                </svg>
-              </div>
-              <div data-layer="4JW-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '662px' }}>
-                <div data-layer="4JZ-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  Instructions
+            <div data-layer="AE5-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '24px' }}>
+              <div data-layer="AE6-0" style={{ alignItems: 'end', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
+                <div data-layer="AE7-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                  <div data-layer="AE8-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+                    What it can touch
+                  </div>
+                  <div data-layer="AE9-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                    Mostly instructions, plus two small hooks and a few local files
+                  </div>
                 </div>
-                <div data-layer="4JY-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  One prompt: SKILL.md, 120 lines of plain text
-                </div>
-                <div data-layer="4JX-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Everything else in the repo loads that one prompt into different agents.
+                <div data-layer="AEA-0" style={{ backgroundColor: 'var(--color-warning-soft)', borderRadius: '100px', boxSizing: 'border-box', display: 'inline-block', flexShrink: '0', paddingBlock: '3px', paddingInline: '10px' }}>
+                  <div data-layer="AEB-0" style={{ boxSizing: 'border-box', color: 'var(--color-warning-deep)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', fontWeight: 500, lineHeight: '16px' }}>
+                    Reaches every subagent
+                  </div>
                 </div>
               </div>
-            </div>
-            <div data-layer="4JN-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '14px' }}>
-              <div data-layer="4JS-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4JT-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                  <path d="M1.5 4.5v8.5h13v-7H8L6.5 4.5z" fill="none" stroke="#171717" strokeWidth="1.3" strokeLinejoin="round" />
-                </svg>
-              </div>
-              <div data-layer="4JO-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '662px' }}>
-                <div data-layer="4JR-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  Writes local files
+              <div data-layer="AEC-0" style={{ boxSizing: 'border-box', display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+                <div data-layer="AED-0" style={{ alignItems: 'center', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, gap: '10px', paddingBlock: '10px', paddingInline: '12px', width: '358px' }}>
+                  <div data-layer="AEE-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '28px', justifyContent: 'center', width: '28px' }}>
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="AEF-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                      <path d="M4 1.5h5.5L13 5v9.5H4z" fill="none" stroke="#171717" strokeWidth="1.3" strokeLinejoin="round" />
+                      <path d="M6.5 8.5h4M6.5 11h4" fill="none" stroke="#171717" strokeWidth="1.3" strokeLinecap="round" />
+                    </svg>
+                  </div>
+                  <div data-layer="AEI-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, width: '296px' }}>
+                    <div data-layer="AEJ-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                      Instructions
+                    </div>
+                    <div data-layer="AEK-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                      SKILL.md, 120 lines of plain text
+                    </div>
+                  </div>
                 </div>
-                <div data-layer="4JQ-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
-                  ~/.claude/.ponytail-active · ~/.config/ponytail/ · settings.json status line
+                <div data-layer="AEL-0" style={{ alignItems: 'center', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, gap: '10px', paddingBlock: '10px', paddingInline: '12px', width: '358px' }}>
+                  <div data-layer="AEM-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '28px', justifyContent: 'center', width: '28px' }}>
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="AEN-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                      <path d="M2 3.5l4 4-4 4M8 12.5h6" fill="none" stroke="#171717" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  <div data-layer="AEP-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, width: '296px' }}>
+                    <div data-layer="AEQ-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                      Runs two Node.js hooks
+                    </div>
+                    <div data-layer="AER-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                      In Claude Code, Codex and Cursor
+                    </div>
+                  </div>
                 </div>
-                <div data-layer="4JP-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Session cost, tokens and time go to ~/.config/ponytail/band/ and stay on your machine. The status line is only added if you accept.
+                <div data-layer="AES-0" style={{ alignItems: 'center', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, gap: '10px', paddingBlock: '10px', paddingInline: '12px', width: '358px' }}>
+                  <div data-layer="AET-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '28px', justifyContent: 'center', width: '28px' }}>
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="AEU-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                      <path d="M1.5 4.5v8.5h13v-7H8L6.5 4.5z" fill="none" stroke="#171717" strokeWidth="1.3" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  <div data-layer="AEW-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, width: '296px' }}>
+                    <div data-layer="AEX-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                      Writes local files
+                    </div>
+                    <div data-layer="AEY-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                      Mode flag, config and session stats
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div data-layer="4JD-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '14px' }}>
-              <div data-layer="4JI-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4JJ-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                  <path d="M5 2v5.5a3 3 0 006 0V5" fill="none" stroke="#171717" strokeWidth="1.3" strokeLinecap="round" />
-                  <path d="M9 6.5L11 4.5L13 6.5" fill="none" stroke="#171717" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M8 10.5V14" fill="none" stroke="#171717" strokeWidth="1.3" strokeLinecap="round" />
-                </svg>
-              </div>
-              <div data-layer="4JE-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '662px' }}>
-                <div data-layer="4JH-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  Reaches subagents
+                <div data-layer="AEZ-0" style={{ alignItems: 'center', backgroundColor: '#FFFAF0', borderColor: '#F5D9A8', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, gap: '10px', paddingBlock: '10px', paddingInline: '12px', width: '358px' }}>
+                  <div data-layer="AF0-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-warning-soft)', borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '28px', justifyContent: 'center', width: '28px' }}>
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="AF1-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                      <circle cx="8" cy="3.5" r="2" fill="none" stroke="#AB570A" strokeWidth="1.3" />
+                      <circle cx="3.5" cy="12.5" r="2" fill="none" stroke="#AB570A" strokeWidth="1.3" />
+                      <circle cx="12.5" cy="12.5" r="2" fill="none" stroke="#AB570A" strokeWidth="1.3" />
+                      <path d="M8 5.5v2.5M8 8L4.5 10.8M8 8l3.5 2.8" fill="none" stroke="#AB570A" strokeWidth="1.3" strokeLinecap="round" />
+                    </svg>
+                  </div>
+                  <div data-layer="AF6-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, width: '296px' }}>
+                    <div data-layer="AF7-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                      Reaches subagents
+                    </div>
+                    <div data-layer="AF8-0" style={{ boxSizing: 'border-box', color: 'var(--color-warning-deep)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                      On by default, scope it with a matcher
+                    </div>
+                  </div>
                 </div>
-                <div data-layer="4JG-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Injects its rules into every subagent your agent spawns
+                <div data-layer="AF9-0" style={{ alignItems: 'center', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, gap: '10px', paddingBlock: '10px', paddingInline: '12px', width: '358px' }}>
+                  <div data-layer="AFA-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '28px', justifyContent: 'center', width: '28px' }}>
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="AFB-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                      <circle cx="8" cy="8" r="6.3" fill="none" stroke="#171717" strokeWidth="1.3" />
+                      <path d="M1.7 8h12.6M8 1.7c-2.2 2.4-2.2 10.2 0 12.6M8 1.7c2.2 2.4 2.2 10.2 0 12.6" fill="none" stroke="#171717" strokeWidth="1.3" />
+                    </svg>
+                  </div>
+                  <div data-layer="AFE-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, width: '296px' }}>
+                    <div data-layer="AFF-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                      No network calls declared
+                    </div>
+                    <div data-layer="AFG-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                      ClawHub scan passed · v4.9.0 · Sep 16, 2026
+                    </div>
+                  </div>
                 </div>
-                <div data-layer="4JF-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  On by default. Limit it with the PONYTAIL_SUBAGENT_MATCHER setting.
+                <div data-layer="AFH-0" style={{ alignItems: 'center', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, gap: '10px', paddingBlock: '10px', paddingInline: '12px', width: '358px' }}>
+                  <div data-layer="AFI-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '28px', justifyContent: 'center', width: '28px' }}>
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="AFJ-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                      <path d="M3 4.5h10M6.5 4.5V3h3v1.5M4.5 4.5l.7 9h5.6l.7-9" fill="none" stroke="#171717" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  <div data-layer="AFL-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, width: '296px' }}>
+                    <div data-layer="AFM-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                      Clean uninstall
+                    </div>
+                    <div data-layer="AFN-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                      Run scripts/uninstall.js first
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div data-layer="4J4-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '14px' }}>
-              <div data-layer="4J9-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-warning-soft)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4JA-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                  <circle cx="8" cy="8" r="6.3" fill="none" stroke="#AB570A" strokeWidth="1.3" />
-                  <path d="M1.7 8h12.6M8 1.7c-2.2 2.4-2.2 10.2 0 12.6M8 1.7c2.2 2.4 2.2 10.2 0 12.6" fill="none" stroke="#AB570A" strokeWidth="1.3" />
-                </svg>
-              </div>
-              <div data-layer="4J5-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '662px' }}>
-                <div data-layer="4J8-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  Network and binaries
-                </div>
-                <div data-layer="4J7-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  No network calls declared
-                </div>
-                <div data-layer="4J6-0" style={{ boxSizing: 'border-box', color: 'var(--color-warning-deep)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Never ships .exe or .dll files; the publisher says a copy that does is fake. Not independently verified.
-                </div>
-              </div>
-            </div>
-            <div data-layer="4J1-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBottom: '16px', paddingTop: '14px' }}>
-              <div data-layer="4J3-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                Removing the plugin leaves these files behind. Run <span style={{ color: '#171717', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px' }}>scripts/uninstall.js</span> first.
-              </div>
-              <div data-layer="4J2-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                Read install docs →
               </div>
             </div>
           </div>
-          <div data-layer="4F3-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', paddingBottom: '8px', paddingInline: '32px', paddingTop: '24px' }}>
-            <div data-layer="4FZ-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
-              <div data-layer="4G4-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-                <div data-layer="4GA-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
-                  Recommendations
+          <div data-layer="AFO-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '14px', paddingBlock: '20px', paddingInline: '32px', width: '792px' }}>
+            <div data-layer="AFP-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
+              <div data-layer="AFQ-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                <div data-layer="AFR-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
+                  What changes when you add it
                 </div>
-                <div data-layer="4G5-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
-                  <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4G7-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                <div data-layer="AFS-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                  Your agent with and without Ponytail · Claude Code + Opus 5.5, 39 tasks, 5 runs each
+                </div>
+              </div>
+              <div data-layer="AFT-0" style={{ backgroundColor: 'var(--color-hairline-soft)', borderRadius: '100px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '3px', paddingInline: '10px' }}>
+                <div data-layer="AFU-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', fontWeight: 500, lineHeight: '16px' }}>
+                  Publisher's benchmark
+                </div>
+              </div>
+            </div>
+            <div data-layer="AFV-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex' }}>
+              <div data-layer="AFW-0" style={{ borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, paddingBlock: '10px', paddingInline: '14px', width: '181px' }}>
+                <div data-layer="AFX-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, letterSpacing: '-0.6px', lineHeight: '28px' }}>
+                  −53%
+                </div>
+                <div data-layer="AFY-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  code written
+                </div>
+              </div>
+              <div data-layer="AFZ-0" style={{ borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, paddingBlock: '10px', paddingInline: '14px', width: '181px' }}>
+                <div data-layer="AG0-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, letterSpacing: '-0.6px', lineHeight: '28px' }}>
+                  −45%
+                </div>
+                <div data-layer="AG1-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  output tokens
+                </div>
+              </div>
+              <div data-layer="AG2-0" style={{ borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, paddingBlock: '10px', paddingInline: '14px', width: '181px' }}>
+                <div data-layer="AG3-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, letterSpacing: '-0.6px', lineHeight: '28px' }}>
+                  −41%
+                </div>
+                <div data-layer="AG4-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  agent time
+                </div>
+              </div>
+              <div data-layer="AG5-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, paddingBlock: '10px', paddingInline: '14px', width: '181px' }}>
+                <div data-layer="AG6-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, letterSpacing: '-0.6px', lineHeight: '28px' }}>
+                  −26%
+                </div>
+                <div data-layer="AG7-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  cost
+                </div>
+              </div>
+            </div>
+            <div data-layer="AG8-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingTop: '14px' }}>
+              <div data-layer="AG9-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
+                <div data-layer="AGA-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                  <div data-layer="AGB-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+                    Example runs
+                  </div>
+                  <div data-layer="AGC-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                    Same request, with and without it · from the README
+                  </div>
+                </div>
+                <div data-layer="AGD-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
+                  <div data-layer="AGE-0" style={{ backgroundColor: '#171717', borderRadius: '100px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '4px', paddingInline: '10px' }}>
+                    <div data-layer="AGF-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', fontWeight: 500, lineHeight: '16px' }}>
+                      Date picker
+                    </div>
+                  </div>
+                  <div data-layer="AGG-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '4px', paddingInline: '10px' }}>
+                    <div data-layer="AGH-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                      Cache, 3 levels
+                    </div>
+                  </div>
+                  <div data-layer="AGI-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '4px', paddingInline: '10px' }}>
+                    <div data-layer="AGJ-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                      Code review
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-layer="AGK-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-canvas)', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBlock: '12px', paddingLeft: '16px', paddingRight: '12px' }}>
+                <div data-layer="AGL-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                  <div data-layer="AGM-0" style={{ boxSizing: 'border-box', color: '#8F8F8F', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
+                    prompt · same for both runs
+                  </div>
+                  <div data-layer="AGN-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                    <span style={{ color: '#7928CA' }}>&gt;</span> Add a date picker to the frontend.
+                  </div>
+                </div>
+                <div data-layer="AGO-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-link)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '4px', paddingInline: '14px' }}>
+                  <svg width="10" height="10" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" data-layer="AGP-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                    <path d="M3 2l7 4-7 4V2z" fill="#0070F3" />
+                  </svg>
+                  <div data-layer="AGR-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '18px' }}>
+                    Run on my repo
+                  </div>
+                </div>
+              </div>
+              <div data-layer="AGS-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '12px' }}>
+                <div data-layer="AGT-0" style={{ backgroundColor: 'var(--color-canvas)', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '6px', paddingBlock: '12px', paddingInline: '14px', width: '357px' }}>
+                  <div data-layer="AGU-0" style={{ boxSizing: 'border-box', color: '#8F8F8F', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+                    WITHOUT THE SKILL
+                  </div>
+                  <div data-layer="AGV-0" style={{ boxSizing: 'border-box', color: '#8F8F8F', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                    <span style={{ fontSize: '24px', fontWeight: 600, letterSpacing: '-0.8px', lineHeight: '28px' }}>335</span> lines
+                  </div>
+                  <div data-layer="AGW-0" style={{ backgroundColor: '#A1A1A1', borderRadius: '2px', boxSizing: 'border-box', flexShrink: 0, height: '4px', width: '329px' }} />
+                  <div data-layer="AGX-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '17px' }}>
+                    Installs a date picker library, or builds a whole calendar by hand.
+                  </div>
+                </div>
+                <div data-layer="AGY-0" style={{ backgroundColor: '#FFFFFF', borderColor: '#171717', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1.5px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '6px', paddingBlock: '12px', paddingInline: '14px', width: '357px' }}>
+                  <div data-layer="AGZ-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+                    WITH PONYTAIL 5
+                  </div>
+                  <div data-layer="AH0-0" style={{ boxSizing: 'border-box', color: '#8F8F8F', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                    <span style={{ color: '#171717', fontSize: '24px', fontWeight: 600, letterSpacing: '-0.8px', lineHeight: '28px' }}>10</span> lines
+                  </div>
+                  <div data-layer="AH1-0" style={{ backgroundColor: '#171717', borderRadius: '2px', boxSizing: 'border-box', flexShrink: 0, height: '4px', width: '10px' }} />
+                  <div data-layer="AH2-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '17px' }}>
+                    Notices the repo already has an Input, and every browser has a date picker. Puts the two together.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-layer="AH9-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'none', marginBottom: '-6px', paddingTop: '16px' }}>
+              <div data-layer="AHA-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+                Quality checks
+              </div>
+              <div data-layer="AHB-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                Where shorter code could cut corners, and whether it did
+              </div>
+            </div>
+            <div data-layer="AHC-0" style={{ boxSizing: 'border-box', display: 'none' }}>
+              <div data-layer="AHD-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '16px', justifyContent: 'end', paddingBottom: '8px' }}>
+                <div data-layer="AHE-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
+                  <div data-layer="AHF-0" style={{ backgroundColor: 'var(--color-ink)', borderRadius: '3px', boxSizing: 'border-box', flexShrink: 0, height: '10px', width: '10px' }} />
+                  <div data-layer="AHG-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                    With Ponytail
+                  </div>
+                </div>
+                <div data-layer="AHH-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
+                  <div data-layer="AHI-0" style={{ backgroundColor: '#D4D4D4', borderRadius: '3px', boxSizing: 'border-box', flexShrink: 0, height: '10px', width: '10px' }} />
+                  <div data-layer="AHJ-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                    Without
+                  </div>
+                </div>
+              </div>
+              <div data-layer="AHK-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '12px' }}>
+                <div data-layer="AHL-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '20px', width: '244px' }}>
+                  Risky logic ships with a test
+                </div>
+                <div data-layer="AHM-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', width: '340px' }}>
+                  <div data-layer="AHN-0" style={{ backgroundColor: 'var(--color-ink)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: 0, height: '8px', width: '333px' }} />
+                  <div data-layer="AHO-0" style={{ backgroundColor: '#D4D4D4', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: 0, height: '8px', width: '231px' }} />
+                </div>
+                <div data-layer="AHP-0" style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', justifyContent: 'end', width: '112px' }}>
+                  <div data-layer="AHQ-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                    98%
+                  </div>
+                  <div data-layer="AHR-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                    68%
+                  </div>
+                </div>
+              </div>
+              <div data-layer="AHS-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '12px' }}>
+                <div data-layer="AHT-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '20px', width: '244px' }}>
+                  Its own tests catch injected bugs
+                </div>
+                <div data-layer="AHU-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', width: '340px' }}>
+                  <div data-layer="AHV-0" style={{ backgroundColor: 'var(--color-ink)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: 0, height: '8px', width: '224px' }} />
+                  <div data-layer="AHW-0" style={{ backgroundColor: '#D4D4D4', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: 0, height: '8px', width: '156px' }} />
+                </div>
+                <div data-layer="AHX-0" style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', justifyContent: 'end', width: '112px' }}>
+                  <div data-layer="AHY-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                    66%
+                  </div>
+                  <div data-layer="AHZ-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                    46%
+                  </div>
+                </div>
+              </div>
+              <div data-layer="AI0-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '12px' }}>
+                <div data-layer="AI1-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '20px', width: '244px' }}>
+                  Review finds planted problems
+                </div>
+                <div data-layer="AI2-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', width: '340px' }}>
+                  <div data-layer="AI3-0" style={{ backgroundColor: 'var(--color-ink)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: 0, height: '8px', width: '340px' }} />
+                  <div data-layer="AI4-0" style={{ backgroundColor: '#D4D4D4', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: 0, height: '8px', width: '296px' }} />
+                </div>
+                <div data-layer="AI5-0" style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', justifyContent: 'end', width: '112px' }}>
+                  <div data-layer="AI6-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                    100%
+                  </div>
+                  <div data-layer="AI7-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                    87%
+                  </div>
+                </div>
+              </div>
+              <div data-layer="AI8-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '12px' }}>
+                <div data-layer="AI9-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '20px', width: '244px' }}>
+                  Review finds problems outside the diff
+                </div>
+                <div data-layer="AIA-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', width: '340px' }}>
+                  <div data-layer="AIB-0" style={{ backgroundColor: 'var(--color-ink)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: 0, height: '8px', width: '340px' }} />
+                  <div data-layer="AIC-0" style={{ backgroundColor: '#D4D4D4', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: 0, height: '8px', width: '265px' }} />
+                </div>
+                <div data-layer="AID-0" style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', justifyContent: 'end', width: '112px' }}>
+                  <div data-layer="AIE-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                    100%
+                  </div>
+                  <div data-layer="AIF-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                    78%
+                  </div>
+                </div>
+              </div>
+              <div data-layer="AIG-0" style={{ alignItems: 'center', borderBottomColor: 'var(--color-hairline)', borderBottomStyle: 'solid', borderBottomWidth: '1px', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '12px' }}>
+                <div data-layer="AIH-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '20px', width: '244px' }}>
+                  Security tasks passed
+                </div>
+                <div data-layer="AII-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '13px', lineHeight: '20px', width: '340px' }}>
+                  SQL injection, path traversal, forged tokens, rate limiting, malformed CSV, caching
+                </div>
+                <div data-layer="AIJ-0" style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', justifyContent: 'end', width: '112px' }}>
+                  <div data-layer="AIK-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                    30 / 30
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-layer="AIO-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', paddingBottom: '8px', paddingInline: '32px', paddingTop: '24px' }}>
+            <div data-layer="AIP-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
+              <div data-layer="AIQ-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                <div data-layer="AIR-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
+                  Recommended by your network
+                </div>
+                <div data-layer="AIS-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
+                  <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="AIT-0" style={{ display: 'inline-block', flexShrink: 0 }}>
                     <circle cx="8" cy="8" r="7" fill="var(--color-link)" />
                     <path d="M5 8.2L7 10L11 6" fill="none" stroke="#FFFFFF" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
-                  <div data-layer="4G6-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                    38 of 41 reviewers attached it before reviewing
+                  <div data-layer="AIW-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                    Written by people you know, after using it
                   </div>
-                </div>
-              </div>
-              <div data-layer="4G0-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
-                <div data-layer="4G2-0" style={{ borderColor: 'var(--color-faint)', borderRadius: '4px', borderStyle: 'dashed', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '1px', paddingInline: '6px' }}>
-                  <div data-layer="4G3-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '10px', lineHeight: '14px' }}>
-                    ILLUSTRATIVE
-                  </div>
-                </div>
-                <div data-layer="4G1-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
-                  Ask a colleague
                 </div>
               </div>
             </div>
-            <div data-layer="4FQ-0" style={{ borderBottomColor: 'var(--color-hairline)', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
-              <div data-layer="4FX-0" style={{ borderBottomColor: 'var(--color-ink)', borderBottomStyle: 'solid', borderBottomWidth: '2px', boxSizing: 'border-box', paddingBottom: '10px' }}>
-                <div data-layer="4FY-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+            <div data-layer="AIX-0" style={{ borderBottomColor: 'var(--color-hairline)', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
+              <div data-layer="AIY-0" style={{ borderBottomColor: 'var(--color-ink)', borderBottomStyle: 'solid', borderBottomWidth: '2px', boxSizing: 'border-box', paddingBottom: '10px' }}>
+                <div data-layer="AIZ-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
                   All 41 · closest first
                 </div>
               </div>
-              <div data-layer="4FV-0" style={{ boxSizing: 'border-box', paddingBottom: '10px' }}>
-                <div data-layer="4FW-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+              <div data-layer="AJ0-0" style={{ boxSizing: 'border-box', paddingBottom: '10px' }}>
+                <div data-layer="AJ1-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
                   Your org · 3
                 </div>
               </div>
-              <div data-layer="4FT-0" style={{ boxSizing: 'border-box', paddingBottom: '10px' }}>
-                <div data-layer="4FU-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  1st-degree · 2
-                </div>
-              </div>
-              <div data-layer="4FR-0" style={{ boxSizing: 'border-box', paddingBottom: '10px' }}>
-                <div data-layer="4FS-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  2nd-degree · 9
-                </div>
-              </div>
+              <div data-layer="AJ2-0" style={{ boxSizing: 'border-box', paddingBottom: '10px', width: '86px' }} />
+              <div data-layer="AJ4-0" style={{ boxSizing: 'border-box', paddingBottom: '10px', width: '94px' }} />
             </div>
-            <div data-layer="4FF-0" style={{ borderBottomColor: 'var(--color-hairline)', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBottom: '16px' }}>
-              <div data-layer="4FP-0" style={{ backgroundImage: 'url(assets/5M5PX06J513VKNRDB2DCR2J9HF.jpg)', backgroundPosition: '50%', backgroundSize: 'cover', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: 0, height: '56px', objectPosition: 'center center', width: '56px' }} />
-              <div data-layer="4FG-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '656px' }}>
-                <div data-layer="4FO-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  Ananya Rao <span style={{ color: '#8F8F8F', fontSize: '14px', fontWeight: 400 }}>· 1st</span>
+            <div data-layer="AJ6-0" style={{ borderBottomColor: 'var(--color-hairline)', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBottom: '16px' }}>
+              <div data-layer="AJ7-0" style={{ backgroundImage: 'url(assets/5M5PX06J513VKNRDB2DCR2J9HF.jpg)', backgroundPosition: '50%', backgroundSize: 'cover', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: 0, height: '56px', objectPosition: 'center center', width: '56px' }} />
+              <div data-layer="AJ8-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '656px' }}>
+                <div data-layer="AJ9-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+                  Ananya R. <span style={{ color: '#8F8F8F', fontSize: '14px', fontWeight: 400 }}>· 1st</span>
                 </div>
-                <div data-layer="4FN-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Staff engineer at your org
+                <div data-layer="AJA-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                  Staff engineer at your org · used it on the ingestion service
                 </div>
-                <div data-layer="4FL-0" style={{ boxSizing: 'border-box', paddingTop: '2px' }}>
-                  <div data-layer="4FM-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                    Attached to Claude Code · Opus 5.5 · 4 months
+                <div data-layer="AJB-0" style={{ boxSizing: 'border-box', paddingTop: '2px' }}>
+                  <div data-layer="AJC-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                    Recommended Oct 2026 · Claude Code, 4 months
                   </div>
                 </div>
-                <div data-layer="4FJ-0" style={{ boxSizing: 'border-box', paddingTop: '10px' }}>
-                  <div data-layer="4FK-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
-                    PRs got smaller and reviews got faster. We run lite for juniors, so they still see the full version and learn why the short one wins.
+                <div data-layer="AJD-0" style={{ boxSizing: 'border-box', paddingTop: '10px' }}>
+                  <div data-layer="AJE-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+                    I'd recommend Ponytail to any team whose agent writes more code than the task needs. Our PRs got smaller and reviews got faster within a week. We run lite for juniors, so they still see the full version and learn why the short one wins.
                   </div>
                 </div>
-                <div data-layer="4FH-0" style={{ boxSizing: 'border-box', paddingTop: '6px' }}>
-                  <div data-layer="4FI-0" style={{ boxSizing: 'border-box', color: 'var(--color-warning-deep)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
-                    Slipped: argued against a cache we really did need, until we insisted.
+                <div data-layer="AJF-0" style={{ boxSizing: 'border-box', paddingTop: '6px' }}>
+                  <div data-layer="AJG-0" style={{ boxSizing: 'border-box', color: 'var(--color-warning-deep)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+                    Worth knowing: it argued against a cache we really did need, until we insisted.
                   </div>
                 </div>
               </div>
             </div>
-            <div data-layer="4F4-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBottom: '16px' }}>
-              <div data-layer="4FE-0" style={{ backgroundImage: 'url(assets/29K1XGN3AWHYFC347K492K9HSP.jpg)', backgroundPosition: '50%', backgroundSize: 'cover', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: 0, height: '56px', objectPosition: 'center center', width: '56px' }} />
-              <div data-layer="4F5-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '656px' }}>
-                <div data-layer="4FD-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  Marco Diaz <span style={{ color: '#8F8F8F', fontSize: '14px', fontWeight: 400 }}>· 2nd</span>
+            <div data-layer="AJH-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBottom: '16px' }}>
+              <div data-layer="AJI-0" style={{ backgroundImage: 'url(assets/29K1XGN3AWHYFC347K492K9HSP.jpg)', backgroundPosition: '50%', backgroundSize: 'cover', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: 0, height: '56px', objectPosition: 'center center', width: '56px' }} />
+              <div data-layer="AJJ-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '656px' }}>
+                <div data-layer="AJK-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+                  Marco D. <span style={{ color: '#8F8F8F', fontSize: '14px', fontWeight: 400 }}>· 2nd</span>
                 </div>
-                <div data-layer="4FC-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                <div data-layer="AJL-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
                   Platform lead · 3 mutual connections
                 </div>
-                <div data-layer="4FA-0" style={{ boxSizing: 'border-box', paddingTop: '2px' }}>
-                  <div data-layer="4FB-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                    Attached to Codex · 6 weeks
+                <div data-layer="AJM-0" style={{ boxSizing: 'border-box', paddingTop: '2px' }}>
+                  <div data-layer="AJN-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                    Recommended Sep 2026 · Codex, 6 weeks
                   </div>
                 </div>
-                <div data-layer="4F8-0" style={{ boxSizing: 'border-box', paddingTop: '10px' }}>
-                  <div data-layer="4F9-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
-                    Stopped our agent from pulling in a library for every small thing. /ponytail-audit found two silent data bugs on day one.
+                <div data-layer="AJO-0" style={{ boxSizing: 'border-box', paddingTop: '10px' }}>
+                  <div data-layer="AJP-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+                    Ponytail stopped our agent from pulling in a library for every small thing, and /ponytail-audit found two silent data bugs on day one. It's now the first skill I set up on a new repo.
                   </div>
                 </div>
-                <div data-layer="4F6-0" style={{ boxSizing: 'border-box', paddingTop: '6px' }}>
-                  <div data-layer="4F7-0" style={{ boxSizing: 'border-box', color: 'var(--color-warning-deep)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
-                    Slipped: it also ran inside our read-only research subagents, until we scoped it.
+                <div data-layer="AJQ-0" style={{ boxSizing: 'border-box', paddingTop: '6px' }}>
+                  <div data-layer="AJR-0" style={{ boxSizing: 'border-box', color: 'var(--color-warning-deep)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+                    Worth knowing: it also ran inside our read-only research subagents, until we scoped it.
                   </div>
+                </div>
+              </div>
+            </div>
+            <div data-layer="AJS-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '8px', paddingBottom: '16px', paddingTop: '14px' }}>
+              <div data-layer="AJT-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                Products built with it
+              </div>
+              <div data-layer="AJU-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '4px', paddingInline: '12px' }}>
+                <div data-layer="AJV-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 500, lineHeight: '18px' }}>
+                  Retriever
+                </div>
+              </div>
+              <div data-layer="AJW-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '4px', paddingInline: '12px' }}>
+                <div data-layer="AJX-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 500, lineHeight: '18px' }}>
+                  PhotoReunion
                 </div>
               </div>
             </div>
           </div>
-          <div data-layer="4IQ-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', paddingBlock: '24px', paddingInline: '32px' }}>
-            <div data-layer="4IZ-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
-              About
-            </div>
-            <div data-layer="4IY-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', whiteSpace: 'pre-wrap' }}>
-              Ponytail makes your agent behave like a lazy senior developer. It reads the code a change touches first, then climbs a ladder and stops at the first rung that holds: does this need to exist, is it already in the repo, does the standard library or the platform cover it, can it be one line. Only then does it write the minimum.<br /><br />It never cuts validation at trust boundaries, data-loss handling, security or accessibility, and logic with a branch, loop, parser, money or security leaves one small test behind. Not for prose, translation or summaries: it changes what gets built, not how the agent talks.
-            </div>
-            <div data-layer="4IR-0" style={{ alignItems: 'center', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px', paddingInline: '16px' }}>
-              <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4IV-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                <path d="M2.5 4L6 7.5L2.5 11" fill="none" stroke="var(--color-ink)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
-                <path d="M7.5 12H13.5" fill="none" stroke="var(--color-ink)" strokeWidth="1.3" strokeLinecap="round" />
-              </svg>
-              <div data-layer="4IS-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-                <div data-layer="4IU-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                  Intensity levels
-                </div>
-                <div data-layer="4IT-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  lite names the lazier option and lets you pick · full enforces the ladder (default) · ultra challenges the requirement itself
-                </div>
-              </div>
-            </div>
-          </div>
-          <div data-layer="4GB-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBottom: '8px', paddingInline: '32px', paddingTop: '24px' }}>
-            <div data-layer="4HH-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBottom: '8px' }}>
-              <div data-layer="4HK-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-                <div data-layer="4HM-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
-                  Results per task
-                </div>
-                <div data-layer="4HL-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Claude Code + Opus 5.5, with and without the skill · 39 tasks, 5 runs each
-                </div>
-              </div>
-              <div data-layer="4HI-0" style={{ backgroundColor: 'var(--color-warning-soft)', borderRadius: '6px', boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '10px' }}>
-                <div data-layer="4HJ-0" style={{ boxSizing: 'border-box', color: 'var(--color-warning-deep)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', fontWeight: 500, lineHeight: '16px' }}>
-                  Publisher's benchmark · not independently run
-                </div>
-              </div>
-            </div>
-            <div data-layer="4H8-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '6px', paddingBlock: '14px' }}>
-              <div data-layer="4HE-0" style={{ alignItems: 'baseline', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
-                <div data-layer="4HG-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  Risky logic ships with a test
-                </div>
-                <div data-layer="4HF-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
-                  98% <span style={{ color: '#8F8F8F', fontWeight: 400 }}>vs 68%</span>
-                </div>
-              </div>
-              <div data-layer="4H9-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
-                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4HB-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                  <path d="M2 14V12.7L5.2 9.5L4.5 8.8L2 11.3V1H1V14C1 14.55 1.45 15 2 15H15V14H2Z" fill="var(--color-body)" />
-                  <path d="M8 10.25L5.5 7.77L6.3 6.98L8 8.67L11.7 5L12.5 5.79L8 10.25Z" fill="var(--color-body)" />
-                </svg>
-                <div data-layer="4HA-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Logic with a branch, loop, parser, money or security path
-                </div>
-              </div>
-            </div>
-            <div data-layer="4GZ-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '6px', paddingBlock: '14px' }}>
-              <div data-layer="4H5-0" style={{ alignItems: 'baseline', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
-                <div data-layer="4H7-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  Review finds problems outside the diff
-                </div>
-                <div data-layer="4H6-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
-                  100% <span style={{ color: '#8F8F8F', fontWeight: 400 }}>vs 78%</span>
-                </div>
-              </div>
-              <div data-layer="4H0-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
-                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4H2-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                  <path d="M2 14V12.7L5.2 9.5L4.5 8.8L2 11.3V1H1V14C1 14.55 1.45 15 2 15H15V14H2Z" fill="var(--color-body)" />
-                  <path d="M8 10.25L5.5 7.77L6.3 6.98L8 8.67L11.7 5L12.5 5.79L8 10.25Z" fill="var(--color-body)" />
-                </svg>
-                <div data-layer="4H1-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  /ponytail-review on planted problems; 100% vs 87% inside the diff
-                </div>
-              </div>
-            </div>
-            <div data-layer="4GQ-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '6px', paddingBlock: '14px' }}>
-              <div data-layer="4GW-0" style={{ alignItems: 'baseline', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
-                <div data-layer="4GY-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  Writing less code
-                </div>
-                <div data-layer="4GX-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
-                  −53%
-                </div>
-              </div>
-              <div data-layer="4GR-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
-                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4GT-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                  <path d="M2.5 4L6 7.5L2.5 11" fill="none" stroke="var(--color-body)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M7.5 12H13.5" fill="none" stroke="var(--color-body)" strokeWidth="1.3" strokeLinecap="round" />
-                </svg>
-                <div data-layer="4GS-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Also −45% output tokens, −41% agent time, −26% cost
-                </div>
-              </div>
-            </div>
-            <div data-layer="4GE-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '6px', paddingBlock: '14px' }}>
-              <div data-layer="4GK-0" style={{ alignItems: 'baseline', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
-                <div data-layer="4GM-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
-                  <div data-layer="4GP-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                    Catching injected bugs with its own tests
-                  </div>
-                  <div data-layer="4GN-0" style={{ backgroundColor: 'var(--color-hairline-soft)', borderRadius: '6px', boxSizing: 'border-box', paddingBlock: '2px', paddingInline: '8px' }}>
-                    <div data-layer="4GO-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', fontWeight: 500, lineHeight: '16px' }}>
-                      Room to grow
-                    </div>
-                  </div>
-                </div>
-                <div data-layer="4GL-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
-                  66% <span style={{ color: '#8F8F8F', fontWeight: 400 }}>vs 46%</span>
-                </div>
-              </div>
-              <div data-layer="4GF-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
-                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4GH-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                  <path d="M2 14V12.7L5.2 9.5L4.5 8.8L2 11.3V1H1V14C1 14.55 1.45 15 2 15H15V14H2Z" fill="var(--color-body)" />
-                  <path d="M8 10.25L5.5 7.77L6.3 6.98L8 8.67L11.7 5L12.5 5.79L8 10.25Z" fill="var(--color-body)" />
-                </svg>
-                <div data-layer="4GG-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Better than without it, but a third of bugs still get through
-                </div>
-              </div>
-            </div>
-            <div data-layer="4GC-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'center', paddingBlock: '12px' }}>
-              <div data-layer="4GD-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
-                Show all results, including 30/30 security runs →
-              </div>
-            </div>
-          </div>
-          <div data-layer="4DK-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBottom: '8px', paddingInline: '32px', paddingTop: '24px' }}>
-            <div data-layer="4EY-0" style={{ alignItems: 'baseline', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBottom: '8px' }}>
-              <div data-layer="4F0-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-                <div data-layer="4F2-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
+          <div data-layer="AJY-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBottom: '8px', paddingInline: '32px', paddingTop: '24px' }}>
+            <div data-layer="AJZ-0" style={{ alignItems: 'baseline', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBottom: '8px' }}>
+              <div data-layer="AK0-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                <div data-layer="AK1-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
                   Version history
                 </div>
-                <div data-layer="4F1-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                <div data-layer="AK2-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
                   What changed in how it behaves, and what each release can touch
                 </div>
               </div>
-              <div data-layer="4EZ-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+              <div data-layer="AK3-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
                 369 commits
               </div>
             </div>
-            <div data-layer="4EM-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '16px' }}>
-              <div data-layer="4EW-0" style={{ alignItems: 'center', backgroundColor: '#171717', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <div data-layer="4EX-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', fontWeight: 600, lineHeight: '16px' }}>
-                  5.3.3
-                </div>
-              </div>
-              <div data-layer="4EN-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '664px' }}>
-                <div data-layer="4ES-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
-                  <div data-layer="4EV-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                    v5.3.3 · current release
+            <div data-layer="AK4-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '16px' }}>
+              <div data-layer="AK5-0" style={{ boxSizing: 'border-box', display: 'flex', flex: 1, flexDirection: 'column', height: 'fit-content' }}>
+                <div data-layer="AK6-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '16px' }}>
+                  <div data-layer="AK7-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', paddingTop: '4px', width: '20px' }}>
+                    <div data-layer="AK8-0" style={{ backgroundColor: 'var(--color-ink)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
+                    <div data-layer="AK9-0" style={{ backgroundColor: 'var(--color-hairline)', boxSizing: 'border-box', flexGrow: '1', width: '1px' }} />
                   </div>
-                  <div data-layer="4ET-0" style={{ backgroundColor: 'var(--color-ink)', borderRadius: '100px', boxSizing: 'border-box', paddingBlock: '2px', paddingInline: '8px' }}>
-                    <div data-layer="4EU-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', fontWeight: 500, lineHeight: '16px' }}>
-                      Current
+                  <div data-layer="AKA-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '4px', paddingBottom: '20px', width: '692px' }}>
+                    <div data-layer="AKB-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
+                      <div data-layer="AKC-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                        v5.3.3
+                      </div>
+                      <div data-layer="AKD-0" style={{ backgroundColor: 'var(--color-ink)', borderRadius: '6px', boxSizing: 'border-box', display: 'inline-block', paddingInline: '8px' }}>
+                        <div data-layer="AKE-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '12px', fontWeight: 500, lineHeight: '20px' }}>
+                          Current
+                        </div>
+                      </div>
+                    </div>
+                    <div data-layer="AKF-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                      The release you would attach today.
                     </div>
                   </div>
                 </div>
-                <div data-layer="4ER-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  On GitHub and npm (@dietrichgebert/ponytail)
-                </div>
-                <div data-layer="4EQ-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  The release you would attach today
-                </div>
-                <div data-layer="4EO-0" style={{ boxSizing: 'border-box', paddingTop: '6px' }}>
-                  <div data-layer="4EP-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                    The benchmark on this page was run on the 5.x line.
+                <div data-layer="AKG-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '16px' }}>
+                  <div data-layer="AKH-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', paddingTop: '4px', width: '20px' }}>
+                    <div data-layer="AKI-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-ink)', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '2px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
+                    <div data-layer="AKJ-0" style={{ backgroundColor: 'var(--color-hairline)', boxSizing: 'border-box', flexGrow: '1', width: '1px' }} />
+                  </div>
+                  <div data-layer="AKK-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '6px', paddingBottom: '20px', width: '692px' }}>
+                    <div data-layer="AKL-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
+                      <div data-layer="AKM-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                        5.3
+                      </div>
+                      <div data-layer="AKN-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                        Adds the band
+                      </div>
+                    </div>
+                    <div data-layer="AKO-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                      Shows cost, tokens, agent time and whether tests passed, right above the prompt in Claude Code.
+                    </div>
+                    <div data-layer="AKP-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
+                      <div data-layer="AKQ-0" style={{ backgroundColor: 'var(--color-warning-soft)', borderRadius: '6px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '2px', paddingInline: '8px' }}>
+                        <div data-layer="AKR-0" style={{ boxSizing: 'border-box', color: 'var(--color-warning-deep)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '12px', fontWeight: 500, lineHeight: '16px' }}>
+                          New: writes session data locally
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div data-layer="4EB-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '16px' }}>
-              <div data-layer="4EK-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-warning-soft)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <div data-layer="4EL-0" style={{ boxSizing: 'border-box', color: '#AB570A', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '16px' }}>
-                  5.3
-                </div>
-              </div>
-              <div data-layer="4EC-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '664px' }}>
-                <div data-layer="4EJ-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  5.3 · adds the band
-                </div>
-                <div data-layer="4EI-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  New access: writes session data locally
-                </div>
-                <div data-layer="4EG-0" style={{ boxSizing: 'border-box', paddingTop: '6px' }}>
-                  <div data-layer="4EH-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                    Shows cost, tokens, agent time and test status above the prompt in Claude Code. Data goes to ~/.config/ponytail/band/ and stays on your machine.
+                <div data-layer="AKS-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '16px' }}>
+                  <div data-layer="AKT-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', paddingTop: '4px', width: '20px' }}>
+                    <div data-layer="AKU-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-ink)', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '2px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
+                    <div data-layer="AKV-0" style={{ backgroundColor: 'var(--color-hairline)', boxSizing: 'border-box', flexGrow: '1', width: '1px' }} />
+                  </div>
+                  <div data-layer="AKW-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '6px', paddingBottom: '20px', width: '692px' }}>
+                    <div data-layer="AKX-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
+                      <div data-layer="AKY-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                        5.0
+                      </div>
+                      <div data-layer="AKZ-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                        Rebuilt from the ground up
+                      </div>
+                    </div>
+                    <div data-layer="AL0-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                      Review now reads the code a change touches, not just the diff, and checks bugs, security, load and missing tests. Audit ranks what to fix first instead of listing what to delete. Beat 4.13 in a blind comparison, 110 to 67.
+                    </div>
+                    <div data-layer="AL1-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
+                      <div data-layer="AL2-0" style={{ backgroundColor: 'var(--color-link-soft)', borderRadius: '6px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '2px', paddingInline: '8px' }}>
+                        <div data-layer="AL3-0" style={{ boxSizing: 'border-box', color: 'var(--color-link-deep)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '12px', fontWeight: 500, lineHeight: '16px' }}>
+                          Behavior change: review and audit
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div data-layer="4ED-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '8px' }}>
-                  <div data-layer="4EE-0" style={{ backgroundColor: 'var(--color-warning-soft)', borderRadius: '6px', boxSizing: 'border-box', paddingBlock: '3px', paddingInline: '8px' }}>
-                    <div data-layer="4EF-0" style={{ boxSizing: 'border-box', color: 'var(--color-warning-deep)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', fontWeight: 500, lineHeight: '16px' }}>
-                      New local files
+                <div data-layer="AL4-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '16px' }}>
+                  <div data-layer="AL5-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', paddingTop: '4px', width: '20px' }}>
+                    <div data-layer="AL6-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-faint)', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '2px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
+                  </div>
+                  <div data-layer="AL7-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '6px', width: '692px' }}>
+                    <div data-layer="AL8-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
+                      <div data-layer="AL9-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                        4.13
+                      </div>
+                      <div data-layer="ALA-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                        Previous generation
+                      </div>
+                    </div>
+                    <div data-layer="ALB-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                      Wrote 52% of the no-skill baseline's code. 5.0 brought that to 47%.
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div data-layer="4E0-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '16px' }}>
-              <div data-layer="4E9-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <div data-layer="4EA-0" style={{ boxSizing: 'border-box', color: '#4D4D4D', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '16px' }}>
-                  5.0
-                </div>
-              </div>
-              <div data-layer="4E1-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '664px' }}>
-                <div data-layer="4E8-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  5.0 · rebuilt from the ground up
-                </div>
-                <div data-layer="4E7-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Behavior change: review and audit
-                </div>
-                <div data-layer="4E5-0" style={{ boxSizing: 'border-box', paddingTop: '6px' }}>
-                  <div data-layer="4E6-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                    Review now reads the code a change touches, not just the diff. Audit ranks what to fix first instead of listing what to delete. Beat 4.13 in a blind comparison, 110 to 67.
-                  </div>
-                </div>
-                <div data-layer="4E2-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '8px' }}>
-                  <div data-layer="4E3-0" style={{ backgroundColor: 'var(--color-link-soft)', borderRadius: '6px', boxSizing: 'border-box', paddingBlock: '3px', paddingInline: '8px' }}>
-                    <div data-layer="4E4-0" style={{ boxSizing: 'border-box', color: 'var(--color-link-deep)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', fontWeight: 500, lineHeight: '16px' }}>
-                      Behavior change
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-layer="4DS-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '16px' }}>
-              <div data-layer="4DY-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <div data-layer="4DZ-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', fontWeight: 600, lineHeight: '16px' }}>
-                  4.13
-                </div>
-              </div>
-              <div data-layer="4DT-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '664px' }}>
-                <div data-layer="4DX-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  4.13 · previous generation
-                </div>
-                <div data-layer="4DW-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Wrote 52% of the no-skill baseline's code
-                </div>
-                <div data-layer="4DU-0" style={{ boxSizing: 'border-box', paddingTop: '6px' }}>
-                  <div data-layer="4DV-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                    5.0 brought that down to 47%.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-layer="4DL-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBottom: '16px', paddingTop: '14px' }}>
-              <div data-layer="4DR-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+            <div data-layer="ALC-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBottom: '16px', paddingTop: '14px' }}>
+              <div data-layer="ALD-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
                 Updates can change behavior or ask for new access.
               </div>
-              <div data-layer="4DM-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
-                <div data-layer="4DP-0" style={{ borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '5px', paddingInline: '16px' }}>
-                  <div data-layer="4DQ-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
-                    Pin 5.3.3
+              <div data-layer="ALE-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
+                <div data-layer="ALF-0" style={{ borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '5px', paddingInline: '16px' }}>
+                  <div data-layer="ALG-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                    Pin v5.3.3
                   </div>
                 </div>
-                <div data-layer="4DN-0" style={{ borderColor: 'var(--color-link)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '5px', paddingInline: '16px' }}>
-                  <div data-layer="4DO-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                <div data-layer="ALH-0" style={{ borderColor: 'var(--color-link)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '5px', paddingInline: '16px' }}>
+                  <div data-layer="ALI-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
                     Notify me of access changes
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div data-layer="4CZ-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', paddingBlock: '24px', paddingInline: '32px' }}>
-            <div data-layer="4DB-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
-              <div data-layer="4DH-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-                <div data-layer="4DJ-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
+          <div data-layer="ALJ-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', paddingBlock: '24px', paddingInline: '32px' }}>
+            <div data-layer="ALK-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
+              <div data-layer="ALL-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                <div data-layer="ALM-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
                   Source
                 </div>
-                <div data-layer="4DI-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+                <div data-layer="ALN-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
                   Read exactly what it tells your agent
                 </div>
               </div>
-              <div data-layer="4DC-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
-                <div data-layer="4DF-0" style={{ backgroundColor: '#171717', borderRadius: '100px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '5px', paddingInline: '14px' }}>
-                  <div data-layer="4DG-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+              <div data-layer="ALO-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
+                <div data-layer="ALP-0" style={{ backgroundColor: '#171717', borderRadius: '100px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '5px', paddingInline: '14px' }}>
+                  <div data-layer="ALQ-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
                     SKILL.md
                   </div>
                 </div>
-                <div data-layer="4DD-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '5px', paddingInline: '14px' }}>
-                  <div data-layer="4DE-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                <div data-layer="ALR-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '5px', paddingInline: '14px' }}>
+                  <div data-layer="ALS-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
                     Changes since your version
                   </div>
                 </div>
               </div>
             </div>
-            <div data-layer="4D0-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', overflow: 'clip' }}>
-              <div data-layer="4D4-0" style={{ backgroundColor: 'var(--color-canvas)', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px', paddingBlock: '14px', paddingInline: '16px' }}>
-                <div data-layer="4DA-0" style={{ boxSizing: 'border-box', color: '#7928CA', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px' }}>
-                  ---
+            <div data-layer="ALT-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', overflow: 'clip' }}>
+              <div data-layer="ALU-0" style={{ backgroundColor: 'var(--color-canvas)', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px', paddingBlock: '14px', paddingInline: '16px' }}>
+                <div data-layer="ALV-0" style={{ boxSizing: 'border-box', color: '#7928CA', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px' }}>
+                  # Ponytail
                 </div>
-                <div data-layer="4D9-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px' }}>
-                  <span style={{ color: '#7928CA' }}>name:</span> ponytail
-                </div>
-                <div data-layer="4D8-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px' }}>
-                  <span style={{ color: '#7928CA' }}>description:</span> Forces the laziest solution that actually works…
-                </div>
-                <div data-layer="4D7-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px' }}>
-                  <span style={{ color: '#7928CA' }}>license:</span> MIT
-                </div>
-                <div data-layer="4D6-0" style={{ boxSizing: 'border-box', color: '#7928CA', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px' }}>
-                  ---
-                </div>
-                <div data-layer="4D5-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px' }}>
+                <div data-layer="ALW-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px' }}>
                   You are a lazy senior developer. Lazy means efficient, not careless.
                 </div>
-              </div>
-              <div data-layer="4D1-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBlock: '10px', paddingInline: '16px' }}>
-                <div data-layer="4D3-0" style={{ boxSizing: 'border-box', color: '#8F8F8F', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  Frontmatter and first line · 120 lines · 6.48 KB
+                <div data-layer="ALX-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px' }}>
+                  The best code is the code never written.
                 </div>
-                <div data-layer="4D2-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                <div data-layer="ALY-0" style={{ boxSizing: 'border-box', color: '#7928CA', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px' }}>
+                  ## Persistence
+                </div>
+                <div data-layer="ALZ-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px' }}>
+                  ACTIVE EVERY RESPONSE. No drift back to over-building.
+                </div>
+                <div data-layer="AM0-0" style={{ boxSizing: 'border-box', color: '#8F8F8F', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px' }}>
+                  # … the ladder, the never-cut list, intensity levels
+                </div>
+              </div>
+              <div data-layer="AM1-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBlock: '10px', paddingInline: '16px' }}>
+                <div data-layer="AM2-0" style={{ boxSizing: 'border-box', color: '#8F8F8F', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  Showing 7 of 120 lines · 6.48 KB
+                </div>
+                <div data-layer="AM3-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
                   Open full file →
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div data-layer="44E-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '384px' }}>
-          <div data-layer="4CO-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '14px', paddingBlock: '20px', paddingInline: '24px' }}>
-            <div data-layer="4CV-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
-              <div data-layer="4CX-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+        <div data-layer="AM4-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '384px' }}>
+          <div data-layer="AM5-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '14px', paddingBlock: '20px', paddingInline: '24px' }}>
+            <div data-layer="AM6-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
+              <div data-layer="AM7-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
                 Skill page &amp; install
               </div>
-              <div data-layer="4CW-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
-                skilledin.ai/graphify-labs/graphify
+              <div data-layer="AM8-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                skilledin.ai/dietrichgebert/ponytail
               </div>
             </div>
-            <div data-layer="4CQ-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBlock: '10px', paddingInline: '12px' }}>
-              <div data-layer="4CU-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
-                graphify install
+            <div data-layer="AM9-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBlock: '10px', paddingInline: '12px' }}>
+              <div data-layer="AMA-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                github.com/DietrichGebert/ponytail
               </div>
-              <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4CR-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+              <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="AMB-0" style={{ display: 'inline-block', flexShrink: 0 }}>
                 <path d="M14 5V14H5V5H14ZM14 4H5C4.45 4 4 4.45 4 5V14C4 14.55 4.45 15 5 15H14C14.55 15 15 14.55 15 14V5C15 4.45 14.55 4 14 4Z" fill="var(--color-body)" />
                 <path d="M2 9H1V2C1 1.45 1.45 1 2 1H9V2H2V9Z" fill="var(--color-body)" />
               </svg>
             </div>
-            <div data-layer="4CP-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-              Writes the skill and hooks for the agent you pick
+            <div data-layer="AME-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              Every agent loads the same SKILL.md; Claude Code also gets the plugin
             </div>
           </div>
-          <div data-layer="4OT-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-social-border)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', padding: '24px', width: '384px' }}>
-            <div data-layer="4OU-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '24px' }}>
-              Highlights
-            </div>
-            <div data-layer="4PM-0" style={{ alignItems: 'center', backgroundColor: '#FBF8FF', borderColor: '#7443BE', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '10px', paddingInline: '12px' }}>
-              <div data-layer="4PN-0" style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', position: 'relative', width: '60px' }}>
-                <div data-layer="4QC-0" style={{ boxSizing: 'border-box', color: '#46248A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '25px', fontWeight: 600, lineHeight: '32px' }}>
-                  1
-                </div>
-                <svg width="60" height="48" viewBox="-30 -16 60 48" xmlns="http://www.w3.org/2000/svg" data-layer="4PO-0" style={{ position: 'absolute', top: '0px', left: '0px', display: 'inline-block' }}>
-                  <path d="M-26 -1Q-23 20 0 27Q23 20 26 -1" fill="none" stroke="#46248A" strokeWidth="1.2" />
-                  <g>
-                    <ellipse cx="-25" cy="2" rx="2.2" ry="5" transform="rotate(-25 -25 2)" fill="#46248A" />
-                    <ellipse cx="-21" cy="5" rx="1.9" ry="4.5" transform="rotate(60 -21 5)" fill="#46248A" />
-                    <ellipse cx="-23" cy="9" rx="2.2" ry="5" transform="rotate(-50 -23 9)" fill="#46248A" />
-                    <ellipse cx="-19" cy="12" rx="1.9" ry="4.5" transform="rotate(35 -19 12)" fill="#46248A" />
-                    <ellipse cx="-19" cy="15" rx="2.2" ry="5" transform="rotate(-65 -19 15)" fill="#46248A" />
-                    <ellipse cx="-15" cy="18" rx="1.9" ry="4.5" transform="rotate(20 -15 18)" fill="#46248A" />
-                    <ellipse cx="-13" cy="20" rx="2.2" ry="5" transform="rotate(-75 -13 20)" fill="#46248A" />
-                    <ellipse cx="-9" cy="23" rx="1.9" ry="4.5" transform="rotate(10 -9 23)" fill="#46248A" />
-                    <ellipse cx="-6" cy="23" rx="2.2" ry="5" transform="rotate(-85 -6 23)" fill="#46248A" />
-                    <ellipse cx="-2" cy="26" rx="1.9" ry="4.5" transform="rotate(0 -2 26)" fill="#46248A" />
-                  </g>
-                  <g transform="scale(-1 1)">
-                    <ellipse cx="-25" cy="2" rx="2.2" ry="5" transform="rotate(-25 -25 2)" fill="#46248A" />
-                    <ellipse cx="-21" cy="5" rx="1.9" ry="4.5" transform="rotate(60 -21 5)" fill="#46248A" />
-                    <ellipse cx="-23" cy="9" rx="2.2" ry="5" transform="rotate(-50 -23 9)" fill="#46248A" />
-                    <ellipse cx="-19" cy="12" rx="1.9" ry="4.5" transform="rotate(35 -19 12)" fill="#46248A" />
-                    <ellipse cx="-19" cy="15" rx="2.2" ry="5" transform="rotate(-65 -19 15)" fill="#46248A" />
-                    <ellipse cx="-15" cy="18" rx="1.9" ry="4.5" transform="rotate(20 -15 18)" fill="#46248A" />
-                    <ellipse cx="-13" cy="20" rx="2.2" ry="5" transform="rotate(-75 -13 20)" fill="#46248A" />
-                    <ellipse cx="-9" cy="23" rx="1.9" ry="4.5" transform="rotate(10 -9 23)" fill="#46248A" />
-                    <ellipse cx="-6" cy="23" rx="2.2" ry="5" transform="rotate(-85 -6 23)" fill="#46248A" />
-                    <ellipse cx="-2" cy="26" rx="1.9" ry="4.5" transform="rotate(0 -2 26)" fill="#46248A" />
-                  </g>
-                </svg>
+          <div data-layer="AMF-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', padding: '24px', width: '384px' }}>
+            <div data-layer="AMG-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px', height: 'fit-content', paddingBottom: '14px' }}>
+              <div data-layer="AMH-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+                License &amp; trust checks
               </div>
-              <div data-layer="4QD-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                <div data-layer="4QE-0" style={{ boxSizing: 'border-box', color: '#46248A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', letterSpacing: '0.06em', lineHeight: '15px' }}>
-                  GITHUB TRENDING
-                </div>
-                <div data-layer="4QF-0" style={{ boxSizing: 'border-box', color: '#46248A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '24px' }}>
-                  #1 Repository of the Day
-                </div>
+              <div data-layer="AMI-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                Ponytail approvals, security scan, license, and source
               </div>
             </div>
-            <div data-layer="4QR-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
-              <div data-layer="4R4-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingTop: 'var(--spacing-sm)', width: '336px' }}>
-                <svg width="20" height="20" viewBox="-2 0 20 20" xmlns="http://www.w3.org/2000/svg" data-layer="4RN-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                  <path d="M6.75 10.369L5.132 8.75 4.25 9.631 6.75 12.131 11.75 7.131 10.869 6.25 6.75 10.369Z" fill="var(--color-social-blue)" />
-                  <path d="M8 18.75L4.14 16.692C3.04 16.107 2.12 15.232 1.478 14.163 0.837 13.094 0.499 11.871 0.5 10.624V2.5C0.5 2.169 0.633 1.851 0.867 1.617 1.102 1.382 1.419 1.25 1.75 1.25H14.25C14.582 1.25 14.899 1.382 15.135 1.617 15.368 1.851 15.5 2.169 15.5 2.5V10.624C15.502 11.871 15.165 13.094 14.522 14.163 13.88 15.232 12.96 16.107 11.86 16.692L8 18.75ZM1.75 2.5V10.624C1.749 11.644 2.026 12.647 2.55 13.52 3.076 14.394 3.828 15.11 4.729 15.589L8 17.333 11.272 15.589C12.173 15.11 12.926 14.394 13.45 13.52 13.976 12.647 14.252 11.644 14.25 10.624V2.5H1.75Z" fill="var(--color-social-blue)" />
-                </svg>
-                <div data-layer="4R5-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-                  <div data-layer="4R7-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                    Approved at Atlan
+            <div data-layer="AMJ-0" style={{ alignItems: 'start', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', height: 'fit-content', paddingBottom: '18px', paddingTop: '14px' }}>
+              <div data-layer="AMK-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '48px', justifyContent: 'center', width: '48px' }}>
+                <div data-layer="AML-0" style={{ backgroundImage: 'url(assets/3P176BFPKDT3XSWC8MBZH3BY23.jpg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', borderRadius: '5px', boxSizing: 'border-box', flexShrink: 0, height: '24px', width: '24px' }} />
+              </div>
+              <div data-layer="AMM-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '4px', height: 'fit-content', width: '270px' }}>
+                <div data-layer="AMN-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px', width: '270px' }}>
+                  Atlan workspace approved
+                </div>
+                <div data-layer="AMO-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px', width: 'fit-content' }}>
+                  v5.3.3 · Aug 7, 2026
+                </div>
+                <div data-layer="AMP-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px', width: 'fit-content' }}>
+                  <div data-layer="AMQ-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex' }}>
+                    <div data-layer="AMR-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '32px', justifyContent: 'center', width: '32px', zIndex: '1' }}>
+                      <svg width="28" height="28" viewBox="0 0 50 52" xmlns="http://www.w3.org/2000/svg" data-layer="AMS-0" style={{ display: 'inline-block', height: '16px', width: '16px', flexShrink: 0 }}>
+                        <path d="M50 26.166C50 24.444 49.833 22.666 49.556 21H25.5V30.833H39.278C38.722 34 36.889 36.778 34.167 38.555L42.389 44.944C47.222 40.444 50 33.889 50 26.166Z" fill="#4280EF" />
+                        <path d="M25.5 51.056C32.389 51.056 38.167 48.778 42.389 44.889L34.167 38.556C31.889 40.111 28.944 41 25.5 41C18.833 41 13.222 36.5 11.167 30.5L2.722 37C7.056 45.611 15.833 51.056 25.5 51.056Z" fill="#34A353" />
+                        <path d="M11.167 30.444C10.111 27.278 10.111 23.833 11.167 20.667L2.722 14.111C-0.889 21.333 -0.889 29.833 2.722 37L11.167 30.444Z" fill="#F6B704" />
+                        <path d="M25.5 10.167C29.111 10.111 32.667 11.5 35.278 14L42.556 6.667C37.944 2.333 31.833 -8.155e-05 25.5 0.055C15.833 0.055 7.056 5.5 2.722 14.111L11.167 20.667C13.222 14.611 18.833 10.167 25.5 10.167Z" fill="#E54335" />
+                      </svg>
+                    </div>
+                    <div data-layer="AMX-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '32px', justifyContent: 'center', marginLeft: '-8px', width: '32px', zIndex: '2' }}>
+                      <svg width="24" height="24" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" data-layer="AMY-0" style={{ display: 'inline-block', height: '14px', width: '14px', flexShrink: 0 }}>
+                        <path d="M23.75 0H0V23.75H23.75V0Z" fill="#F25022" />
+                        <path d="M50 0H26.25V23.75H50V0Z" fill="#7FBA00" />
+                        <path d="M23.75 26.25H0V50H23.75V26.25Z" fill="#00A4EF" />
+                        <path d="M50 26.25H26.25V50H50V26.25Z" fill="#FFB900" />
+                      </svg>
+                    </div>
+                    <div data-layer="AN3-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: 'calc(infinity * 1px)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '32px', justifyContent: 'center', marginLeft: '-8px', width: '32px', zIndex: '3' }}>
+                      <svg width="28" height="28" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" data-layer="AN4-0" style={{ display: 'inline-block', height: '16px', width: '16px', flexShrink: 0 }}>
+                        <path d="M10.709 31.496C10.709 34.37 8.386 36.693 5.512 36.693C2.638 36.693 0.315 34.37 0.315 31.496C0.315 28.622 2.638 26.299 5.512 26.299H10.709V31.496ZM13.307 31.496C13.307 28.622 15.63 26.299 18.504 26.299C21.378 26.299 23.701 28.622 23.701 31.496V44.488C23.701 47.362 21.378 49.685 18.504 49.685C15.63 49.685 13.307 47.362 13.307 44.488V31.496Z" fill="#E01E5A" />
+                        <path d="M18.504 10.63C15.63 10.63 13.307 8.307 13.307 5.433C13.307 2.559 15.63 0.236 18.504 0.236C21.378 0.236 23.701 2.559 23.701 5.433V10.63H18.504ZM18.504 13.268C21.378 13.268 23.701 15.591 23.701 18.465C23.701 21.339 21.378 23.662 18.504 23.662H5.472C2.598 23.662 0.276 21.339 0.276 18.465C0.276 15.591 2.598 13.268 5.472 13.268H18.504Z" fill="#36C5F0" />
+                        <path d="M39.331 18.465C39.331 15.591 41.654 13.268 44.528 13.268C47.402 13.268 49.724 15.591 49.724 18.465C49.724 21.339 47.402 23.662 44.528 23.662H39.331V18.465ZM36.732 18.465C36.732 21.339 34.409 23.662 31.535 23.662C28.661 23.662 26.339 21.339 26.339 18.465V5.433C26.339 2.559 28.661 0.236 31.535 0.236C34.409 0.236 36.732 2.559 36.732 5.433V18.465Z" fill="#2EB67D" />
+                        <path d="M31.535 39.291C34.409 39.291 36.732 41.614 36.732 44.488C36.732 47.362 34.409 49.685 31.535 49.685C28.661 49.685 26.339 47.362 26.339 44.488V39.291H31.535ZM31.535 36.693C28.661 36.693 26.339 34.37 26.339 31.496C26.339 28.622 28.661 26.299 31.535 26.299H44.567C47.441 26.299 49.764 28.622 49.764 31.496C49.764 34.37 47.441 36.693 44.567 36.693H31.535Z" fill="#ECB22E" />
+                      </svg>
+                    </div>
+                    <div data-layer="AN9-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderColor: 'var(--color-hairline)', borderRadius: '50%', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '32px', justifyContent: 'center', marginLeft: '-8px', width: '32px', zIndex: '4' }}>
+                      <div data-layer="ANA-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', fontWeight: 600, lineHeight: '16px' }}>
+                        +71
+                      </div>
+                    </div>
                   </div>
-                  <div data-layer="4R6-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                    Your Organisation
+                  <div data-layer="ANB-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px', width: 'fit-content' }}>
+                    Orgnisations use this
                   </div>
                 </div>
               </div>
-              <div data-layer="4QY-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingTop: '12px', width: '336px' }}>
-                <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4R2-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                  <path d="M2.5 13.5V3.5H8.5V13.5M8.5 6.5H13.5V13.5M1.5 13.5H14.5M4.5 5.5H6.5M4.5 8H6.5M4.5 10.5H6.5M10.5 9H11.5M10.5 11H11.5" fill="none" stroke="var(--color-ink)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
+            </div>
+            <div data-layer="ANC-0" style={{ alignItems: 'start', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', height: 'fit-content', paddingBottom: '18px', paddingTop: '14px', width: '100%' }}>
+              <div data-layer="BIC-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '48px', justifyContent: 'center', width: '48px' }}>
+                <svg width="24" height="24" viewBox="-1.6 -1.6 19.2 19.2" xmlns="http://www.w3.org/2000/svg" data-layer="BIK-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                  <path d="M8 0.2L14.6 2.6V8C14.6 11.6 11.84 14.48 8 15.8 4.16 14.48 1.4 11.6 1.4 8V2.6L8 0.2Z" fill="none" stroke="var(--color-link-deep)" strokeWidth="1.3" strokeLinejoin="round" />
+                  <path d="M5.3 8L7.28 9.92 10.88 6.2" fill="none" stroke="var(--color-link-deep)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-                <div data-layer="4QZ-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-                  <div data-layer="4R1-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                    71 organizations
-                  </div>
-                  <div data-layer="4R0-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                    approved it for agents
-                  </div>
+              </div>
+              <div data-layer="ANH-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '4px', height: 'fit-content', minWidth: '0px', width: '270px' }}>
+                <div data-layer="ANI-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+                  ClawHub security scan
+                </div>
+                <div data-layer="ANJ-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                  Passed · v4.9.0 · Sep 16, 2026
+                </div>
+                <div data-layer="ANK-0" style={{ boxSizing: 'border-box', color: 'var(--color-social-blue)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 500, lineHeight: '20px' }}>
+                  View scan report ↗
                 </div>
               </div>
-              <div data-layer="4QS-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingTop: '12px', width: '336px' }}>
-                <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4QW-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                  <path d="M2.5 3.5H13.5V10.5H7L4 13V10.5H2.5V3.5Z" fill="none" stroke="var(--color-ink)" strokeWidth="1.2" strokeLinejoin="round" />
+            </div>
+            <div data-layer="ANL-0" style={{ alignItems: 'start', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', height: 'fit-content', paddingBottom: '18px', paddingTop: '14px', width: '100%' }}>
+              <div data-layer="BI9-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '48px', justifyContent: 'center', width: '48px' }}>
+                <svg width="24" height="24" viewBox="-1.6 0 19.2 19.2" xmlns="http://www.w3.org/2000/svg" data-layer="BIF-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                  <circle cx="5.6" cy="6.6" r="2.7" fill="none" stroke="var(--color-body)" strokeWidth="1.2" />
+                  <path d="M0.5 15.6C1.04 12.96 3.08 11.4 5.6 11.4 8.12 11.4 10.16 12.96 10.7 15.6" fill="none" stroke="var(--color-body)" strokeWidth="1.2" strokeLinecap="round" />
+                  <circle cx="11.9" cy="7.2" r="2.1" fill="none" stroke="var(--color-body)" strokeWidth="1.2" />
+                  <path d="M12.8 11.52C14.36 11.88 15.32 13.08 15.5 15" fill="none" stroke="var(--color-body)" strokeWidth="1.2" strokeLinecap="round" />
                 </svg>
-                <div data-layer="4QT-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-                  <div data-layer="4QV-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                    2 connections
-                  </div>
-                  <div data-layer="4QU-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                    reviewed it. <span style={{ color: 'var(--color-link)', fontWeight: 500 }}>See reviews</span>
-                  </div>
+              </div>
+              <div data-layer="ANS-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '4px' }}>
+                <div data-layer="ANT-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+                  Reviewed by 2 in your network
+                </div>
+                <div data-layer="ANU-0" style={{ boxSizing: 'border-box', color: 'var(--color-social-blue)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 500, lineHeight: '20px' }}>
+                  See reviews ↗
+                </div>
+              </div>
+            </div>
+            <div data-layer="ANV-0" style={{ alignItems: 'start', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', height: 'fit-content', paddingBottom: '18px', paddingTop: '14px' }}>
+              <div data-layer="ANW-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '48px', justifyContent: 'center', width: '48px' }}>
+                <svg width="28" height="28" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" data-layer="ANX-0" style={{ display: 'inline-block', height: '24px', width: '24px', flexShrink: 0 }}>
+                  <path fillRule="evenodd" clipRule="evenodd" d="M25 0C11.188 0 0 11.188 0 25C0 36.063 7.156 45.406 17.094 48.719C18.344 48.938 18.813 48.188 18.813 47.531C18.813 46.938 18.781 44.969 18.781 42.875C12.5 44.031 10.875 41.344 10.375 39.938C10.094 39.219 8.875 37 7.813 36.406C6.938 35.938 5.688 34.781 7.781 34.75C9.75 34.719 11.156 36.563 11.625 37.313C13.875 41.094 17.469 40.031 18.906 39.375C19.125 37.75 19.781 36.656 20.5 36.031C14.938 35.406 9.125 33.25 9.125 23.688C9.125 20.969 10.094 18.719 11.688 16.969C11.438 16.344 10.563 13.781 11.938 10.344C11.938 10.344 14.031 9.688 18.813 12.906C20.813 12.344 22.938 12.063 25.063 12.063C27.188 12.063 29.313 12.344 31.313 12.906C36.094 9.656 38.188 10.344 38.188 10.344C39.563 13.781 38.688 16.344 38.438 16.969C40.031 18.719 41 20.938 41 23.688C41 33.281 35.156 35.406 29.594 36.031C30.5 36.813 31.281 38.313 31.281 40.656C31.281 44 31.25 46.688 31.25 47.531C31.25 48.188 31.719 48.969 32.969 48.719C42.844 45.406 50 36.031 50 25C50 11.188 38.813 0 25 0Z" fill="#1B1F23" />
+                </svg>
+              </div>
+              <div data-layer="ANZ-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '4px', height: 'fit-content', width: '270px' }}>
+                <div data-layer="AO0-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+                  Official GitHub repository
+                </div>
+                <div data-layer="AO1-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                  DietrichGebert/ponytail
+                </div>
+                <div data-layer="AO2-0" style={{ boxSizing: 'border-box', color: 'var(--color-social-blue)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                  View repository and releases ↗
+                </div>
+              </div>
+            </div>
+            <div data-layer="AO3-0" style={{ alignItems: 'start', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingTop: '14px' }}>
+              <div data-layer="BI4-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '48px', justifyContent: 'center', position: 'relative', width: '48px' }}>
+                <svg viewBox="-4 -2 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg" data-layer="BI7-0" style={{ position: 'absolute', left: '50%', top: '50%', display: 'inline-block', overflow: 'visible', translate: '-50% -50%' }}>
+                  <path transform="translate(1 1)" d="M10.15 9C10.15 10.044 10.564 11.046 11.303 11.785 12.041 12.523 13.043 12.937 14.087 12.937 15.131 12.937 16.133 12.523 16.872 11.785 17.61 11.046 18.026 10.044 18.026 9 18.026 8.877 17.997 8.757 17.942 8.647 17.942 8.647 14.793 2.351 14.793 2.351 14.782 2.328 14.771 2.306 14.757 2.286 14.687 2.172 14.589 2.078 14.47 2.011 14.354 1.947 14.222 1.913 14.087 1.913 14.087 1.913 9.222 1.913 9.222 1.913 9.102 1.583 8.914 1.284 8.664 1.037 8.417 0.789 8.117 0.6 7.787 0.482 7.787 0.482 7.787-2.026 7.787-2.026 7.787-2.026 6.213-2.026 6.213-2.026 6.213-2.026 6.213 0.482 6.213 0.482 5.883 0.6 5.583 0.789 5.336 1.037 5.086 1.284 4.898 1.583 4.778 1.913 4.778 1.913-0.087 1.913-0.087 1.913-0.234 1.913-0.378 1.953-0.501 2.03-0.626 2.106-0.727 2.216-0.792 2.347-0.792 2.347-3.942 8.647-3.942 8.647-3.997 8.757-4.026 8.877-4.026 9-4.026 10.044-3.61 11.046-2.872 11.785-2.133 12.523-1.131 12.937-0.087 12.937 0.957 12.937 1.959 12.523 2.697 11.785 3.436 11.046 3.85 10.044 3.85 9 3.85 8.877 3.821 8.757 3.766 8.647 3.766 8.647 1.187 3.487 1.187 3.487 1.187 3.487 4.778 3.487 4.778 3.487 4.898 3.817 5.086 4.116 5.336 4.363 5.583 4.61 5.883 4.8 6.213 4.917 6.213 4.917 6.213 18.45 6.213 18.45 6.213 18.45-0.874 18.45-0.874 18.45-0.874 18.45-0.874 20.025-0.874 20.025-0.874 20.025 14.876 20.025 14.876 20.025 14.876 20.025 14.876 18.45 14.876 18.45 14.876 18.45 7.787 18.45 7.787 18.45 7.787 18.45 7.787 4.917 7.787 4.917 8.117 4.8 8.417 4.61 8.664 4.363 8.914 4.116 9.102 3.817 9.222 3.487 9.222 3.487 12.813 3.487 12.813 3.487 12.813 3.487 10.234 8.647 10.234 8.647 10.179 8.757 10.15 8.877 10.15 9ZM-0.087 11.363C-0.574 11.36-1.048 11.208-1.446 10.926-1.842 10.644-2.143 10.248-2.305 9.787-2.305 9.787 2.128 9.787 2.128 9.787 1.968 10.248 1.667 10.644 1.27 10.926 0.873 11.208 0.399 11.36-0.087 11.363-0.087 11.363-0.087 11.363-0.087 11.363ZM1.788 8.213C1.788 8.213-1.963 8.213-1.963 8.213-1.963 8.213-0.087 4.46-0.087 4.46-0.087 4.46 1.788 8.213 1.788 8.213ZM7 3.487C6.844 3.487 6.692 3.441 6.562 3.355 6.432 3.269 6.333 3.145 6.273 3.001 6.213 2.857 6.197 2.699 6.228 2.545 6.258 2.393 6.334 2.252 6.442 2.142 6.552 2.034 6.693 1.958 6.845 1.928 6.999 1.897 7.157 1.913 7.301 1.973 7.445 2.033 7.569 2.133 7.655 2.262 7.742 2.391 7.787 2.544 7.787 2.7 7.787 2.91 7.704 3.109 7.556 3.255 7.409 3.404 7.21 3.487 7 3.487 7 3.487 7 3.487 7 3.487ZM14.087 11.363C13.601 11.36 13.127 11.208 12.73 10.926 12.333 10.644 12.032 10.248 11.87 9.787 11.87 9.787 16.304 9.787 16.304 9.787 16.143 10.248 15.842 10.644 15.446 10.926 15.048 11.208 14.574 11.36 14.087 11.363 14.087 11.363 14.087 11.363 14.087 11.363ZM14.087 4.46C14.087 4.46 15.963 8.213 15.963 8.213 15.963 8.213 12.212 8.213 12.212 8.213 12.212 8.213 14.087 4.46 14.087 4.46Z" fillRule="nonzero" fill="var(--color-body)" />
+                </svg>
+              </div>
+              <div data-layer="AO7-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '4px', minWidth: '0px', width: '270px' }}>
+                <div data-layer="AO8-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+                  MIT license
+                </div>
+                <div data-layer="AO9-0" style={{ boxSizing: 'border-box', color: 'var(--color-social-blue)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 500, lineHeight: '20px' }}>
+                  View license on GitHub ↗
                 </div>
               </div>
             </div>
           </div>
-          <div data-layer="4B3-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBottom: '8px', paddingInline: '24px', paddingTop: '20px' }}>
-            <div data-layer="4BQ-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingBottom: '8px' }}>
-              <div data-layer="4BS-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+          <div data-layer="AP0-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBottom: '8px', paddingInline: '24px', paddingTop: '20px' }}>
+            <div data-layer="AP1-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingBottom: '8px' }}>
+              <div data-layer="AP2-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+                In this bundle
+              </div>
+              <div data-layer="AP3-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                The core skill and five commands
+              </div>
+            </div>
+            <div data-layer="AP4-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '10px' }}>
+              <div data-layer="AP5-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '120px' }}>
+                ponytail
+              </div>
+              <div data-layer="AP6-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                The always-on ruleset
+              </div>
+            </div>
+            <div data-layer="AP7-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '10px' }}>
+              <div data-layer="AP8-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '120px' }}>
+                ponytail-review
+              </div>
+              <div data-layer="AP9-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                Reviews the current diff
+              </div>
+            </div>
+            <div data-layer="APA-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '10px' }}>
+              <div data-layer="APB-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '120px' }}>
+                ponytail-audit
+              </div>
+              <div data-layer="APC-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                Ranks the whole repo
+              </div>
+            </div>
+            <div data-layer="APD-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '10px' }}>
+              <div data-layer="APE-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '120px' }}>
+                ponytail-debt
+              </div>
+              <div data-layer="APF-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                Collects deferred shortcuts
+              </div>
+            </div>
+            <div data-layer="APG-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '10px' }}>
+              <div data-layer="APH-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '120px' }}>
+                ponytail-gain
+              </div>
+              <div data-layer="API-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                Shows the benchmark
+              </div>
+            </div>
+            <div data-layer="APJ-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBottom: '14px', paddingTop: '10px' }}>
+              <div data-layer="APK-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '120px' }}>
+                ponytail-help
+              </div>
+              <div data-layer="APL-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                Quick reference
+              </div>
+            </div>
+          </div>
+          <div data-layer="AOA-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBottom: '8px', paddingInline: '24px', paddingTop: '20px' }}>
+            <div data-layer="AOB-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingBottom: '8px' }}>
+              <div data-layer="AOC-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
                 Similar skills
               </div>
-              <div data-layer="4BR-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              <div data-layer="AOD-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                 Same job, different trade-offs
               </div>
             </div>
-            <div data-layer="4BF-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
-              <div data-layer="4BO-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-link-soft)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <div data-layer="4BP-0" style={{ boxSizing: 'border-box', color: 'var(--color-link-deep)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '16px' }}>
-                  RM
+            <div data-layer="AOE-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
+              <div data-layer="AOF-0" style={{ alignItems: 'center', backgroundColor: '#171717', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
+                <div data-layer="AOG-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '16px' }}>
+                  MC
                 </div>
               </div>
-              <div data-layer="4BG-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                <div data-layer="4BN-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                  ReadMenator
+              <div data-layer="AOH-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                <div data-layer="AOI-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                  Minimal Code Discipline <span style={{ color: '#8F8F8F', fontWeight: 400 }}>· Yeachan-Heo</span>
                 </div>
-                <div data-layer="4BM-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  Zero-token, offline graph of your code. Static analysis only, so docs aren't read for meaning.
+                <div data-layer="AOJ-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  The same YAGNI ladder as plain markdown. <span style={{ color: '#171717', fontWeight: 600 }}>Differs:</span> one skill inside a bigger collection, meant to pair with its slop cleaner.
                 </div>
-                <div data-layer="4BH-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '8px' }}>
-                  <div data-layer="4BI-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '4px', paddingInline: '14px' }}>
-                    <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4BK-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                <div data-layer="AOK-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '8px' }}>
+                  <div data-layer="AOL-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '4px', paddingInline: '14px' }}>
+                    <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="AOM-0" style={{ display: 'inline-block', flexShrink: 0 }}>
                       <path d="M2.5 5.5H12.5M12.5 5.5L10 3M12.5 5.5L10 8M13.5 10.5H3.5M3.5 10.5L6 8M3.5 10.5L6 13" fill="none" stroke="var(--color-body)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <div data-layer="4BJ-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                    <div data-layer="AOO-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
                       Compare
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div data-layer="4B4-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
-              <div data-layer="4BD-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <div data-layer="4BE-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '16px' }}>
-                  GT
-                </div>
+            <div data-layer="AOP-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
+              <div data-layer="AOQ-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: 'var(--radius-pill)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '48px', justifyContent: 'center', width: '48px' }}>
+                <div data-layer="AOR-0" style={{ backgroundImage: 'url(assets/01M6R136FN7Q1W9ESTTTQ7E631.jpg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', borderRadius: '5px', boxSizing: 'border-box', flexShrink: 0, height: '24px', width: '24px' }} />
               </div>
-              <div data-layer="4B5-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                <div data-layer="4BC-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                  graphify (TS port)
+              <div data-layer="AOS-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                <div data-layer="AOT-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                  taste-skill <span style={{ color: '#8F8F8F', fontWeight: 400 }}>· Leonxlnx</span>
                 </div>
-                <div data-layer="4BB-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  Same name, different publisher. Indexes 12 languages, code only, updated by hand.
+                <div data-layer="AOU-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', whiteSpace: 'pre-wrap' }}>
+                  Stops the agent producing generic, default-looking output.<br /><span style={{ color: '#171717', fontWeight: 600 }}>Differs:</span> aims at quality, not at writing less code.
                 </div>
-                <div data-layer="4B6-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '8px' }}>
-                  <div data-layer="4B7-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '4px', paddingInline: '14px' }}>
-                    <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="4B9-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                <div data-layer="AOV-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '8px' }}>
+                  <div data-layer="AOW-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '4px', paddingInline: '14px' }}>
+                    <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="AOX-0" style={{ display: 'inline-block', flexShrink: 0 }}>
                       <path d="M2.5 5.5H12.5M12.5 5.5L10 3M12.5 5.5L10 8M13.5 10.5H3.5M3.5 10.5L6 8M3.5 10.5L6 13" fill="none" stroke="var(--color-body)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <div data-layer="4B8-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                    <div data-layer="AOZ-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
                       Compare
                     </div>
                   </div>
@@ -1160,563 +1445,307 @@ export default function profile() { return (
               </div>
             </div>
           </div>
-          <div data-layer="4AF-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBottom: '8px', paddingInline: '24px', paddingTop: '20px' }}>
-            <div data-layer="4B0-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingBottom: '8px' }}>
-              <div data-layer="4B2-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+          <div data-layer="APM-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingBlock: '20px', paddingInline: '24px' }}>
+            <div data-layer="APN-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+              <div data-layer="APO-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+                Cost to your agent
+              </div>
+              <div data-layer="APP-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                Estimated from the file's size
+              </div>
+            </div>
+            <div data-layer="APQ-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex' }}>
+              <div data-layer="APR-0" style={{ borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', paddingBlock: '12px', paddingInline: '14px', width: '167px' }}>
+                <div data-layer="APS-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
+                  ≈ 200
+                </div>
+                <div data-layer="APT-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  tokens, always in context
+                </div>
+              </div>
+              <div data-layer="APU-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', paddingBlock: '12px', paddingInline: '14px', width: '166px' }}>
+                <div data-layer="APV-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
+                  ≈ 1.6k
+                </div>
+                <div data-layer="APW-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  tokens per reply while on
+                </div>
+              </div>
+            </div>
+            <div data-layer="APX-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              SKILL.md is 6.48 KB. It pays for itself if it saves code: the publisher measured 45% fewer output tokens.
+            </div>
+          </div>
+          <div data-layer="AR1-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBottom: '8px', paddingInline: '24px', paddingTop: '20px' }}>
+            <div data-layer="AR2-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingBottom: '8px' }}>
+              <div data-layer="AR3-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
                 Works with
               </div>
-              <div data-layer="4B1-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              <div data-layer="AR4-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                 20+ agents, at two levels of support
               </div>
             </div>
-            <div data-layer="4AU-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
-              <div data-layer="4AY-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-ink)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '40px', justifyContent: 'center', width: '40px' }}>
-                <div data-layer="4AZ-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', fontWeight: 600, lineHeight: '16px' }}>
+            <div data-layer="AR5-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
+              <div data-layer="AR6-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-ink)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '40px', justifyContent: 'center', width: '40px' }}>
+                <div data-layer="AR7-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', fontWeight: 600, lineHeight: '16px' }}>
                   CC
                 </div>
               </div>
-              <div data-layer="4AV-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '270px' }}>
-                <div data-layer="4AX-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+              <div data-layer="AR8-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '270px' }}>
+                <div data-layer="AR9-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
                   Claude Code <span style={{ color: 'var(--color-link)', fontWeight: 400 }}>· your agent</span>
                 </div>
-                <div data-layer="4AW-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  Skill plus hooks that steer searches to the graph. Full support.
+                <div data-layer="ARA-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  Full plugin: 6 commands, lifecycle hooks and 3 intensity levels.
                 </div>
               </div>
             </div>
-            <div data-layer="4AO-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
-              <div data-layer="4AS-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '40px', justifyContent: 'center', width: '40px' }}>
-                <div data-layer="4AT-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', fontWeight: 600, lineHeight: '16px' }}>
-                  +3
+            <div data-layer="ARB-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
+              <div data-layer="ARC-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '40px', justifyContent: 'center', width: '40px' }}>
+                <div data-layer="ARD-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', fontWeight: 600, lineHeight: '16px' }}>
+                  +9
                 </div>
               </div>
-              <div data-layer="4AP-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '270px' }}>
-                <div data-layer="4AR-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                  Skill + hooks
+              <div data-layer="ARE-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '270px' }}>
+                <div data-layer="ARF-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                  Skill + commands
                 </div>
-                <div data-layer="4AQ-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  Gemini CLI, CodeBuddy, and Pi through its guard extension
-                </div>
-              </div>
-            </div>
-            <div data-layer="4AI-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
-              <div data-layer="4AM-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '40px', justifyContent: 'center', width: '40px' }}>
-                <div data-layer="4AN-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', fontWeight: 600, lineHeight: '16px' }}>
-                  17+
-                </div>
-              </div>
-              <div data-layer="4AJ-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '270px' }}>
-                <div data-layer="4AL-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                  Skill + rules file
-                </div>
-                <div data-layer="4AK-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  Codex, Cursor, OpenCode, Copilot, Aider, Kiro, Antigravity and more. Rules only, no hooks.
+                <div data-layer="ARG-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  Codex, Devin CLI, OpenCode, Gemini, Antigravity, pi, Hermes, Qoder, Grok Build
                 </div>
               </div>
             </div>
-            <div data-layer="4AG-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'center', paddingBlock: '10px' }}>
-              <div data-layer="4AH-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+            <div data-layer="ARH-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
+              <div data-layer="ARI-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '40px', justifyContent: 'center', width: '40px' }}>
+                <div data-layer="ARJ-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', fontWeight: 600, lineHeight: '16px' }}>
+                  9
+                </div>
+              </div>
+              <div data-layer="ARK-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '270px' }}>
+                <div data-layer="ARL-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                  Rules file only
+                </div>
+                <div data-layer="ARM-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  Cursor, Windsurf, Cline, Copilot Chat, Aider, Kiro, Zed, Amp, Jules. No commands or levels.
+                </div>
+              </div>
+            </div>
+            <div data-layer="ARN-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'center', paddingBlock: '10px' }}>
+              <div data-layer="ARO-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
                 Show all hosts →
               </div>
             </div>
           </div>
-          <div data-layer="4A3-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingBlock: '20px', paddingInline: '24px' }}>
-            <div data-layer="4AC-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-              <div data-layer="4AE-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                Cost to your agent
-              </div>
-              <div data-layer="4AD-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                Documented defaults, not estimates
-              </div>
-            </div>
-            <div data-layer="4A5-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex' }}>
-              <div data-layer="4A9-0" style={{ borderRightColor: 'var(--color-hairline)', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', paddingBlock: '12px', paddingInline: '14px', width: '167px' }}>
-                <div data-layer="4AB-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
-                  0 credits
-                </div>
-                <div data-layer="4AA-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  to build the graph from code
-                </div>
-              </div>
-              <div data-layer="4A6-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', paddingBlock: '12px', paddingInline: '14px', width: '166px' }}>
-                <div data-layer="4A8-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
-                  2,000
-                </div>
-                <div data-layer="4A7-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  default budget per query
-                </div>
-              </div>
-            </div>
-            <div data-layer="4A4-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-              Docs, PDFs and images use your model's tokens on the first build. Each query returns a scoped subgraph instead of whole files.
-            </div>
-          </div>
-          <div data-layer="48M-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBottom: '8px', paddingInline: '24px', paddingTop: '24px' }}>
-            <div data-layer="4A0-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingBottom: '8px' }}>
-              <div data-layer="4A2-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                Licenses &amp; certifications
-              </div>
-              <div data-layer="4A1-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                Checks run against this skill, and who ran them
-              </div>
-            </div>
-            <div data-layer="49O-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '14px' }}>
-              <div data-layer="49T-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-link-soft)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="49U-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                  <path d="M6 8H3V9H6V8Z" fill="var(--color-link-deep)" />
-                  <path d="M8 6H3V7H8V6Z" fill="var(--color-link-deep)" />
-                  <path d="M8 4H3V5H8V4Z" fill="var(--color-link-deep)" />
-                  <path d="M7 13H2V3H14V8H15V3C15 2.45 14.55 2 14 2H2C1.45 2 1 2.45 1 3V13C1 13.55 1.45 14 2 14H7V13Z" fill="var(--color-link-deep)" />
-                  <path d="M11 12.8L9.7 11.5L9 12.2L11 14.2L15 10.2L14.3 9.5L11 12.8Z" fill="var(--color-link-deep)" />
-                </svg>
-              </div>
-              <div data-layer="49P-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                <div data-layer="49S-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  Required fields present
-                </div>
-                <div data-layer="49R-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Agent Skills spec validator
-                </div>
-                <div data-layer="49Q-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Name and description found in the frontmatter
-                </div>
-              </div>
-            </div>
-            <div data-layer="49G-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '14px' }}>
-              <div data-layer="49L-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '48px', justifyContent: 'center', width: '48px' }}>
-                <svg width="28" height="28" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" data-layer="49M-0" style={{ display: 'inline-block', height: '24px', width: '24px', flexShrink: 0 }}>
-                  <path fillRule="evenodd" clipRule="evenodd" d="M25 0C11.188 0 0 11.188 0 25C0 36.063 7.156 45.406 17.094 48.719C18.344 48.938 18.813 48.188 18.813 47.531C18.813 46.938 18.781 44.969 18.781 42.875C12.5 44.031 10.875 41.344 10.375 39.938C10.094 39.219 8.875 37 7.813 36.406C6.938 35.938 5.688 34.781 7.781 34.75C9.75 34.719 11.156 36.563 11.625 37.313C13.875 41.094 17.469 40.031 18.906 39.375C19.125 37.75 19.781 36.656 20.5 36.031C14.938 35.406 9.125 33.25 9.125 23.688C9.125 20.969 10.094 18.719 11.688 16.969C11.438 16.344 10.563 13.781 11.938 10.344C11.938 10.344 14.031 9.688 18.813 12.906C20.813 12.344 22.938 12.063 25.063 12.063C27.188 12.063 29.313 12.344 31.313 12.906C36.094 9.656 38.188 10.344 38.188 10.344C39.563 13.781 38.688 16.344 38.438 16.969C40.031 18.719 41 20.938 41 23.688C41 33.281 35.156 35.406 29.594 36.031C30.5 36.813 31.281 38.313 31.281 40.656C31.281 44 31.25 46.688 31.25 47.531C31.25 48.188 31.719 48.969 32.969 48.719C42.844 45.406 50 36.031 50 25C50 11.188 38.813 0 25 0Z" fill="#1B1F23" />
-                </svg>
-              </div>
-              <div data-layer="49H-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                <div data-layer="49K-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  Matches the official package
-                </div>
-                <div data-layer="49J-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  GitHub Graphify-Labs · PyPI graphifyy
-                </div>
-                <div data-layer="49I-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Other graphify packages on PyPI aren't affiliated
-                </div>
-              </div>
-            </div>
-            <div data-layer="496-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '14px' }}>
-              <div data-layer="49B-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-warning-soft)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="49C-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                  <path d="M8 2L14.5 13.5H1.5L8 2Z" fill="none" stroke="var(--color-warning-deep)" strokeWidth="1.3" strokeLinejoin="round" />
-                  <path d="M8 6.5V9.5" fill="none" stroke="var(--color-warning-deep)" strokeWidth="1.3" strokeLinecap="round" />
-                  <circle cx="8" cy="11.5" r="0.75" fill="var(--color-warning-deep)" />
-                </svg>
-              </div>
-              <div data-layer="497-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                <div data-layer="49A-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  Extra field flagged
-                </div>
-                <div data-layer="499-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Agent Skills spec validator · issue #1180
-                </div>
-                <div data-layer="498-0" style={{ boxSizing: 'border-box', color: 'var(--color-warning-deep)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  trigger: isn't in the spec, so hosts ignore it
-                </div>
-              </div>
-            </div>
-            <div data-layer="48W-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '14px' }}>
-              <div data-layer="493-0" style={{ alignItems: 'center', borderColor: 'var(--color-faint)', borderRadius: '8px', borderStyle: 'dashed', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="494-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                  <path d="M8 15L4.9 13.35C3.1 12.4 2 10.55 2 8.5V2C2 1.45 2.45 1 3 1H13C13.55 1 14 1.45 14 2V8.5C14 10.55 12.9 12.4 11.1 13.35L8 15ZM3 2V8.5C3 10.2 3.9 11.7 5.4 12.5L8 13.85L10.6 12.5C12.1 11.7 13 10.2 13 8.5V2H3Z" fill="var(--color-faint)" />
-                </svg>
-              </div>
-              <div data-layer="48X-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                <div data-layer="492-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  Independent security scan
-                </div>
-                <div data-layer="491-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Not run yet
-                </div>
-                <div data-layer="48Y-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '6px' }}>
-                  <div data-layer="48Z-0" style={{ borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '14px' }}>
-                    <div data-layer="490-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
-                      Request a scan
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-layer="48N-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '14px' }}>
-              <div data-layer="48S-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-warning-soft)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="48T-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                  <circle cx="8" cy="8" r="6.25" fill="none" stroke="#AB570A" strokeWidth="1.2" />
-                  <path d="M8 4.75V8L10 9.5" fill="none" stroke="#AB570A" strokeWidth="1.2" strokeLinecap="round" />
-                </svg>
-              </div>
-              <div data-layer="48O-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                <div data-layer="48R-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  Your org's approval
-                </div>
-                <div data-layer="48Q-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Atlan platform team
-                </div>
-                <div data-layer="48P-0" style={{ boxSizing: 'border-box', color: 'var(--color-warning-deep)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  In review since 2 days ago
-                </div>
-              </div>
-            </div>
-          </div>
-          <div data-layer="483-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBottom: '8px', paddingInline: '24px', paddingTop: '20px' }}>
-            <div data-layer="48J-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingBottom: '8px' }}>
-              <div data-layer="48L-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                In this bundle
-              </div>
-              <div data-layer="48K-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                One skill, a CLI, and optional extras
-              </div>
-            </div>
-            <div data-layer="48G-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '10px' }}>
-              <div data-layer="48I-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '120px' }}>
-                /graphify .
-              </div>
-              <div data-layer="48H-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
-                Build or update the graph
-              </div>
-            </div>
-            <div data-layer="48D-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '10px' }}>
-              <div data-layer="48F-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '120px' }}>
-                query
-              </div>
-              <div data-layer="48E-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
-                Answer a plain question
-              </div>
-            </div>
-            <div data-layer="48A-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '10px' }}>
-              <div data-layer="48C-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '120px' }}>
-                path · explain
-              </div>
-              <div data-layer="48B-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
-                Trace a link, explain a concept
-              </div>
-            </div>
-            <div data-layer="487-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '10px' }}>
-              <div data-layer="489-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '120px' }}>
-                hook install
-              </div>
-              <div data-layer="488-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
-                Rebuild on every commit
-              </div>
-            </div>
-            <div data-layer="484-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBottom: '14px', paddingTop: '10px' }}>
-              <div data-layer="486-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '120px' }}>
-                extras
-              </div>
-              <div data-layer="485-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
-                pdf, office, video, mcp, neo4j…
-              </div>
-            </div>
-          </div>
-          <div data-layer="47K-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingBlock: '20px', paddingInline: '24px' }}>
-            <div data-layer="480-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-              <div data-layer="482-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                More from this developer
-              </div>
-              <div data-layer="481-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                Graphify Labs · YC S26
-              </div>
-            </div>
-            <div data-layer="47N-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingTop: '12px' }}>
-              <div data-layer="47S-0" style={{ alignItems: 'center', backgroundColor: '#171717', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <svg width="28" height="28" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" data-layer="47T-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                  <path d="M12 14L24 24M24 24L36 12M24 24L22 37M24 24L37 30M12 14L22 37" fill="none" stroke="#8F8F8F" strokeWidth="2" />
-                  <circle cx="24" cy="24" r="6" fill="#FFFFFF" />
-                  <circle cx="12" cy="14" r="4" fill="#50E3C2" />
-                  <circle cx="36" cy="12" r="3.5" fill="#FFFFFF" />
-                  <circle cx="22" cy="37" r="4" fill="#FFFFFF" />
-                  <circle cx="37" cy="30" r="3.5" fill="#50E3C2" />
-                </svg>
-              </div>
-              <div data-layer="47O-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '262px' }}>
-                <div data-layer="47R-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                  Graphify Cloud
-                </div>
-                <div data-layer="47Q-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  A hosted, always-on graph across repos, with Sentry and Jira connectors. 14-day trial.
-                </div>
-                <div data-layer="47P-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  Not a skill · hosted product
-                </div>
-              </div>
-            </div>
-            <div data-layer="47L-0" style={{ alignItems: 'center', borderColor: 'var(--color-link)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', justifyContent: 'center', paddingBlock: '5px', paddingInline: '16px' }}>
-              <div data-layer="47M-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                + Follow Graphify Labs
-              </div>
-            </div>
-          </div>
-          <div data-layer="477-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingBlock: '20px', paddingInline: '24px' }}>
-            <div data-layer="47J-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+          <div data-layer="ARP-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingBlock: '20px', paddingInline: '24px' }}>
+            <div data-layer="ARQ-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
               Activity
             </div>
-            <div data-layer="479-0" style={{ boxSizing: 'border-box', display: 'flex' }}>
-              <div data-layer="47G-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, width: '112px' }}>
-                <div data-layer="47I-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px' }}>
-                  727
+            <div data-layer="ARR-0" style={{ boxSizing: 'border-box', display: 'flex' }}>
+              <div data-layer="ARS-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, width: '112px' }}>
+                <div data-layer="ART-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px' }}>
+                  73
                 </div>
-                <div data-layer="47H-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                <div data-layer="ARU-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                   open issues
                 </div>
               </div>
-              <div data-layer="47D-0" style={{ borderLeftColor: 'var(--color-hairline)', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, paddingLeft: '12px', width: '112px' }}>
-                <div data-layer="47F-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px' }}>
-                  915
+              <div data-layer="ARV-0" style={{ borderLeftColor: 'var(--color-hairline)', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, paddingLeft: '12px', width: '112px' }}>
+                <div data-layer="ARW-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px' }}>
+                  101
                 </div>
-                <div data-layer="47E-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                <div data-layer="ARX-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                   open PRs
                 </div>
               </div>
-              <div data-layer="47A-0" style={{ borderLeftColor: 'var(--color-hairline)', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, paddingLeft: '12px', width: '112px' }}>
-                <div data-layer="47C-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px' }}>
-                  413
+              <div data-layer="ARY-0" style={{ borderLeftColor: 'var(--color-hairline)', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, paddingLeft: '12px', width: '112px' }}>
+                <div data-layer="ARZ-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px' }}>
+                  432
                 </div>
-                <div data-layer="47B-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                <div data-layer="AS0-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                   watching
                 </div>
               </div>
             </div>
-            <div data-layer="478-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-              Support through GitHub Discussions and Discord.
+            <div data-layer="AS1-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+              Latest benchmark published Oct 7, 2026. 369 commits on main.
             </div>
           </div>
-          <div data-layer="464-0" style={{ backgroundColor: 'var(--color-canvas-elevated)', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBottom: '8px', paddingInline: '24px', paddingTop: '20px' }}>
-            <div data-layer="471-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBottom: '8px' }}>
-              <div data-layer="474-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-                <div data-layer="476-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-                  People who attach it
-                </div>
-                <div data-layer="475-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  From your network
+          <div data-layer="AS2-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingBlock: '20px', paddingInline: '24px' }}>
+            <div data-layer="AS3-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+              <div data-layer="AS4-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+                More from this developer
+              </div>
+              <div data-layer="AS5-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                DietrichGebert · sponsored by GreenPT
+              </div>
+            </div>
+            <div data-layer="AS6-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingTop: '12px' }}>
+              <div data-layer="AS7-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: '8px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
+                <div data-layer="AS8-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '16px' }}>
+                  DG
                 </div>
               </div>
-              <div data-layer="472-0" style={{ borderColor: 'var(--color-faint)', borderRadius: '4px', borderStyle: 'dashed', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '1px', paddingInline: '6px' }}>
-                <div data-layer="473-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '10px', lineHeight: '14px' }}>
-                  ILLUSTRATIVE
+              <div data-layer="AS9-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '262px' }}>
+                <div data-layer="ASA-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                  Something new is coming
+                </div>
+                <div data-layer="ASB-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  The publisher runs a waitlist at ponytail.dev/soon. Follow to hear when it ships.
+                </div>
+                <div data-layer="ASC-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  Only skill on SkilledIn so far
                 </div>
               </div>
             </div>
-            <div data-layer="46R-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
-              <div data-layer="470-0" style={{ backgroundImage: 'url(assets/4J0F6EBDQ7G1CZMJYMHPZ6ZT01.jpg)', backgroundPosition: '50%', backgroundSize: 'cover', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: 0, height: '48px', objectPosition: 'center center', width: '48px' }} />
-              <div data-layer="46S-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                <div data-layer="46Z-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                  Molly Vinson <span style={{ color: 'var(--color-mute)', fontWeight: 400 }}>· 1st</span>
-                </div>
-                <div data-layer="46Y-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  Data engineer at your org · Claude Code
-                </div>
-                <div data-layer="46T-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '8px' }}>
-                  <div data-layer="46U-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '4px', paddingInline: '14px' }}>
-                    <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="46W-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                      <path d="M2.5 3.5H13.5V10.5H7L4 13V10.5H2.5V3.5Z" fill="none" stroke="var(--color-body)" strokeWidth="1.2" strokeLinejoin="round" />
-                    </svg>
-                    <div data-layer="46V-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
-                      Ask about it
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-layer="46H-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
-              <div data-layer="46Q-0" style={{ backgroundImage: 'url(assets/286MDCYQ7SFSSS0QE2JX262HNV.jpg)', backgroundPosition: '50%', backgroundSize: 'cover', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: 0, height: '48px', objectPosition: 'center center', width: '48px' }} />
-              <div data-layer="46I-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                <div data-layer="46P-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                  Nojus Hutton <span style={{ color: 'var(--color-mute)', fontWeight: 400 }}>· 2nd</span>
-                </div>
-                <div data-layer="46O-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  ML engineer · Codex · 4 mutuals
-                </div>
-                <div data-layer="46J-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '8px' }}>
-                  <div data-layer="46K-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '4px', paddingInline: '14px' }}>
-                    <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="46M-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                      <path d="M2.5 3.5H13.5V10.5H7L4 13V10.5H2.5V3.5Z" fill="none" stroke="var(--color-body)" strokeWidth="1.2" strokeLinejoin="round" />
-                    </svg>
-                    <div data-layer="46L-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
-                      Ask about it
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-layer="467-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
-              <div data-layer="46G-0" style={{ backgroundImage: 'url(assets/0BXBCJH5VPMMJ06RNHG37JXZEW.jpg)', backgroundPosition: '50%', backgroundSize: 'cover', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', flexShrink: 0, height: '48px', objectPosition: 'center center', width: '48px' }} />
-              <div data-layer="468-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                <div data-layer="46F-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                  Shannon Adams <span style={{ color: 'var(--color-mute)', fontWeight: 400 }}>· 1st</span>
-                </div>
-                <div data-layer="46E-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  Eng manager · approved it at her last org
-                </div>
-                <div data-layer="469-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '8px' }}>
-                  <div data-layer="46A-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '4px', paddingInline: '14px' }}>
-                    <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="46C-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                      <path d="M2.5 3.5H13.5V10.5H7L4 13V10.5H2.5V3.5Z" fill="none" stroke="var(--color-body)" strokeWidth="1.2" strokeLinejoin="round" />
-                    </svg>
-                    <div data-layer="46B-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
-                      Ask about it
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-layer="465-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'center', paddingBlock: '10px' }}>
-              <div data-layer="466-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
-                Show all 6
+            <div data-layer="ASD-0" style={{ alignItems: 'center', borderColor: 'var(--color-link)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', justifyContent: 'center', paddingBlock: '5px', paddingInline: '16px' }}>
+              <div data-layer="ASE-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                + Follow DietrichGebert
               </div>
             </div>
           </div>
-          <div data-layer="45C-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBottom: '8px', paddingInline: '24px', paddingTop: '20px' }}>
-            <div data-layer="461-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingBottom: '8px' }}>
-              <div data-layer="463-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+          <div data-layer="ASF-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBottom: '8px', paddingInline: '24px', paddingTop: '20px' }}>
+            <div data-layer="ASG-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingBottom: '8px' }}>
+              <div data-layer="ASH-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
                 People also use
               </div>
-              <div data-layer="462-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              <div data-layer="ASI-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                 Attached alongside it
               </div>
             </div>
-            <div data-layer="45Q-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
-              <div data-layer="45Z-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-violet-soft)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <div data-layer="460-0" style={{ boxSizing: 'border-box', color: 'var(--color-violet)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '16px' }}>
-                  P
+            <div data-layer="ASJ-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
+              <div data-layer="ASK-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
+                <div data-layer="ASL-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '16px' }}>
+                  C
                 </div>
               </div>
-              <div data-layer="45R-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                <div data-layer="45Y-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                  Ponytail <span style={{ color: '#8F8F8F', fontWeight: 400 }}>· DietrichGebert</span>
+              <div data-layer="ASM-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                <div data-layer="ASN-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+                  Caveman
                 </div>
-                <div data-layer="45X-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  Graphify maps what's already there; Ponytail makes the agent reuse it instead of writing new code.
+                <div data-layer="ASO-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  Keeps the agent's prose terse. Ponytail's SKILL.md suggests the pairing: one trims the code, the other the talk.
                 </div>
-                <div data-layer="45S-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '8px' }}>
-                  <div data-layer="45T-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '4px', paddingInline: '14px' }}>
-                    <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="45V-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                <div data-layer="ASP-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '8px' }}>
+                  <div data-layer="ASQ-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '4px', paddingInline: '14px' }}>
+                    <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="ASR-0" style={{ display: 'inline-block', flexShrink: 0 }}>
                       <path d="M8 3V13M3 8H13" fill="none" stroke="var(--color-body)" strokeWidth="1.3" strokeLinecap="round" />
                     </svg>
-                    <div data-layer="45U-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                    <div data-layer="AST-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
                       View
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div data-layer="45F-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
-              <div data-layer="45O-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <div data-layer="45P-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '16px' }}>
+            <div data-layer="ASU-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
+              <div data-layer="ASV-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
+                <div data-layer="ASW-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '16px' }}>
                   G
                 </div>
               </div>
-              <div data-layer="45G-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                <div data-layer="45N-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+              <div data-layer="ASX-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                <div data-layer="ASY-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
                   grill-me <span style={{ color: '#8F8F8F', fontWeight: 400 }}>· mattpocock</span>
                 </div>
-                <div data-layer="45M-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  Questions your plan before coding; Graphify answers the codebase questions it raises.
+                <div data-layer="ASZ-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  Questions your plan before any code. Ponytail then keeps the build small.
                 </div>
-                <div data-layer="45H-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '8px' }}>
-                  <div data-layer="45I-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '4px', paddingInline: '14px' }}>
-                    <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="45K-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                <div data-layer="AT0-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '8px' }}>
+                  <div data-layer="AT1-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '4px', paddingInline: '14px' }}>
+                    <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="AT2-0" style={{ display: 'inline-block', flexShrink: 0 }}>
                       <path d="M8 3V13M3 8H13" fill="none" stroke="var(--color-body)" strokeWidth="1.3" strokeLinecap="round" />
                     </svg>
-                    <div data-layer="45J-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                    <div data-layer="AT4-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
                       View
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div data-layer="45D-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'center', paddingBlock: '10px' }}>
-              <div data-layer="45E-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+            <div data-layer="AT5-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'center', paddingBlock: '10px' }}>
+              <div data-layer="AT6-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
                 See what your org attaches →
               </div>
             </div>
           </div>
-          <div data-layer="44F-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBottom: '8px', paddingInline: '24px', paddingTop: '20px' }}>
-            <div data-layer="456-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBottom: '8px' }}>
-              <div data-layer="459-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-                <div data-layer="45B-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+          <div data-layer="AT7-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px', paddingBottom: '8px', paddingInline: '24px', paddingTop: '20px' }}>
+            <div data-layer="AT8-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBottom: '8px' }}>
+              <div data-layer="AT9-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                <div data-layer="ATA-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
                   Skills you might like
                 </div>
-                <div data-layer="45A-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                <div data-layer="ATB-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                   Picked from what your agent works on
                 </div>
               </div>
-              <div data-layer="457-0" style={{ borderColor: 'var(--color-faint)', borderRadius: '4px', borderStyle: 'dashed', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '1px', paddingInline: '6px' }}>
-                <div data-layer="458-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '10px', lineHeight: '14px' }}>
+              <div data-layer="ATC-0" style={{ borderColor: 'var(--color-faint)', borderRadius: '4px', borderStyle: 'dashed', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '1px', paddingInline: '6px' }}>
+                <div data-layer="ATD-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '10px', lineHeight: '14px' }}>
                   ILLUSTRATIVE
                 </div>
               </div>
             </div>
-            <div data-layer="44U-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
-              <div data-layer="454-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-cyan-soft)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <div data-layer="455-0" style={{ boxSizing: 'border-box', color: '#0B7A62', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '16px' }}>
+            <div data-layer="ATE-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
+              <div data-layer="ATF-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-cyan-soft)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
+                <div data-layer="ATG-0" style={{ boxSizing: 'border-box', color: '#0B7A62', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '16px' }}>
                   PG
                 </div>
               </div>
-              <div data-layer="44V-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '262px' }}>
-                <div data-layer="453-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+              <div data-layer="ATH-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '262px' }}>
+                <div data-layer="ATI-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
                   Postgres Best Practices <span style={{ color: '#8F8F8F', fontWeight: 400 }}>· Supabase</span>
                 </div>
-                <div data-layer="452-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                <div data-layer="ATJ-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                   Database performance and schema advice your agent can lean on.
                 </div>
-                <div data-layer="451-0" style={{ boxSizing: 'border-box', color: 'var(--color-link-deep)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  Because Graphify can read your live Postgres schema
+                <div data-layer="ATK-0" style={{ boxSizing: 'border-box', color: 'var(--color-link-deep)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  Because 4 people at Atlan attached it this month
                 </div>
-                <div data-layer="44W-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '8px' }}>
-                  <div data-layer="44X-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '4px', paddingInline: '14px' }}>
-                    <svg width="10" height="10" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" data-layer="44Z-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                <div data-layer="ATL-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '8px' }}>
+                  <div data-layer="ATM-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '4px', paddingInline: '14px' }}>
+                    <svg width="10" height="10" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" data-layer="ATN-0" style={{ display: 'inline-block', flexShrink: 0 }}>
                       <path d="M3 2l7 4-7 4V2z" fill="#4D4D4D" />
                     </svg>
-                    <div data-layer="44Y-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                    <div data-layer="ATP-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
                       Try it
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div data-layer="44I-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
-              <div data-layer="44S-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
-                <div data-layer="44T-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '16px' }}>
+            <div data-layer="ATQ-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '12px' }}>
+              <div data-layer="ATR-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: 'calc(infinity * 1px)', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', width: '48px' }}>
+                <div data-layer="ATS-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '16px' }}>
                   FD
                 </div>
               </div>
-              <div data-layer="44J-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '262px' }}>
-                <div data-layer="44R-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+              <div data-layer="ATT-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '2px', width: '262px' }}>
+                <div data-layer="ATU-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
                   Frontend Design <span style={{ color: '#8F8F8F', fontWeight: 400 }}>· Anthropic</span>
                 </div>
-                <div data-layer="44Q-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                <div data-layer="ATV-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                   Steers your agent toward distinctive UI instead of templated defaults.
                 </div>
-                <div data-layer="44P-0" style={{ boxSizing: 'border-box', color: 'var(--color-link-deep)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                <div data-layer="ATW-0" style={{ boxSizing: 'border-box', color: 'var(--color-link-deep)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                   Because your agent works in React most days
                 </div>
-                <div data-layer="44K-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '8px' }}>
-                  <div data-layer="44L-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '4px', paddingInline: '14px' }}>
-                    <svg width="10" height="10" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" data-layer="44N-0" style={{ display: 'inline-block', flexShrink: 0 }}>
+                <div data-layer="ATX-0" style={{ boxSizing: 'border-box', display: 'flex', paddingTop: '8px' }}>
+                  <div data-layer="ATY-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '4px', paddingInline: '14px' }}>
+                    <svg width="10" height="10" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" data-layer="ATZ-0" style={{ display: 'inline-block', flexShrink: 0 }}>
                       <path d="M3 2l7 4-7 4V2z" fill="#4D4D4D" />
                     </svg>
-                    <div data-layer="44M-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                    <div data-layer="AU1-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
                       Try it
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div data-layer="44G-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'center', paddingBlock: '10px' }}>
-              <div data-layer="44H-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
+            <div data-layer="AU2-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'center', paddingBlock: '10px' }}>
+              <div data-layer="AU3-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
                 See more for you →
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div data-layer="44B-0" style={{ borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', paddingBottom: '40px', paddingInline: '120px', paddingTop: '24px' }}>
-        <div data-layer="44C-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', flexShrink: 0, fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '1200px' }}>
-          Concept · Evidence &amp; achievements · The date-picker example and task benchmarks are publisher-reported. GitHub counts are a repository snapshot. The historical Trending badge is based on the supplied image. Network activity and endorsements elsewhere are illustrative.
         </div>
       </div>
     </div>

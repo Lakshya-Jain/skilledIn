@@ -8,14 +8,18 @@ const escape = (value) => String(value).replace(/[&<>"']/g, (c) => ({
 const kebab = (key) => key.replace(/[A-Z]/g, (c) => '-' + c.toLowerCase());
 const svgAttrs = /^(stroke|fill|clip|stop|font|text|color|dominant|vector|paint|shape)[A-Z]/;
 const links = {
-  '4MJ-0': '#work-sample',
-  '4ME-0': 'https://ponytail.dev/#install',
-  '4M9-0': '#skill-source',
-  '4PK-0': 'https://ponytail.dev/#before-after',
-  '4P5-0': 'https://github.com/dietrichgebert/ponytail',
-  '4GD-0': 'https://github.com/dietrichgebert/ponytail/blob/main/benchmarks/results/2026-10-07-agentic.md',
+  'A9I-0': '#work-sample',
+  'CB9-0': '#work-sample',
+  'A9M-0': 'https://ponytail.dev/#install',
+  'CBC-0': 'https://ponytail.dev/#install',
+  'A9R-0': '#skill-source',
+  'CB6-0': '#skill-source',
+  'ANK-0': 'https://hub.openclaw.ai/dietrichgebert/skills/ponytail/security-audit',
+  'ANU-0': '#recommendations',
+  'AO2-0': 'https://github.com/dietrichgebert/ponytail',
 };
-const anchors = {'4P7-0': 'work-sample', '4CZ-0': 'skill-source'};
+const anchors = {'AG8-0': 'work-sample', 'ALJ-0': 'skill-source', 'AIO-0': 'recommendations'};
+let scrollHeader;
 class Markup {
   constructor(html) { this.html = html; }
 }
@@ -37,16 +41,29 @@ function element(tag, props, ...children) {
       const attribute = name === 'className' ? 'class' : svgAttrs.test(name) ? kebab(name) : name;
       return ' ' + attribute + '="' + escape(value) + '"';
     }).join('');
+  if (layer === 'A6S-0') {
+    const navigation = children.shift();
+    children.unshift(new Markup(
+      '<header class="sticky-navigation">' + navigation.html +
+      '<div class="scroll-profile" inert aria-hidden="true">' + scrollHeader.html + '</div></header>'
+    ));
+  }
   const content = children.flat(Infinity).map((child) => (
     child instanceof Markup ? child.html : child == null || typeof child === 'boolean' ? '' : escape(child)
   )).join('');
   return new Markup('<' + tag + attributes + '>' + content + '</' + tag + '>');
 }
 
-const { code } = await transform(await readFile('src/profile.jsx', 'utf8'), {
-  loader: 'jsx', format: 'cjs', jsxFactory: 'element',
-});
-const module = { exports: {} };
-runInNewContext(code, { module, element }, { timeout: 5000 });
+async function render(path) {
+  const { code } = await transform(await readFile(path, 'utf8'), {
+    loader: 'jsx', format: 'cjs', jsxFactory: 'element',
+  });
+  const module = { exports: {} };
+  runInNewContext(code, { module, element }, { timeout: 5000 });
+  return module.exports.default();
+}
+
+scrollHeader = await render('src/scroll-header.jsx');
+const profile = await render('src/profile.jsx');
 await cp('public', 'dist', { recursive: true });
-await writeFile('dist/index.html', '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ponytail · SkilledIn</title><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="site.css"></head><body>' + module.exports.default().html + '</body></html>');
+await writeFile('dist/index.html', '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ponytail · SkilledIn</title><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="site.css"><script src="scroll-profile.js" defer></script></head><body>' + profile.html + '</body></html>');

@@ -1,6 +1,6 @@
 # Ponytail profile preview
 
-The source is the evidence and achievements iteration in SkilledIn on Paper. The site uses Paper's exported JSX, variables and images. The build renders static HTML, so the preview has no server or runtime dependencies.
+The profile and compact scroll header come from separate SkilledIn frames in Paper. The main navigation stays pinned, and the compact profile header appears beneath it once the profile intro scrolls out of view. The site uses Paper's exported JSX, variables and images. The build renders static HTML, so the preview has no server or runtime dependencies.
 
 Open `dist/index.html` in a browser after running `npm install` and `npm run build`. Use `npm run dev` to serve it at `http://127.0.0.1:4173`.
 
