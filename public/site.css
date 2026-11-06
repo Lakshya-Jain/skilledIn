@@ -65,3 +65,6 @@ a:focus-visible { outline: 2px solid var(--color-social-blue); outline-offset: 3
   [data-layer="CAS-0"] { gap: 5px !important; }
   [data-layer="CAW-0"] { white-space: nowrap; }
 }
+
+[data-layer="CQ8-0"] { width: 100% !important; height: auto !important; flex-wrap: wrap; }
+[data-layer="CQK-0"] { flex-wrap: wrap; justify-content: center; }

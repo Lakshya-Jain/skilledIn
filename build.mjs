@@ -16,7 +16,7 @@ const links = {
   'CB6-0': '#skill-source',
   'ANK-0': 'https://hub.openclaw.ai/dietrichgebert/skills/ponytail/security-audit',
   'ANU-0': '#recommendations',
-  'AO2-0': 'https://github.com/dietrichgebert/ponytail',
+  'AO9-0': 'https://github.com/dietrichgebert/ponytail/blob/main/LICENSE',
 };
 const anchors = {'AG8-0': 'work-sample', 'ALJ-0': 'skill-source', 'AIO-0': 'recommendations'};
 let scrollHeader;
@@ -41,17 +41,17 @@ function element(tag, props, ...children) {
       const attribute = name === 'className' ? 'class' : svgAttrs.test(name) ? kebab(name) : name;
       return ' ' + attribute + '="' + escape(value) + '"';
     }).join('');
-  if (layer === 'A6S-0') {
-    const navigation = children.shift();
-    children.unshift(new Markup(
-      '<header class="sticky-navigation">' + navigation.html +
-      '<div class="scroll-profile" inert aria-hidden="true">' + scrollHeader.html + '</div></header>'
-    ));
-  }
   const content = children.flat(Infinity).map((child) => (
     child instanceof Markup ? child.html : child == null || typeof child === 'boolean' ? '' : escape(child)
   )).join('');
-  return new Markup('<' + tag + attributes + '>' + content + '</' + tag + '>');
+  const markup = '<' + tag + attributes + '>' + content + '</' + tag + '>';
+  if (layer === 'A6T-0') {
+    return new Markup(
+      '<header class="sticky-navigation">' + markup +
+      '<div class="scroll-profile" inert aria-hidden="true">' + scrollHeader.html + '</div></header>'
+    );
+  }
+  return new Markup(markup);
 }
 
 async function render(path) {
