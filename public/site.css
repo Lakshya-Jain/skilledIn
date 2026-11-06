@@ -76,7 +76,17 @@ a:focus-visible { outline: 2px solid var(--color-social-blue); outline-offset: 3
 }
 
 /* Keep the exported case study's desktop grid and reflow it on smaller screens. */
-[data-layer="DMM-0"] { width: 100% !important; }
+[data-layer="DMM-0"] {
+  width: 100% !important;
+  overflow: visible !important;
+  background-color: #efefed !important;
+}
+[data-layer="DMN-0"] {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: var(--color-canvas-elevated) !important;
+}
 [data-layer="DMM-0"] > :not([data-layer="DMN-0"]), [data-layer="DMO-0"] {
   width: min(1120px, calc(100% - 32px)) !important;
 }

@@ -53,17 +53,17 @@ function element(tag, props, ...children) {
       const attribute = name === 'className' ? 'class' : svgAttrs.test(name) ? kebab(name) : name;
       return ' ' + attribute + '="' + escape(value) + '"';
     }).join('');
+  if (layer === 'A6S-0') {
+    const [banner, navigation] = children.splice(0, 2);
+    children.unshift(new Markup(
+      '<header class="sticky-navigation">' + banner.html + navigation.html +
+      '<div class="scroll-profile" inert aria-hidden="true">' + scrollHeader.html + '</div></header>'
+    ));
+  }
   const content = children.flat(Infinity).map((child) => (
     child instanceof Markup ? child.html : child == null || typeof child === 'boolean' ? '' : escape(child)
   )).join('');
-  const markup = '<' + tag + attributes + '>' + content + '</' + tag + '>';
-  if (layer === 'A6T-0') {
-    return new Markup(
-      '<header class="sticky-navigation">' + markup +
-      '<div class="scroll-profile" inert aria-hidden="true">' + scrollHeader.html + '</div></header>'
-    );
-  }
-  return new Markup(markup);
+  return new Markup('<' + tag + attributes + '>' + content + '</' + tag + '>');
 }
 
 async function render(path) {
