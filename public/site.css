@@ -74,3 +74,56 @@ a:focus-visible { outline: 2px solid var(--color-social-blue); outline-offset: 3
   [data-layer="CUR-0"], [data-layer="CUX-0"] { flex-basis: 100%; }
   [data-layer="CUO-0"], [data-layer="CUU-0"] { flex: 1 1 64px !important; min-width: 0; }
 }
+
+/* Keep the exported case study's desktop grid and reflow it on smaller screens. */
+[data-layer="DMM-0"] { width: 100% !important; }
+[data-layer="DMM-0"] > :not([data-layer="DMN-0"]), [data-layer="DMO-0"] {
+  width: min(1120px, calc(100% - 32px)) !important;
+}
+[data-layer="DMM-0"] [data-layer] { max-width: 100%; min-width: 0; }
+@media (max-width: 1100px) {
+  [data-layer="DN9-0"], [data-layer="DNW-0"], [data-layer="DRU-0"],
+  [data-layer="DTY-0"], [data-layer="DUE-0"], [data-layer="DPG-0"],
+  [data-layer="DPZ-0"], [data-layer="DQE-0"] { flex-wrap: wrap; }
+  [data-layer="DP1-0"], [data-layer="DPL-0"], [data-layer="DQQ-0"], [data-layer="DSF-0"] {
+    flex-direction: column !important;
+  }
+  [data-layer="DP2-0"], [data-layer="DP9-0"], [data-layer="DPM-0"],
+  [data-layer="DPX-0"], [data-layer="DQR-0"], [data-layer="DRC-0"],
+  [data-layer="DSG-0"], [data-layer="DTO-0"] { width: 100% !important; }
+  [data-layer="DOS-0"], [data-layer="DRH-0"], [data-layer="DSA-0"] { flex-wrap: wrap; }
+}
+@media (max-width: 600px) {
+  [data-layer="DMO-0"] { height: auto !important; padding-block: 12px; flex-wrap: wrap; gap: 12px; }
+  [data-layer="DMZ-0"] { padding-block: 40px 24px !important; }
+  [data-layer="DN1-0"] { font-size: 32px !important; line-height: 38px !important; letter-spacing: -1px !important; }
+  [data-layer="DN3-0"], [data-layer="DTQ-0"], [data-layer="DV1-0"] { flex-wrap: wrap; }
+  [data-layer="DOR-0"], [data-layer="DPL-0"], [data-layer="DQQ-0"],
+  [data-layer="DRG-0"], [data-layer="DSF-0"], [data-layer="DTV-0"], [data-layer="DUZ-0"] {
+    padding: 20px !important;
+  }
+  [data-layer="DP7-0"], [data-layer="DPE-0"], [data-layer="DRD-0"],
+  [data-layer="DRQ-0"], [data-layer="DTP-0"] {
+    height: clamp(170px, 65vw, 340px) !important;
+    background-size: contain !important;
+    background-position: center top !important;
+  }
+}
+
+[data-layer="DMJ-0"] {
+  width: 100% !important;
+  padding-inline: max(16px, calc((100% - 1248px) / 2)) !important;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+@media (max-width: 600px) {
+  [data-layer="DN9-0"], [data-layer="DNW-0"],
+  [data-layer="DTY-0"], [data-layer="DUE-0"] {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  [data-layer="DN9-0"] > *, [data-layer="DNW-0"] > *,
+  [data-layer="DTY-0"] > *, [data-layer="DUE-0"] > * { width: auto !important; }
+  [data-layer="DN9-0"] > * { border-bottom: 1px solid var(--color-hairline); }
+}

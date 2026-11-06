@@ -20,8 +20,8 @@ export default function render() { return (
       </div>
       <div data-layer="A6T-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-canvas-elevated)', borderBottomColor: 'var(--color-hairline)', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: 0, height: '56px', justifyContent: 'space-between', paddingInline: '120px', width: '1440px' }}>
         <div data-layer="A6U-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '16px' }}>
-          <div data-layer="A6V-0" style={{ boxSizing: 'border-box', color: 'var(--color-social-blue)', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px', width: 'max-content' }}>
-            SkilledIn
+          <div data-layer="CVJ-0" style={{ boxSizing: 'border-box', color: 'var(--color-social-blue)', flexShrink: 0, fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '21px', width: 'max-content' }}>
+            SkiledIn
           </div>
           <div data-layer="A6W-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-canvas-elevated)', borderRadius: '6px', boxShadow: 'var(--color-social-blue) 0px 0px 0px 2px inset', boxSizing: 'border-box', display: 'flex', flexShrink: 0, gap: '8px', height: '36px', paddingInline: '12px', width: '300px' }}>
             <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A6X-0" style={{ display: 'inline-block', flexShrink: 0 }}>
@@ -977,11 +977,6 @@ export default function render() { return (
                 <div data-layer="AIR-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
                   Skill Reviews
                 </div>
-                <div data-layer="AIS-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
-                  <div data-layer="AIW-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                    Written by people you know, after using it
-                  </div>
-                </div>
               </div>
             </div>
             <div data-layer="AIX-0" style={{ borderBottomColor: 'var(--color-hairline)', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
@@ -1178,80 +1173,6 @@ export default function render() { return (
                   <div data-layer="ALI-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
                     Notify me of access changes
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div data-layer="ALJ-0" style={{ backgroundColor: '#FFFFFF', borderColor: 'var(--color-hairline)', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', paddingBlock: '24px', paddingInline: '32px' }}>
-            <div data-layer="ALK-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
-              <div data-layer="ALL-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-                <div data-layer="ALM-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
-                  Source
-                </div>
-                <div data-layer="ALN-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  Read exactly what it tells your agent
-                </div>
-              </div>
-              <div data-layer="ALO-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
-                <div data-layer="ALP-0" style={{ backgroundColor: '#171717', borderRadius: '100px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '5px', paddingInline: '14px' }}>
-                  <div data-layer="ALQ-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                    SKILL.md
-                  </div>
-                </div>
-                <div data-layer="ALR-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '5px', paddingInline: '14px' }}>
-                  <div data-layer="ALS-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                    Changes since your version
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-layer="ALT-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: 'var(--radius-md)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', overflow: 'clip' }}>
-              <div data-layer="CSP-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderBottomColor: 'var(--color-hairline)', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBlock: '8px', paddingLeft: '16px', paddingRight: '12px' }}>
-                <div data-layer="CSQ-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
-                  <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="CSR-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                    <path d="M4 1.5h5.5L13 5v9.5H4z" fill="none" stroke="#4D4D4D" strokeWidth="1.3" strokeLinejoin="round" />
-                    <path d="M9.5 1.5V5H13" fill="none" stroke="#4D4D4D" strokeWidth="1.3" strokeLinejoin="round" />
-                  </svg>
-                  <div data-layer="CSU-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                    skills/ponytail/SKILL.md
-                  </div>
-                </div>
-                <div data-layer="CSV-0" style={{ alignItems: 'center', borderColor: 'var(--color-hairline)', borderRadius: 'var(--radius-sm)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '4px', paddingInline: '8px' }}>
-                  <svg width="12" height="12" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="CSW-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                    <rect x="5" y="5" width="9" height="9" rx="1.5" fill="none" stroke="#4D4D4D" strokeWidth="1.3" />
-                    <path d="M11 5V3.5A1.5 1.5 0 009.5 2h-6A1.5 1.5 0 002 3.5v6A1.5 1.5 0 003.5 11H5" fill="none" stroke="#4D4D4D" strokeWidth="1.3" />
-                  </svg>
-                  <div data-layer="CSZ-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', fontWeight: 500, lineHeight: '16px' }}>
-                    Copy
-                  </div>
-                </div>
-              </div>
-              <div data-layer="ALU-0" style={{ backgroundColor: 'var(--color-canvas)', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px', paddingBlock: '14px', paddingInline: '16px' }}>
-                <div data-layer="ALV-0" style={{ boxSizing: 'border-box', color: '#7928CA', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  <span style={{ color: '#A1A1A1' }}>1   </span># Ponytail
-                </div>
-                <div data-layer="ALW-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  <span style={{ color: '#A1A1A1' }}>2   </span>You are a lazy senior developer. Lazy means efficient, not careless.
-                </div>
-                <div data-layer="ALX-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  <span style={{ color: '#A1A1A1' }}>3   </span>The best code is the code never written.
-                </div>
-                <div data-layer="ALY-0" style={{ boxSizing: 'border-box', color: '#7928CA', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  <span style={{ color: '#A1A1A1' }}>4   </span>## Persistence
-                </div>
-                <div data-layer="ALZ-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  <span style={{ color: '#A1A1A1' }}>5   </span>ACTIVE EVERY RESPONSE. No drift back to over-building.
-                </div>
-                <div data-layer="AM0-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                  <span style={{ color: '#A1A1A1' }}>6   </span># … the ladder, the never-cut list, intensity levels
-                </div>
-              </div>
-              <div data-layer="AM1-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBlock: '10px', paddingInline: '16px' }}>
-                <div data-layer="AM2-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  Showing 6 of 120 lines · 6.48 KB
-                </div>
-                <div data-layer="AM3-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '20px' }}>
-                  Open full file →
                 </div>
               </div>
             </div>
@@ -1832,6 +1753,14 @@ export default function render() { return (
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div data-layer="DMJ-0" style={{ boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBlock: '24px', paddingInline: 'var(--spacing-4xl)', width: '1440px' }}>
+        <div data-layer="DMK-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+          Made by LJ for Atlan · Nov 2026
+        </div>
+        <div data-layer="DML-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+          FigJam → Paper → GitHub → Vercel
         </div>
       </div>
     </div>
