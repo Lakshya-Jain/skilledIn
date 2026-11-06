@@ -8,7 +8,6 @@ const escape = (value) => String(value).replace(/[&<>"']/g, (c) => ({
 const kebab = (key) => key.replace(/[A-Z]/g, (c) => '-' + c.toLowerCase());
 const svgAttrs = /^(stroke|fill|clip|stop|font|text|color|dominant|vector|paint|shape)[A-Z]/;
 const links = {
-  'A9I-0': '#work-sample',
   'CB9-0': '#work-sample',
   'A9M-0': 'https://ponytail.dev/#install',
   'CBC-0': 'https://ponytail.dev/#install',

@@ -204,28 +204,12 @@ export default function render() { return (
                 </div>
               </div>
               <div data-layer="A9H-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
-                <div data-layer="A9I-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-ink)', borderRadius: '100px', boxSizing: 'border-box', display: 'flex', gap: '8px', height: '36px', paddingInline: '18px' }}>
-                  <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A9J-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                    <path d="M4 2.8V13.2L13 8L4 2.8Z" fill="#FFFFFF" />
-                  </svg>
-                  <div data-layer="A9L-0" style={{ boxSizing: 'border-box', color: '#FFFFFF', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
-                    Try on a sample
-                  </div>
-                </div>
-                <div data-layer="A9M-0" style={{ alignItems: 'center', borderColor: 'var(--color-link)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '8px', height: '36px', paddingInline: '18px' }}>
-                  <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A9N-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                    <path d="M8 1.5L13.5 3.5V8C13.5 11 11.2 13.4 8 14.5C4.8 13.4 2.5 11 2.5 8V3.5L8 1.5Z" fill="none" stroke="var(--color-link)" strokeWidth="1.3" strokeLinejoin="round" />
-                    <path d="M5.75 8L7.4 9.6L10.4 6.5" fill="none" stroke="var(--color-link)" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                  <div data-layer="A9Q-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
+                <div data-layer="A9M-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-link-deep)', borderColor: 'var(--color-link-deep)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '8px', height: '36px', paddingInline: '18px' }}>
+                  <div data-layer="A9Q-0" style={{ boxSizing: 'border-box', color: 'var(--color-on-primary)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
                     Attach to agent
                   </div>
                 </div>
                 <div data-layer="A9R-0" style={{ alignItems: 'center', borderColor: 'var(--color-body)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '8px', height: '36px', paddingInline: '18px' }}>
-                  <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-layer="A9S-0" style={{ display: 'inline-block', flexShrink: 0 }}>
-                    <path d="M4 2.5H9.5L12.5 5.5V13.5H4V2.5Z" fill="none" stroke="var(--color-body)" strokeWidth="1.2" strokeLinejoin="round" />
-                    <path d="M6 8.5H10.5M6 11H9" fill="none" stroke="var(--color-body)" strokeWidth="1.2" strokeLinecap="round" />
-                  </svg>
                   <div data-layer="A9V-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
                     SKILL.md
                   </div>
@@ -244,7 +228,7 @@ export default function render() { return (
                     Runs fully in your setup
                   </div>
                   <div data-layer="AA4-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                    Claude Code gets the full plugin: 6 commands, lifecycle hooks and 3 intensity levels. Needs Node.js.
+                    Claude Code: 6 commands, lifecycle hooks and 3 intensity levels. Needs Node.js.
                   </div>
                   <div data-layer="AA5-0" style={{ boxSizing: 'border-box', color: 'var(--color-link)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
                     All 20+ hosts
@@ -824,8 +808,8 @@ export default function render() { return (
                   </div>
                 </div>
               </div>
-              <div data-layer="AGS-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '12px' }}>
-                <div data-layer="AGT-0" style={{ backgroundColor: 'var(--color-canvas)', borderColor: 'var(--color-hairline)', borderRadius: 'var(--radius-md)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '6px', paddingBlock: '12px', paddingInline: '14px', width: '357px' }}>
+              <div data-layer="AGS-0" style={{ boxSizing: 'border-box', display: 'none' }}>
+                <div data-layer="AGT-0" style={{ backgroundColor: 'var(--color-canvas)', borderColor: 'var(--color-hairline)', borderRadius: 'var(--radius-md)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '6px', paddingBlock: '12px', paddingInline: '14px', width: '357px' }}>
                   <div data-layer="AGU-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                     WITHOUT THE SKILL
                   </div>
@@ -837,7 +821,7 @@ export default function render() { return (
                     Installs a date picker library, or builds a whole calendar by hand.
                   </div>
                 </div>
-                <div data-layer="AGY-0" style={{ backgroundColor: '#FFFFFF', borderColor: '#171717', borderRadius: 'var(--radius-md)', borderStyle: 'solid', borderWidth: '1.5px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: 0, gap: '6px', paddingBlock: '12px', paddingInline: '14px', width: '357px' }}>
+                <div data-layer="AGY-0" style={{ backgroundColor: '#FFFFFF', borderColor: '#171717', borderRadius: 'var(--radius-md)', borderStyle: 'solid', borderWidth: '1.5px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '6px', paddingBlock: '12px', paddingInline: '14px', width: '357px' }}>
                   <div data-layer="AGZ-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                     WITH PONYTAIL 5
                   </div>
@@ -847,6 +831,36 @@ export default function render() { return (
                   <div data-layer="AH1-0" style={{ backgroundColor: '#171717', borderRadius: '2px', boxSizing: 'border-box', flexShrink: 0, height: '4px', width: '10px' }} />
                   <div data-layer="AH2-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '17px' }}>
                     Notices the repo already has an Input, and every browser has a date picker. Puts the two together.
+                  </div>
+                </div>
+              </div>
+              <div data-layer="CUL-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: 'var(--radius-md)', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', minHeight: '0px', overflow: 'clip' }}>
+                <div data-layer="CUM-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-canvas)', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '10px', paddingInline: '14px' }}>
+                  <div data-layer="CUN-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', width: '132px' }}>
+                    WITHOUT THE SKILL
+                  </div>
+                  <div data-layer="CUO-0" style={{ backgroundColor: 'var(--color-hairline)', borderRadius: '3px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '6px', width: '160px' }}>
+                    <div data-layer="CUP-0" style={{ backgroundColor: 'var(--color-faint)', borderRadius: '3px', boxSizing: 'border-box', flexShrink: 0, height: '6px', width: '160px' }} />
+                  </div>
+                  <div data-layer="CUQ-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px', width: '72px' }}>
+                    <span style={{ fontWeight: 600 }}>335</span> lines
+                  </div>
+                  <div data-layer="CUR-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                    Adds a picker library or hand-builds a calendar
+                  </div>
+                </div>
+                <div data-layer="CUS-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '10px', paddingInline: '14px' }}>
+                  <div data-layer="CUT-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', fontWeight: 500, lineHeight: '16px', width: '132px' }}>
+                    WITH PONYTAIL 5
+                  </div>
+                  <div data-layer="CUU-0" style={{ backgroundColor: 'var(--color-hairline)', borderRadius: '3px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '6px', width: '160px' }}>
+                    <div data-layer="CUV-0" style={{ backgroundColor: 'var(--color-ink)', borderRadius: '3px', boxSizing: 'border-box', flexShrink: 0, height: '6px', width: '6px' }} />
+                  </div>
+                  <div data-layer="CUW-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px', width: '72px' }}>
+                    <span style={{ fontWeight: 600 }}>10</span> lines
+                  </div>
+                  <div data-layer="CUX-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                    Reuses the repo's Input + native picker
                   </div>
                 </div>
               </div>
@@ -1037,21 +1051,6 @@ export default function render() { return (
                   <div data-layer="AJR-0" style={{ boxSizing: 'border-box', color: 'var(--color-warning-deep)', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
                     Worth knowing: it also ran inside our read-only research subagents, until we scoped it.
                   </div>
-                </div>
-              </div>
-            </div>
-            <div data-layer="AJS-0" style={{ alignItems: 'center', borderTopColor: 'var(--color-hairline)', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '8px', paddingBottom: '16px', paddingTop: '14px' }}>
-              <div data-layer="AJT-0" style={{ boxSizing: 'border-box', color: 'var(--color-body)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
-                Products built with it
-              </div>
-              <div data-layer="AJU-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '4px', paddingInline: '12px' }}>
-                <div data-layer="AJV-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
-                  Retriever
-                </div>
-              </div>
-              <div data-layer="AJW-0" style={{ borderColor: 'var(--color-hairline)', borderRadius: '100px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '4px', paddingInline: '12px' }}>
-                <div data-layer="AJX-0" style={{ boxSizing: 'border-box', color: '#171717', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '20px' }}>
-                  PhotoReunion
                 </div>
               </div>
             </div>
@@ -1776,11 +1775,6 @@ export default function render() { return (
                 </div>
                 <div data-layer="ATB-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                   Picked from what your agent works on
-                </div>
-              </div>
-              <div data-layer="ATC-0" style={{ borderColor: 'var(--color-faint)', borderRadius: 'var(--radius-sm)', borderStyle: 'dashed', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '1px', paddingInline: '6px' }}>
-                <div data-layer="ATD-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  ILLUSTRATIVE
                 </div>
               </div>
             </div>

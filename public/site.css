@@ -68,3 +68,9 @@ a:focus-visible { outline: 2px solid var(--color-social-blue); outline-offset: 3
 
 [data-layer="CQ8-0"] { width: 100% !important; height: auto !important; flex-wrap: wrap; }
 [data-layer="CQK-0"] { flex-wrap: wrap; justify-content: center; }
+
+@media (max-width: 600px) {
+  [data-layer="CUM-0"], [data-layer="CUS-0"] { flex-wrap: wrap; }
+  [data-layer="CUR-0"], [data-layer="CUX-0"] { flex-basis: 100%; }
+  [data-layer="CUO-0"], [data-layer="CUU-0"] { flex: 1 1 64px !important; min-width: 0; }
+}
