@@ -10,7 +10,6 @@ function showProfileTab(activeLink) {
   for (const panel of tabPanels) {
     panel.hidden = panel.dataset.profilePanel !== activeLink.dataset.profileTab;
   }
-  document.title = 'Ponytail · ' + activeLink.textContent + ' · SkilledIn';
 }
 
 profileTabs.addEventListener('click', event => {

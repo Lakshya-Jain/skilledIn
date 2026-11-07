@@ -124,24 +124,36 @@ const profilePanels = await Promise.all(profileTabs.map(async ({ key }) => {
 }));
 await cp('public', 'dist', { recursive: true });
 
-function page(title, content, { profile = false } = {}) {
+function page(content, { profile = false } = {}) {
+  const title = 'SkilledIn ⎹ Lakshya Jain';
+  const description = "LinkedIn helps recruiters judge whether a candidate is right for a role. I explored the same journey for an AI builder choosing a skill to attach to their agent. What does it do? Does it work with their setup? What can it access? And what evidence would make them trust it? The profile brings together example runs, performance results, publisher details, and security checks to help someone make that decision.";
   const script = profile ? '<script src="scroll-profile.js" defer></script>' +
     '<script src="profile-tabs.js" defer></script>' : '';
   return '<!doctype html><html lang="en"><head><meta charset="utf-8">' +
     '<meta name="viewport" content="width=device-width,initial-scale=1"><title>' +
-    title + '</title><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="site.css">' +
+    escape(title) + '</title>' +
+    '<meta name="description" content="' + escape(description) + '">' +
+    '<meta property="og:type" content="website">' +
+    '<meta property="og:site_name" content="SkilledIn">' +
+    '<meta property="og:title" content="' + escape(title) + '">' +
+    '<meta property="og:description" content="' + escape(description) + '">' +
+    '<meta name="twitter:card" content="summary">' +
+    '<meta name="twitter:title" content="' + escape(title) + '">' +
+    '<meta name="twitter:description" content="' + escape(description) + '">' +
+    '<link rel="icon" type="image/svg+xml" href="favicon.svg">' +
+    '<link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="site.css">' +
     script + '</head><body>' + content.html + '</body></html>';
 }
 
 await Promise.all([
-  ...profileTabs.map(async ({ key, file, label }) => {
+  ...profileTabs.map(async ({ key, file }) => {
     const content = profilePanels.map(panel => element('div', {
       className: 'profile-tab-panel',
       'data-profile-panel': panel.key,
       hidden: panel.key === key ? null : '',
     }, panel.content));
     const profile = renderProfile({ content, tabs: renderTabs(key) });
-    await writeFile('dist/' + file, page('Ponytail · ' + label + ' · SkilledIn', profile, { profile: true }));
+    await writeFile('dist/' + file, page(profile, { profile: true }));
   }),
-  writeFile('dist/thought-process.html', page('Thought process · SkilledIn', renderThoughtProcess())),
+  writeFile('dist/thought-process.html', page(renderThoughtProcess())),
 ]);
