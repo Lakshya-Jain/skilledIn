@@ -258,48 +258,7 @@ export default function render({ content, tabs }) { return (
                 Skill page &amp; install
               </h2>
             </div>
-            <div data-layer="CCI-0" style={{ alignItems: 'center', backgroundColor: '#FBF8FF', borderColor: '#7443BE', borderRadius: '12px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', paddingBlock: '10px', paddingInline: '12px' }}>
-              <div data-layer="CCJ-0" style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'center', position: 'relative', width: '60px' }}>
-                <div data-layer="CCK-0" style={{ boxSizing: 'border-box', color: '#46248A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '25px', fontWeight: 600, lineHeight: '32px' }}>
-                  1
-                </div>
-                <svg width="60" height="48" viewBox="-30 -16 60 48" xmlns="http://www.w3.org/2000/svg" data-layer="CCL-0" style={{ position: 'absolute', top: '0px', left: '0px', display: 'inline-block' }}>
-                  <path d="M-26 -1Q-23 20 0 27Q23 20 26 -1" fill="none" stroke="#46248A" strokeWidth="1.2" />
-                  <g>
-                    <ellipse cx="-25" cy="2" rx="2.2" ry="5" transform="rotate(-25 -25 2)" fill="#46248A" />
-                    <ellipse cx="-21" cy="5" rx="1.9" ry="4.5" transform="rotate(60 -21 5)" fill="#46248A" />
-                    <ellipse cx="-23" cy="9" rx="2.2" ry="5" transform="rotate(-50 -23 9)" fill="#46248A" />
-                    <ellipse cx="-19" cy="12" rx="1.9" ry="4.5" transform="rotate(35 -19 12)" fill="#46248A" />
-                    <ellipse cx="-19" cy="15" rx="2.2" ry="5" transform="rotate(-65 -19 15)" fill="#46248A" />
-                    <ellipse cx="-15" cy="18" rx="1.9" ry="4.5" transform="rotate(20 -15 18)" fill="#46248A" />
-                    <ellipse cx="-13" cy="20" rx="2.2" ry="5" transform="rotate(-75 -13 20)" fill="#46248A" />
-                    <ellipse cx="-9" cy="23" rx="1.9" ry="4.5" transform="rotate(10 -9 23)" fill="#46248A" />
-                    <ellipse cx="-6" cy="23" rx="2.2" ry="5" transform="rotate(-85 -6 23)" fill="#46248A" />
-                    <ellipse cx="-2" cy="26" rx="1.9" ry="4.5" transform="rotate(0 -2 26)" fill="#46248A" />
-                  </g>
-                  <g transform="scale(-1 1)">
-                    <ellipse cx="-25" cy="2" rx="2.2" ry="5" transform="rotate(-25 -25 2)" fill="#46248A" />
-                    <ellipse cx="-21" cy="5" rx="1.9" ry="4.5" transform="rotate(60 -21 5)" fill="#46248A" />
-                    <ellipse cx="-23" cy="9" rx="2.2" ry="5" transform="rotate(-50 -23 9)" fill="#46248A" />
-                    <ellipse cx="-19" cy="12" rx="1.9" ry="4.5" transform="rotate(35 -19 12)" fill="#46248A" />
-                    <ellipse cx="-19" cy="15" rx="2.2" ry="5" transform="rotate(-65 -19 15)" fill="#46248A" />
-                    <ellipse cx="-15" cy="18" rx="1.9" ry="4.5" transform="rotate(20 -15 18)" fill="#46248A" />
-                    <ellipse cx="-13" cy="20" rx="2.2" ry="5" transform="rotate(-75 -13 20)" fill="#46248A" />
-                    <ellipse cx="-9" cy="23" rx="1.9" ry="4.5" transform="rotate(10 -9 23)" fill="#46248A" />
-                    <ellipse cx="-6" cy="23" rx="2.2" ry="5" transform="rotate(-85 -6 23)" fill="#46248A" />
-                    <ellipse cx="-2" cy="26" rx="1.9" ry="4.5" transform="rotate(0 -2 26)" fill="#46248A" />
-                  </g>
-                </svg>
-              </div>
-              <div data-layer="CD9-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                <div data-layer="CDA-0" style={{ boxSizing: 'border-box', color: '#46248A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', letterSpacing: '0.06em', lineHeight: '15px' }}>
-                  GITHUB TRENDING
-                </div>
-                <div data-layer="CDB-0" style={{ boxSizing: 'border-box', color: '#46248A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, letterSpacing: '-0.4px', lineHeight: '28px' }}>
-                  #1 Repository of the Day
-                </div>
-              </div>
-            </div>
+            <img data-layer="CCI-0" src="assets/0348RZGBXYHPA3PPN9Y1KKCSCC.svg" alt="GitHub Trending — #1 Repository of the Day" style={{ display: 'block', width: '100%', height: 'auto', aspectRatio: '334 / 73' }} />
             <div data-layer="AM9-0" style={{ alignItems: 'center', backgroundColor: 'var(--color-hairline-soft)', borderRadius: 'var(--radius-md)', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBlock: '10px', paddingInline: '12px' }}>
               <div data-layer="AMA-0" style={{ boxSizing: 'border-box', color: 'var(--color-ink)', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
                 github.com/DietrichGebert/ponytail
