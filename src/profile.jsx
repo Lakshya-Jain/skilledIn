@@ -593,7 +593,7 @@ export default function render({ content, tabs }) { return (
       </main>
       <div data-layer="DMJ-0" style={{ boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBlock: '24px', paddingInline: 'var(--spacing-4xl)', width: '1440px' }}>
         <div data-layer="DMK-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-          Made by LJ for Atlan · Nov 2026
+          Made by LJ · Nov 2026
         </div>
         <div data-layer="DML-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
           FigJam → Paper → GitHub → Vercel

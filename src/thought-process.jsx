@@ -696,7 +696,7 @@ export default function render() { return (
         </div>
         <div data-layer="DV6-0" style={{ boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', paddingBottom: '32px', paddingTop: '24px', width: '1120px' }}>
           <div data-layer="DV7-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-            Made by LJ for Atlan · Nov 2026
+            Made by LJ · Nov 2026
           </div>
           <div data-layer="DV8-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
             FigJam → Paper → GitHub → Vercel
