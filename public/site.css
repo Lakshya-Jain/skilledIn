@@ -213,6 +213,9 @@ a:focus-visible { outline: 2px solid var(--color-social-blue); outline-offset: 3
 [data-layer="DMJ-0"] {
   width: 100% !important;
   padding-inline: max(16px, calc((100% - 1248px) / 2)) !important;
+}
+
+[data-layer="DMJ-0"], [data-layer="DV6-0"] {
   flex-wrap: wrap;
   gap: 12px;
 }

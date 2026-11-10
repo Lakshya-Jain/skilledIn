@@ -596,7 +596,7 @@ export default function render({ content, tabs }) { return (
           Made by LJ · Nov 2026
         </div>
         <div data-layer="DML-0" style={{ boxSizing: 'border-box', color: 'var(--color-mute)', display: 'inline-block', fontFamily: '"Geist Mono", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-          FigJam → Paper → GitHub → Vercel
+          FigJam → Paper + Claude + Codex → GitHub → Vercel
         </div>
       </div>
     </div>
